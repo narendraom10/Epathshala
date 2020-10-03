@@ -1,0 +1,781 @@
+﻿.Content
+{
+    margin-bottom:5px;
+}
+
+.GreenBoard
+{
+    padding:0px 15px 20px 15px !important;
+
+    }
+ .grid-item { width: 250px; }
+.NoPadding
+{
+   padding:0px !important;
+   margin:0px !important;
+    }
+
+
+.DBHeader
+{
+    background-color: #273434;
+    margin-bottom:15px;
+    border-bottom: 1px solid #2E8E6E;
+    }
+
+.row div .DashboardHeading
+{
+    border-right: 1px solid #2E8E6E;
+    border-top: none;
+    color: #71AF32;
+    margin: 0px !important;
+    padding: 15px;
+
+
+}
+
+
+/*********************Radio List Button********************/
+/*********************Subject List********************/
+
+.SearchTable td
+{
+    /*margin:auto !important;*/
+padding:0px !important;
+    }
+
+.SearchTable, .SearchTable tr td
+{
+    margin:0px;
+    padding:0px;
+    max-height:20px !important;
+    margin:10px;
+    padding-bottom:10px;
+    }
+
+.Search
+{
+    /*
+     opacity: 0;
+     filter: alpha(opacity=0); /* For IE8 and earlier */
+    */
+    color:#FFFFFF !important;
+    border:none !important;
+    padding:0px !important;
+    box-shadow: none !important;
+    background-color:transparent;
+    border:3px solid red;
+    }
+
+.Label td input[type="radio"]
+{
+    margin:15px !important;
+    margin-right:3px !important;
+     outline: 0 !important;
+    }
+
+
+.SubjectRow
+{
+    border-bottom:1px solid #2E8E6E;
+    margin-bottom:15px !important;
+}
+
+
+
+.RBPadding tr
+{
+   width:100%;
+   display:inline-block;
+    /*float:left;*/
+    cursor:pointer;
+}
+
+.RBPadding tr td
+{
+    background-color: Green !important;
+    padding: 5px !important;
+    padding-bottom: 0px !important;
+    border: 1px solid #2E8E6E !important;
+    background-image: url('Green/Images/green-bg.jpg');
+    text-align:center;
+    /*border-bottom:none !important;*/
+    width:100%;
+    float:left;
+    cursor:pointer;
+}
+
+
+
+ .RBPadding tr:empty{
+  margin:0px !important;
+  padding:0px !important;
+  border:none !important;
+  visibility: hidden !important;
+  display:none !important;
+  empty-cells: hide !important;
+}
+
+.RBPadding tr td:empty
+{
+  margin:0px !important;
+  padding:0px !important;
+  border:none !important;
+  visibility: hidden !important;
+  display:none !important;
+  empty-cells: hide !important;
+}
+
+.RBPadding tr td input[type="radio"]
+{
+    visibility:hidden !important;
+    display:none !important;
+    }
+
+
+.RBPadding tr td input[type="radio"] + label
+{
+    display:block;
+    margin:0px;
+    padding:3px;
+    padding-bottom:6px;
+    cursor:pointer;
+     font-size: 0.80em;
+    white-space: nowrap;
+    color:#fff;
+
+}
+.RBPadding tr td input[type="radio"]:checked + label
+{
+    display: block;
+    cursor:pointer;
+     font-size: 0.80em;
+     color:#71af32;
+    /*border-bottom: 1px solid #2E8E6E;*/
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 640px)
+{
+
+    .RBPadding tr td
+    {
+        /*min-width:180px;
+        max-width:45%;    */
+        text-align:left;
+        border-bottom:1px solid #2E8E6E !important;
+    }
+
+    .SubjectRow
+    {
+        border:none !important;
+        }
+}
+
+
+@media screen and (max-width: 480px)
+{
+    .RBPadding tr td
+    {
+        min-width:95%;
+        text-align:left;
+        border-bottom:1px solid  #2E8E6E !important;
+
+    }
+
+    .SubjectRow
+    {
+        border:none !important;
+        }
+}
+
+
+
+
+.Node br
+{
+    display:none;
+    visibility:hidden;
+    }
+
+
+
+
+.chapterlist > div
+{
+    border: 0 !important;
+    padding:5px;
+    }
+
+.chapterlist > div > div
+{
+        border-bottom:2px solid #F3FFEF;
+    }
+
+.activityright, .activityleft
+{
+    /*border: thin solid #2E8E6E;*/
+    }
+
+.ActivityHeader
+{
+    border: thin solid #2E8E6E;
+    padding:5px;
+    }
+.activityright , .chapterlist
+{
+    font-weight: bold;
+    color: #EFEFEF;
+    padding: 5px;
+
+}
+
+.ActivityHeader1
+{
+    border-bottom:2px solid #2E8E6E !important;
+    padding:5px;
+    }
+
+
+.ActivityrightContent
+{
+    border:0 !important;
+    padding:5px;
+    }
+
+
+.ActivityContent
+{
+    border:1px solid #2E8E6E;
+    }
+
+
+.ActivityContent > div
+{
+ padding:5px;
+ border:none;
+    }
+
+
+.chapterlist a[href="#ctl00_ContentPlaceHolder1_tvSyllabus_SkipLink"], .chapterlist #ctl00_ContentPlaceHolder1_tvSyllabus_SkipLink
+{
+    visibility:hidden;
+    display:none;
+    }
+
+
+
+.firstpanel
+{
+    margin-bottom:15px;
+    }
+
+.firstpanel .chapterlist
+{
+    padding:0px;
+    }
+
+
+.ActivityContent .Label table, .ActivityContent .Label table tr, .ActivityContent .Label table td
+{
+    padding:0px;
+    margin:0px;
+
+    }
+
+.ActivityContent .Label *
+{
+    border:none !important;
+    padding:0px !important;
+    margin:0px !important;
+
+}
+
+.Label input[type="radio"]
+{
+     visibility:hidden !important;
+    display:none !important;
+    margin:0px !important;
+     outline: 0 !important;
+     border:none;
+    }
+
+.ActivityContent .Label td input + label
+{
+    /*border:1px solid    #2E8E6E !important;*/
+    padding:5px !important;
+    /*border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;*/
+    text-align:center;
+    }
+
+
+.ActivityContent .Label td input + label:hover,.Label input[type="radio"]:checked + label:hover
+{
+    background-color:White;
+    color:Black;
+    }
+
+.Label input[type="radio"]:checked + label
+{
+    border:1px solid    #2E8E6E !important;
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+
+    background-image: none !important;
+    background-color: white !important;
+    color: #275C4A;
+    padding-bottom:0px;
+}
+
+
+.NoBorder
+{
+    border:none;
+    }
+
+.Border
+{
+    border:1px solid #2E8E6E !important;
+    padding:15px !important;
+
+    }
+
+.GridTab li *
+{
+    white-space:normal;
+    }
+
+
+.GridTab a
+{
+    background-color:#DBEDDC;
+    color:#000000 !important;
+    font-weight:bold !important;
+    }
+.GridTab a:hover
+{
+    background-color:#84AD88 !important;
+    color:Black !important;
+    }
+
+
+.GridTab .active a
+{
+    background-color:#AAD2AE !important;
+    outline:0 !important;
+    }
+
+
+.GridTab li a
+{
+    border:none !imortant;
+    border-top-left-radius: 0.3em !important;
+    border-top-right-radius: 0.3em !important;
+    outline:0 !important;
+
+    }
+
+
+
+    .GridViewItem td
+    {
+        overflow:hidden;
+        }
+
+.DBHeader
+{
+    display:block;
+    margin:5px;
+
+    }
+
+select *
+{
+    text-align:left;
+    }
+
+ .ActivityContent .Border select
+ {
+     min-width:100% !important;
+     text-align:left;
+
+     }
+
+.ActivityContent .Border select *
+{
+    text-align:left;
+    }
+
+.ActivityContent table
+{
+
+   min-width: 100% !important;
+
+    }
+
+
+.ActivityContent table td label
+{
+
+   min-width: 100% !important;
+
+    }
+
+    /***********************************************************/
+    /***********Student Assesment*********************/
+    /***********************************************************/
+
+
+#ExamResult *
+{
+    color:White !important
+    }
+.InnerModalPopup *
+{
+    color:White !important
+}
+
+
+.firstpanel *
+{
+    white-space:nowrap;
+    overflow:auto;
+    }
+
+#wrapper {
+            display: flex;
+            height: auto;
+        }
+
+       /* .column {
+            flex: 1;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            clear :both;
+
+        } */
+
+        .item {
+
+
+            padding: 0 15px 0 0;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position:relative ;
+        }
+
+        .column:first-child > :last-child, .column:last-child > :first-child {
+            flex-grow: 1;
+        }
+
+        @media (max-width: 800px) {
+            #wrapper {
+                flex-direction: column;
+            }
+
+            .column {
+                display: contents;
+            }
+        }
+   /* table swp class*/
+
+/*table.swp {
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+    width: 100%;
+}*/
+       table.swp p { text-align :left ; padding-left :15px}
+        table.swp {
+            border: 1px solid black;
+
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+
+        /*.ActivityContent span{ color :#fff;}
+        .subactiviycontent div span{ color :#fff !important;}*/
+        /*.subactiviycontent div { color :#fff !important; width :300px;}*/
+       table.swp td span
+        {
+    color: #fff !important;
+    display: inline-block;
+    text-align: center !important;
+    text-transform: uppercase;
+            }
+
+
+        table.swp th span
+        {
+    color: #285751 !important;
+    display: inline-block;
+    text-align: center !important;
+    text-transform: uppercase;
+            }
+
+            table.swp td, table.swp th {
+                border: 1px solid #2e8e6e;
+                height: 30px;
+            }
+             table.swp td {
+                border: 1px solid #2e8e6e;
+                height: 25px;
+            }
+            table.swp tr:nth-of-type(n) td:nth-of-type(1) {
+            color: #285751 !important;
+            text-align: center;
+            vertical-align: middle;
+        }
+            table.swp tr:nth-child(2) td {
+                text-transform: capitalize;
+                font-size: 12px;
+                height: 30px;
+            }
+             table.swp tr:nth-child(1n+2) td
+              { background-color :#c8e4cb; }
+
+             table.swp tr:nth-child(1) td {
+             width :175px; background-color :#aad2ae; }
+            table.swp tr:nth-child(2) td {
+                background-color: #c8e4cb;
+                /*text-transform: capitalize;
+                height: 30px;*/
+                color :#285751 !important;
+            }
+                table.swp tr:first-child td:nth-child(2) {
+                    background-color: #aad2ae;
+                    text-align: left;
+                }
+             table.swp tr:nth-child(4) td:nth-child(2) {
+    /*background-color: #265f4e;*/ text-align :left; padding :0 0 0 15px;
+}
+            table.swp tr:nth-child(4) td {
+                background-color: #584;
+
+            }
+            table.swp tr:nth-of-type(1) td {
+            color: #285751 !important;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+            table.swp tr:nth-of-type(1n+2) td {
+             color :#285751 !important;
+            text-align: center;
+            vertical-align: middle;
+                /*color: #fff;*/
+            }
+            .optxt{ color : Transparent !important; }
+            .optxt2{ color : #fff !important; }
+            .optxt > tr {margin-bottom :10px;}
+            table tr.GridViewItemTestAssessment{
+    margin-bottom: 5px !important; width:100%;}
+            *table.swp div {width :100%; height :25px; background-color :#000;}
+
+
+
+
+
+
+able.swp tr:first-child th sp!important;}
+
+able.swp tr:nth-child(2) td:first-child {
+    background-color: #c8e4cb;
+    color: #285751 !important;
+}
+h.visible-sm span {font-size :50px; color :#fff; text-align :center ;}
+
+table.swp tr:nth-child(2) td:nth-child(1) span {
+    color: #285751 !important;
+}
+
+
+table.swp tr:nth-child(1) td:nth-child(1) span {
+    color: #285751 !important;
+}
+table.swp tr:nth-child(3) td:nth-child(1) span {
+    color: #285751 !important;
+}
+
+ /*table.swp tr:nth-child(3) td:first-child {
+    background-color: #c8e4cb;
+    color: #285751 !important;
+}*/
+
+
+
+ /*{color :#285751;}*/
+
+
+            table.swp tr:first-child th {
+             background-color: #aad2ae;
+             width: 175px;
+             text-align :center;
+             vertical-align :middle ;
+             color :#285751;
+             text-transform :uppercase ;
+            }
+
+            table.swp tr th:nth-child(2n+0) {
+                /*background-color: #076CAB;*/
+                border-right: 1px solid black;
+                border-left: 1px solid black;
+            }
+
+            /*table.swp tr:nth-last-child(2) {
+                background: #b200ff;
+            }*/
+             table.tbc tr:first-child {
+                /*background: #b200ff;*/
+                height:45px;
+            }
+            /*table.swp tr:nth-child(-n+2) td:nth-child(1) {
+                border-top: 5px;
+                text-transform: capitalize;
+                font-size: 12px;
+                height: 30px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }*/
+
+            /*table.swp tr:last-child td {
+                border-bottom: 0;
+                background-color: #ff0000;
+            }*/
+
+
+            /*table.swp tr th:nth-child(2n+2), tr td:nth-child(3), tr td:nth-child(4), tr td:nth-child(5) table.swp tr th:nth-child(7) {
+                border-right: 0;
+                background-color: #076CAB;
+            }*/
+
+            /*table.swp tr th:first-child {
+                border-right: 0;
+                background-color: #ccc;
+            } */ ccc;
+            }
+            .tbc {
+            border-bottom: 7px double #000;
+            border-top: 7px double #000;
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+            }
+            table.bdr2n tr:first-child td:nth-child(2) {
+                background-color: #c8e4cb;
+                text-align: center;
+            }
+            /*table.bdr2n tr td:first-child
+            {
+                border-right: 1px solid #000;
+                background-color: #ccc;
+            }       }*/
+  }
+
+        table.swp table.bdr2n th {
+            background-color: #000;
+            border-right: 1px solid #000;
+        }
+
+            table.swp table.bdr2n th:last-child {
+                background-color: #ccc;
+                border-right: 1px solid #000;
+            }
+
+            table.swp le.bdr2 table.bdr2n th:first-child {
+                background-color: #ccc;
+                border-right: 1px solid #000;
+            }
+
+        table.bdr2 tr td:first-child {
+            border-right: 0;
+            background-color: #ccc;
+            border-right: 0 none;
+            padding-left: 10px;
+            text-align: left;
+        }
+        /*table.bdr2 tr td:last-child,
+            table.bdr2 tr th:last-child {
+                border-right: 0;
+                background-color:#ff6a00;
+            }*/
+
+        table.bdr2 tr td:nth-child(7) /*, table.bdr2 tr th:nth-column(2n+1)*/ {
+            background-color: #ccc;
+            border-right: 0 none;
+        }
+
+
+        /*table.bdr2 tr:last-child td {
+  border-bottom: 5px;
+}
+        table.bdr2 {
+           border:1px solid #808080; padding:10px; background-color:#00ffff; border-collapse:collapse; border-style:solid; text-transform:uppercase; text-align:center;
+        }*/
+
+        /*table.bdr2 th {
+               border:1px solid #808080; padding:10px; background-color:#00ffff; border-collapse:collapse; border-style:solid;
+            }
+
+            table.bdr2 td {
+
+                border:1px solid #808080; padding:10px; background-color:#00ffff; border-collapse:collapse; border-style:solid; font-size:11px;
+
+
+            }*/
+            .ac
+            {
+                    background-color: #265f4e;
+    float: left;
+    width: 100%;
+                }
+.ac1{
+
+    float: left;
+    width: 75%; border :1px solid #2e8e6e;}
+    .ac2{  float: right; width: 25%; border :1px solid #2e8e6e;}
+    .ac21 span { color :#285751 !important;}
+	.acc1 > span { color :#Red  !important;}
+    .ac21{    background-color: #c8e4cb;
+    color: #285751 !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    }
+    .acc21{    float: left;
+    font-weight: bold;
+    margin: 0 25px 5px 10px;
+    width: auto;}
+    .acc1{
+    float: left;
+    margin: 0 25px 5px 10px;
+    width: auto;
+    font-weight :bold ;
+
+
+    }
+
+        .acc2{
+        float: left;
+    margin-right: 20px;
+    width: auto;  font-weight :bold ;}
+     .acc3{
+        float: left;
+    margin-right: 20px;
+    width: auto;  font-weight :bold ;}
+

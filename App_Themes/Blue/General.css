@@ -1,0 +1,781 @@
+﻿font-family: Roboto-Light; .tblControls
+{
+    padding: 0px;
+}
+.tblControls tr td
+{
+    padding: 3px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.tblControls .Required:after
+{
+    content: "*";
+    color: Red;
+    text-align: left;
+}
+
+.tblControls .Footer:after
+{
+    /*border-top: 1px dashed #35B1B1;*/
+    font-size: 8pt;
+    color: Red;
+    text-align: right;
+}
+
+.tblControls span
+{
+    padding-top: 3px;
+    width: 350px;
+    white-space: nowrap;
+}
+
+.tblControls .Header
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #26AAAA;
+    border-bottom: 0px none black;
+    border-left: 0px none black;
+    border-right: 0px none black;
+    border-top: 0px none black;
+    text-align: center; /* font-weight: bold;*/
+    padding: 5px;
+    background-image: url('../Images/dialogHeaderT.gif');
+    background-repeat: repeat-x; /*border: 0.5px solid #26AAAA;*/
+    color: #096B6B;
+}
+.tblControls .footer
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #26AAAA;
+    border-bottom: 0px none black;
+    border-left: 0px none black;
+    border-right: 0px none black;
+    border-top: 0px none black;
+    text-align: center; /* font-weight: bold;*/
+    padding: 5px;
+    background-image: url('../Images/dialogHeaderT.gif');
+    background-repeat: repeat-x; /*border: 0.5px solid #26AAAA;*/
+    color: #096B6B;
+}
+
+.SubTitle
+{
+    text-align: left;
+    vertical-align: top;
+    color: ButtonShadow;
+    font: 16px "Verdana" , Geneva; /*font: bold 18px "Calibri" , Arial;*/
+}
+
+/* For Ratting tblControlsPopoup Css*/
+.tblControlsRattingPopup
+{
+    padding: 0px;
+}
+.tblControlsRattingPopup tr td
+{
+    padding: 3px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.tblControlsRattingPopup .Required:after
+{
+    content: "*";
+    color: Red;
+    text-align: left;
+}
+
+.tblControlsRattingPopup .Footer:after
+{
+    /*border-top: 1px dashed #35B1B1;*/
+    font-size: 8pt;
+    color: Red;
+    text-align: right;
+}
+
+.tblControlsRattingPopup span
+{
+    /*padding-top: 3px;     width: 350px;     white-space: nowrap;*/
+}
+
+.tblControlsRattingPopup .Header
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #26AAAA;
+    border-bottom: 0px none black;
+    border-left: 0px none black;
+    border-right: 0px none black;
+    border-top: 0px none black;
+    text-align: center; /* font-weight: bold;*/
+    padding: 5px;
+    background-image: url('../Images/dialogHeaderT.gif');
+    background-repeat: repeat-x; /*border: 0.5px solid #26AAAA;*/
+    color: #096B6B;
+}
+.tblControlsRattingPopup .footer
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #26AAAA;
+    border-bottom: 0px none black;
+    border-left: 0px none black;
+    border-right: 0px none black;
+    border-top: 0px none black;
+    text-align: center; /* font-weight: bold;*/
+    padding: 5px;
+    background-image: url('../Images/dialogHeaderT.gif');
+    background-repeat: repeat-x; /*border: 0.5px solid #26AAAA;*/
+    color: #096B6B;
+}
+
+.ratingEmpty
+{
+    background-image: url(../Images/ratingStarEmpty.gif);
+    width: 18px;
+    height: 18px;
+    padding-top: 0px;
+    white-space: normal;
+}
+.ratingFilled
+{
+    background-image: url(../Images/ratingStarFilled.gif);
+    width: 18px;
+    height: 18px;
+    padding-top: 0px;
+    white-space: normal;
+}
+.ratingSaved
+{
+    background-image: url(../Images/ratingStarSaved.gif);
+    width: 18px;
+    height: 18px;
+    padding-top: 0px;
+    white-space: normal;
+}
+/* For Ratting tblControlsPopoup Css*/
+
+
+
+/* Staff Registration Design Start*/
+.TDHeader
+{
+    vertical-align: top;
+    width: 30%;
+}
+.TableStyle
+{
+    border: 0;
+    padding: 0px 0px 0px 0px;
+    width: 98%;
+}
+.TDItem
+{
+    padding: 0px 0px 5px 5px;
+    height: 17px;
+    font-family: Roboto-Light;
+    font-size: 14px;
+    vertical-align: top;
+}
+.LegItem
+{
+    font-size: 14px;
+    font-family: Roboto-Light;
+    font-weight: bold;
+    color: Blue;
+    vertical-align: top;
+}
+
+/* Staff Registration Design End*/
+
+/* Modal Popup Extender Design Start*/
+.modalBackground
+{
+    background-color: #FFFFFF;
+    filter: alpha(opacity=95);
+    opacity: 0.95;
+}
+.modalPopup
+{
+    background-color: #FFFFFF;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin: 1px;
+    font-family: Roboto-Light;
+    font-size: 16px;
+}
+.modalPopup2
+{
+    background-color: #FFFFFF;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin: 1px;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+.modalPopup3
+{
+    background-color: #FFFFFF;
+    padding-top: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+    margin: 0px;
+    font-family: Roboto-Light;
+}
+.modalPopup4
+{
+    background-color: #FFFFFF;
+    padding-top: 5px;
+    padding-left: 0px;
+    cursor: pointer;
+    margin: 1px;
+    font-family: Roboto-Light;
+}
+.modalBackground1
+{
+    background-color: White; /*filter: alpha(opacity=95);     opacity: 0.95;*/
+}
+/* Modal Popup Extender Design End*/
+
+
+/* Dash board inner table design Start*/
+
+.InnerTableStyle
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #26AAAA;
+    vertical-align: top;
+}
+
+.TableHeader
+{
+    font-size: 14px;
+    font-family: Roboto-Light;
+    font-weight: bold;
+    color: Blue;
+    vertical-align: top;
+}
+
+.RoundTop
+{
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+}
+
+.RoundBottom
+{
+    border-bottom-left-radius: 0.75em;
+    border-bottom-right-radius: 0.75em;
+}
+
+/* Dash board inner table design End*/
+
+/*search panel go button stylesheet*/
+
+
+.gobutton
+{
+    border: 5px solid #ffffff;
+    display: block;
+    background: #56C0C0;
+    height: auto;
+    width: auto;
+    color: #ffffff; /*text-align: center;*/
+    border-radius: 5px; /*box-shadow: 0px 3px 1px #2075aa;*/
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear; /*transition: all 0.5s linear;*/
+    font-size: 14px;
+    letter-spacing: normal;
+    color: White !important; /*font-weight: bold;*/
+}
+/*search panel go button stylesheet end*/
+
+.lblerror
+{
+    color: Red;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+
+.Visible
+{
+    visibility: visible;
+    display: block;
+}
+.InVisible
+{
+    visibility: hidden;
+    display: none;
+}
+
+.panel
+{
+    color: Gray;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+
+.PageHeader
+{
+    text-align: center;
+    color: #3D8C8C;
+    background-color: #ACE7E7;
+    background: #ade8e8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ade8e8 0%, #4bbbbb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ade8e8), color-stop(100%,#4bbbbb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ade8e8 0%,#4bbbbb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ade8e8 0%,#4bbbbb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ade8e8 0%,#4bbbbb 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ade8e8 0%,#4bbbbb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ade8e8', endColorstr='#4bbbbb',GradientType=0 ); /* IE6-9 */
+    margin-right: 0px;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    border: 1px solid #CBCFCF;
+    line-height: 25px; /*font-weight: bold;*/
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+}
+
+#tblGrid table tr td
+{
+    padding: 3px;
+}
+#tblGrid table tr th
+{
+    padding: 3px;
+}
+
+.ActionBarTable
+{
+    width: 100%;
+}
+.ActionBarTable .LeftCorner
+{
+    background-image: url('../Images/paginationRowEdgeL.gif');
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 14px;
+    height: 40px;
+    padding: 0px;
+    vertical-align: middle;
+}
+.ActionBarTable .RightCorner
+{
+    background-image: url('../Images/paginationRowEdgeR.gif');
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 14px;
+    height: 40px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.ActionBarTable .Center
+{
+    background-image: url('../Images/paginationRowT.gif');
+    background-repeat: repeat;
+    background-position: left top;
+    height: 40px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.ActionBarTable .InnerLeftRound
+{
+    background-image: url('../Images/ButtonBarEdgeL.gif');
+    background-repeat: no-repeat;
+    background-position: left Bottom;
+    height: 27px;
+    width: 14px;
+    float: left;
+    padding-bottom: 1px;
+    vertical-align: bottom;
+    padding-top: 11px;
+}
+.ActionBarTable .InnerRightRound
+{
+    background-image: url('../Images/ButtonBarEdgeR.gif');
+    background-repeat: no-repeat;
+    background-position: left Bottom;
+    height: 27px;
+    width: 14px;
+    float: left;
+    padding-bottom: 1px;
+    vertical-align: bottom;
+    margin-top: 11px;
+}
+.ActionBarTable .Divider
+{
+    background-image: url('../Images/ButtonBarDividerL.gif');
+    background-repeat: no-repeat;
+    background-position: left Bottom;
+    height: 27px;
+    width: 3px;
+    float: left;
+    padding-bottom: 1px;
+    vertical-align: bottom;
+    margin-top: 11px;
+}
+.ActionBarTable .Buttons
+{
+    height: 27px;
+    width: 30px;
+    float: left;
+    padding-bottom: 1px;
+    vertical-align: bottom;
+    margin-top: 12px;
+}
+
+/* Syllabus Covered Stlye Start */
+.RightAnswerChart
+{
+    background-color: Green;
+    border: none;
+    height: 22px;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    background-position: center center;
+    background-image: url('../Images/bar-green.jpg');
+    background-repeat: repeat-x;
+    color: White;
+}
+
+.WrongAnswerChart
+{
+    background-position: center center;
+    background-color: red;
+    border: none;
+    height: 22px;
+    color: White;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    background-image: url('../Images/bar-red.jpg');
+    background-repeat: repeat-x;
+}
+
+
+
+.pink
+{
+    background: #EA197B;
+    color: #D6689D;
+    box-shadow: inset -3px 0 2px rgba(255,255,255,0.2), 0 0 4px rgba(0,0,0,0.7);
+    background-position: center center;
+    border: none;
+    height: 14px;
+    color: White;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    font-size: 10px;
+    text-align: center;
+}
+.pink:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+.turquoise
+{
+    background: #0DC19A;
+    color: #0DC19A;
+    box-shadow: inset -3px 0 2px rgba(255,255,255,0.2), 0 0 4px rgba(0,0,0,0.7);
+    border: none;
+    height: 14px;
+    color: White;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    font-size: 10px;
+    text-align: center;
+}
+.turquoise:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Syllabus Covered Stlye end */
+
+.Node
+{
+    color: Black;
+    font-family: Roboto-Light;
+    font-size: 12px;
+    cursor: default;
+    text-decoration: none;
+}
+
+.InnerTableStyle tr td
+{
+    padding: 3px;
+    vertical-align: top; /*  text-align: right;*/
+}
+
+.InnerTableStyleResult
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #26AAAA;
+    vertical-align: top;
+}
+
+.InnerTableStyleResult tr td
+{
+    padding: 0px;
+    vertical-align: top; /*  text-align: right;*/
+}
+.chkChoice input
+{
+    margin: 2px 2px 2px 2px;
+}
+
+.chkChoice td
+{
+    padding-right: 20px;
+}
+.chkChoice label
+{
+    margin: 4px 4px 4px 4px;
+}
+
+
+
+#ctl00_ContentPlaceHolder1_menuAnnouncement_dlAnnouncement table td li
+{
+    white-space: normal;
+    overflow: hidden;
+}
+
+
+/* Start Tab Control */
+
+.tab
+{
+    font-weight: bold;
+    background-color: #458ccc;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    line-height: 25px;
+    background-position: right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+}
+.tabSelected
+{
+    background-color: #c6222B;
+}
+
+.tabhover a:hover
+{
+    color: Black;
+}
+
+
+.tabpanel
+{
+    border: 1px solid #c6222B;
+    background-color: white;
+    padding: -5px;
+}
+
+.tabsnew
+{
+    position: relative;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.RadioClass label
+{
+    background-color: transparent;
+    color: Black;
+    white-space: nowrap;
+    padding: 10px;
+    width: 88%;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ced9bf;
+}
+
+.RadioClass label:hover
+{
+    background-color: transparent;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.RadioClass label:active
+{
+    background-color: transparent;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+.RadioClass
+{
+    width: 98%;
+}
+.RadioClass td
+{
+    -moz-box-shadow: 3px 4px 0px 0px #B7B2B2;
+    -webkit-box-shadow: 3px 4px 0px 0px #B7B2B2;
+    box-shadow: 3px 4px 0px 0px #B7B2B2;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 2px solid #D7D7D7;
+    border-radius: 14px;
+    color: #999999;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 2px 2px 2px 0;
+    margin-left: 5px;
+    padding: 4px 8px !important;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #B7B2B2; /* white-space: nowrap;*/
+    width: 40%;
+}
+
+.RadioClass td:hover
+{
+    -moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+    -webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: none repeat scroll 0 0 #C6222B;
+    border: 2px solid #EA4858;
+    color: #FFFFFF !important;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ced9bf;
+}
+.RadioClass td:active
+{
+    background: none repeat scroll 0 0 #C6222B;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+
+
+/* End Tab Control */
+
+/*Next Button*/
+.NextButton
+{
+    -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    box-shadow: inset 0px 0px 0px 0px #ffffff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color: #ededed;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #777777;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: bold;
+    font-style: normal;
+    height: 45px;
+    line-height: 35px;
+    width: 131px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+.NextButton:hover
+{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #C6222B), color-stop(1, #C6222B) );
+    background: -moz-linear-gradient( center top, #C6222B 5%, #C6222B 100% );
+    color: White;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C6222B', endColorstr='#C6222B');
+    background-color: #C6222B;
+}
+.NextButton:active
+{
+    position: relative;
+    top: 1px;
+}
+
+
+.TextHoverUnhover
+{
+}
+.TextHoverUnhover:hover
+{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear; /*transition: all 0.5s linear;*/
+}
+.TextHoverUnhover:active
+{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear; /*transition: all 0.5s linear;*/
+}
+.TableCssExam
+{
+    -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    box-shadow: inset 0px 0px 0px 0px #ffffff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color: #ededed;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #777777;
+    font-family: Arial;
+    font-style: normal;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+/*End Next Button*/

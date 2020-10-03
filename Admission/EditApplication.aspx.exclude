@@ -1,0 +1,67 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/Epathshala.master" AutoEventWireup="true"
+    CodeFile="EditApplication.aspx.cs" Inherits="Admission_EditApplication" EnableEventValidation="true" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div style="width: 80%; margin: auto; margin-top: 30px;">
+        <div class="activitydivside1" runat="server">
+            <div class="ActivityHeader">
+                <asp:Label ID="LblTitle" runat="server" Text="Edit Admission"></asp:Label>
+            </div>
+            <div class="ActivityContent">
+                <asp:GridView ID="GvAdmission" runat="server" OnSorting="GvAdmission_Sorting" AutoGenerateColumns="False"
+                    OnRowCommand="GvAdmission_RowCommand">
+                    <Columns>
+                        <asp:TemplateField HeaderText="SNo.">
+                            <ItemTemplate>
+                                <asp:Label ID="LblSrNo" runat="server" Text='<%# Container.DataItemIndex+1 %>' /></ItemTemplate>
+                            <ItemStyle CssClass="GridViewRows" Width="5%" HorizontalAlign="Center" VerticalAlign="Top" />
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Application No" SortExpression="AdmissionId" Visible="false">
+                            <ItemTemplate>
+                                <asp:Label ID="LblApplicationNo" runat="server" Text='<%#Bind("AdmissionId") %>' /></ItemTemplate>
+                            <ItemStyle CssClass="GridViewRows" Width="10%" HorizontalAlign="Left" VerticalAlign="Top" />
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Form No" SortExpression="FormNo">
+                            <ItemTemplate>
+                                <asp:Label ID="LblFormNo" runat="server" Text='<%#Bind("FormNo") %>' /></ItemTemplate>
+                            <ItemStyle CssClass="GridViewRows" Width="12%" HorizontalAlign="Left" VerticalAlign="Top" />
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Admission Grade" SortExpression="AdmissionGrade">
+                            <ItemTemplate>
+                                <asp:Label ID="LblAdmissionGrade" runat="server" Text='<%#Bind("AdmissionGrade") %>' /></ItemTemplate>
+                            <ItemStyle CssClass="GridViewRows" Width="40%" HorizontalAlign="Left" VerticalAlign="Top" />
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Student Name">
+                            <ItemTemplate>
+                                <asp:Label ID="LblStudentName" runat="server" Text='<%#Bind("FirstName") %>' /></ItemTemplate>
+                            <ItemStyle CssClass="GridViewRows" Width="25%" HorizontalAlign="Left" VerticalAlign="Top" />
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Emergency Mobile">
+                            <ItemTemplate>
+                                <asp:Label ID="LblEmergencyMobileNumber" runat="server" Text='<%#Bind("EmergencyMobileNo") %>' /></ItemTemplate>
+                            <ItemStyle CssClass="GridViewRows" Width="10%" HorizontalAlign="Left" VerticalAlign="Top" />
+                        </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Edit" ItemStyle-VerticalAlign="Middle" ItemStyle-HorizontalAlign="Center">
+                            <ItemTemplate>
+                                <asp:LinkButton Text="Edit" CommandName="Select" ID="LbtnEditAdmission" runat="server"
+                                     />
+                                <%--<asp:ImageButton Height="22px" Width="22px" CommandName="editadmission" ToolTip="Click to Edit this Admission."
+                                        ImageUrl="~/App_Themes/Responsive/web/edit.png" ID="IbtnEditadmsn" runat="server" />--%>
+                                <%--<a runat="server" onclick="javascript: return gotoeditpage();">
+                                    <asp:Image ImageUrl="~/App_Themes/Responsive/web/edit.png" runat="server" />--%>
+                                </a>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                    </Columns>
+                    <EmptyDataTemplate>
+                        <div style="border: 1px Dotted Black;">
+                            Data not Found.!
+                        </div>
+                    </EmptyDataTemplate>
+                </asp:GridView>
+            </div>
+        </div>
+    </div>
+</asp:Content>

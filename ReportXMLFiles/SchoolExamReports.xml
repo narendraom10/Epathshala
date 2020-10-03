@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Schoolwise result report</Title>
+    <HiddenFields>EmployeeID,	BMSSCTID,	StandardID,	DivisionID,	SubjectID,	ChapterID,	TopicID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment></alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <Title>Standardwise Result Report</Title>
+    <examdate>true</examdate>
+    <standard>true</standard>
+    <subject>true</subject>
+    <chapter>true</chapter>
+    <topic>true</topic>
+    <perc>true</perc>
+    <teacher>true</teacher>
+    <true>true</true>
+    <false>true</false>
+    <employeeid>false</employeeid>
+    <bmssctid>false</bmssctid>
+    <standardid>false</standardid>
+    <divisionid>false</divisionid>
+    <subjectid>false</subjectid>
+    <chapterid>false</chapterid>
+    <topicid>false</topicid>
+  </Exporttoexcelsettings>
+  <gu-in>
+    <Title>વિષય મુજબના પરિણામ અહેવાલ</Title>
+    <Subject>વિષય</Subject>    
+    <ExamDate>પરીક્ષાની તારીખ</ExamDate>
+    <Standard>ધોરણ</Standard>
+    <Chapter>પ્રકરણ</Chapter>
+    <Topic>મુદ્દો</Topic>
+    <Perc>ટકાવારી</Perc>
+    <Teacher>શિક્ષક </Teacher>
+    <True>સાચું </True>
+    <False>ખોટું</False>
+  </gu-in>
+
+  <hi-in>
+    <Title>विद्यार्थी वार परिणाम रिपोर्ट2</Title>
+    <Subject>विषय</Subject>
+    <ExamDate>परीक्षा की तारीख</ExamDate>
+    <Standard>मानक</Standard>
+    <Chapter>अध्याय</Chapter>
+    <Topic>विषय</Topic>
+    <Perc>फ़ीसदी</Perc>
+    <Teacher>शिक्षक</Teacher>
+    <True>सच</True>
+    <False>ग़लत</False>
+  </hi-in>
+  <en-us>
+    <Title>Student wise result report</Title>
+    <Subject>Subject</Subject>
+    <ExamDate>Exam Date</ExamDate>	
+    <Standard>Standard</Standard>	   
+    <Chapter>Chapter</Chapter>	
+    <Topic>Topic</Topic>	
+    <Perc>Percentage</Perc>	
+    <Teacher>Teacher</Teacher>	
+    <True>True</True>
+    <False>False</False>
+  </en-us>
+</Search>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Topicwise covered syllabus</Title>
+    <HiddenFields>SCTID,SCT</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>SubjectID</Total>
+    <alignment>SCT=center,Percentage=center,Teacher=center,Date=center,Topic=center,Activity Duration In Days=center</alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Topicwise Covered Syllabus Report</tital>
+    <SCTID>false</SCTID>
+    <SCT>true</SCT>
+    <Topic>true</Topic>
+    <Percentage>true</Percentage>
+    <Date>true</Date>
+    <Teacher>true</Teacher>
+    <ActivityDurationInDays>false</ActivityDurationInDays>
+  </Exporttoexcelsettings>
+  <en-us>
+    <Title>Topicwise covered syllabus Report</Title>
+    <Topic>Topic</Topic>
+    <Percentage>Syllabus Covered</Percentage>
+    <Date>Date</Date>
+    <Teacher>Teacher</Teacher>
+    <ActivityDurationInDays>
+      Activity Duration In Days
+    </ActivityDurationInDays>
+  </en-us>
+  <gu-in>
+    <Title>ટોપિક મુજબના આવરી લેવામાં અભ્યાસ અહેવાલ</Title>
+    <Topic>ટોપિક</Topic>
+    <Percentage>આવરી લેવામાં અભ્યાસ</Percentage>
+    <Date>તારીખ</Date>
+    <Teacher>શિક્ષક</Teacher>
+    <ActivityDurationInDays>
+      પ્રવૃત્તિ સમયગાળો દિવસમાં
+    </ActivityDurationInDays>
+  </gu-in>
+
+  <hi-in>
+    <Title>टोपिक वार कवर किया पाठ्यक्रम रिपोर्ट </Title>
+    <Topic>टोपिक</Topic>
+    <Percentage>पाठ्यक्रम कवर किया</Percentage>
+    <Date>दिनांक</Date>
+    <Teacher>शिक्षक</Teacher>
+    <ActivityDurationInDays>
+      गतिविधि अवधि दिन में
+    </ActivityDurationInDays>
+  </hi-in>
+</Search>
+
+

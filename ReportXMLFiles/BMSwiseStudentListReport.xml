@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>BMSwise Student List Report</Title>
+    <HiddenFields>StudentID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>BMSID</Total>
+    <alignment>Student Name=center,Gender=center</alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>BMSwise Student List Report</tital>
+    <StudentId>False</StudentId>
+    <StudentName>true</StudentName>
+    <Gender>true</Gender>
+  </Exporttoexcelsettings>
+
+  <en-us>
+    <Title>Board Medium Standardwise Student List Report</Title>
+    <StudentName>Student Name</StudentName>
+    <Gender>Gender</Gender>
+  </en-us>
+  <gu-in>
+    <Title>બોર્ડ માધ્યમ ધોરણ મુજબના વિદ્યાર્થી યાદી અહેવાલ </Title>
+    <StudentName>વિદ્યાર્થીનું નામ</StudentName>
+    <Gender>લિંગ</Gender>
+  </gu-in>
+
+  <hi-in>
+    <Title>बोर्ड माध्यम स्टैंडर्ड वार विद्यार्थी की सूची रिपोर्ट</Title>
+    <StudentName>विद्यार्थी का नाम</StudentName>
+    <Gender>लिंग</Gender>
+  </hi-in>
+</Search>

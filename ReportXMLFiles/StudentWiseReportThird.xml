@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Studentwise result report3</Title>
+    <HiddenFields>StudentID,FirstName,Subject,Perc,Teacher,BMSSCTID,ChapterID,TopicID,StandardID,DivisionID,SubjectID,EmployeeID,BMSID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>TotalQue</Total>
+    <alignment></alignment>
+    <AllowPaging>true</AllowPaging>.
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Chapterwise Student Result Report</tital>
+    <examdate>true</examdate>
+    <totalque>true</totalque>
+    <true>true</true>
+    <false>true</false>
+    <studentid>false</studentid>
+    <firstname>false</firstname>
+    <bmsid>false</bmsid>
+    <standard>true</standard>
+    <subject>false</subject>
+    <perc>false</perc>
+    <percn>false</percn>
+    <teacher>false</teacher>
+    <employeeid>false</employeeid>
+    <standardid>false</standardid>
+    <divisionid>false</divisionid>
+    <subjectid>false</subjectid>
+    <bmssctid>false</bmssctid>
+    <chapterid>false</chapterid>
+    <topicid>false</topicid>
+    <chapter>true</chapter>
+    <topic>true</topic>
+  </Exporttoexcelsettings>
+
+  <en-US>
+    <ExamDate>Exam Date</ExamDate>
+    <TotalQue>Total Question</TotalQue>
+    <True>True</True>
+    <False>False</False>
+    <StudentID>Student Id</StudentID>
+    <FirstName>First Name</FirstName>
+    <BMSID>BMS ID</BMSID>
+    <Standard>Standard</Standard>
+    <Subject>Subject</Subject>
+    <Perc>Percentage</Perc>
+    <Teacher>Teacher</Teacher>
+    <EmployeeID>Employee ID</EmployeeID>
+    <StandardID>Standard ID</StandardID>
+    <DivisionID>Division ID</DivisionID>
+    <SubjectID>Subject ID</SubjectID>
+    <BMSSCTID>BMSSCT ID</BMSSCTID>
+    <ChapterID>Chapter ID</ChapterID>
+    <TopicID>Topic ID</TopicID>
+    <Chapter>Chapter</Chapter>
+    <Topic>Topic</Topic>
+  </en-US>
+  <gu-in>
+    <Title>વિદ્યાર્થી મુજબના પરિણામ અહેવાલ</Title>
+    <ExamDate>પરીક્ષા તારીખ</ExamDate>
+    <TotalQue>કુલ પ્રશ્ન</TotalQue>
+    <True>સાચું</True>
+    <False>ખોટા</False>
+    <StudentID>વિદ્યાર્થીનો આઇ. ડી.</StudentID>
+    <FirstName>વિદ્યાર્થી</FirstName>
+    <BMSID>બી.એમ.એસ આઇ. ડી.</BMSID>
+    <Standard>ધોરણ</Standard>
+    <Subject>વિષય</Subject>
+    <Perc>પરિણામ</Perc>
+    <Teacher>શિક્ષક</Teacher>
+    <EmployeeID>કર્મચારી આઇ. ડી.</EmployeeID>
+    <StandardID>ધોરણ આઇ. ડી.</StandardID>
+    <DivisionID>વિભાગ આઇ. ડી.</DivisionID>
+    <SubjectID>વિષય આઇ. ડી.</SubjectID>
+    <BMSSCTID>બી.એમ.એસ.એસ.સી.ટી આઇ. ડી.</BMSSCTID>
+    <ChapterID>અધ્યાય આઇ. ડી.</ChapterID>
+    <TopicID>પ્રકરણ આઇ. ડી.</TopicID>
+    <Chapter>અધ્યાય</Chapter>
+    <Topic>પ્રકરણ</Topic>
+  </gu-in>
+
+  <hi-in>
+    <Title>विद्यार्थी वार परिणाम रिपोर्ट2</Title>
+    
+
+    <ExamDate>परीक्षा की तारीख</ExamDate>
+    <TotalQue>कुल प्रश्न</TotalQue>
+    <True>सच</True>
+    <False>झूठा</False>
+    <StudentID>छात्र आई.डी.</StudentID>
+    <FirstName>विद्यार्थी</FirstName>
+    <BMSID>बी.एम.एस आइ. डी.</BMSID>
+    <Standard>स्टैंडर्ड</Standard>
+    <Subject>विषय</Subject>
+    <Perc>परिणाम</Perc>
+    <Teacher>शिक्षक</Teacher>
+    <EmployeeID>कर्मचारी आई.डी.</EmployeeID>
+    <StandardID>स्टैंडर्ड आई.डी.</StandardID>
+    <DivisionID>डिवीजन आइ. डी.</DivisionID>
+    <SubjectID>विषय आइ. डी.</SubjectID>
+    <BMSSCTID>बी.एम.एस.एस.सी.टी आइ. डी</BMSSCTID>
+    <ChapterID>अध्याय आइ. डी.</ChapterID>
+    <TopicID>प्रकरण आइ. डी.</TopicID>
+    <Chapter>अध्याय</Chapter>
+    <Topic>प्रकरण</Topic>
+  </hi-in>
+
+
+</Search>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Chapterwise covered syllabus</Title>
+    <HiddenFields>ChapterID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>SubjectID</Total>
+    <alignment>Chapter=center,Percentage=center,Teacher=center,Date=center</alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Chapterwise Covered Syllabus</tital>
+    <ChapterID>true</ChapterID>
+    <Chapter>true</Chapter>
+    <Percentage>true</Percentage>
+    <Date>true</Date>
+    <teacher>true</teacher>
+  </Exporttoexcelsettings>
+  <en-us>
+    <Title>Chapterwise covered syllabus Report</Title>
+    <Chapter>Chapter</Chapter>
+    <Percentage>Syllabus Covered</Percentage>
+    <Date>Date</Date>
+    <Teacher>Teacher</Teacher>
+  </en-us>
+  <gu-in>
+     <Title>પ્રકરણ મુજબના આવરી લેવામાં અભ્યાસ અહેવાલ </Title>
+    <Chapter>પ્રકરણ</Chapter>
+    <Percentage>આવરી લેવામાં અભ્યાસ</Percentage>
+    <Date>તારીખ</Date>
+    <Teacher>શિક્ષક</Teacher>
+  </gu-in>
+
+  <hi-in>
+   <Title>अध्याय वार कवर किया पाठ्यक्रम रिपोर्ट</Title>
+    <Chapter>अध्याय</Chapter>
+    <Percentage>पाठ्यक्रम कवर किया</Percentage>
+    <Date>दिनांक</Date>
+    <Teacher>शिक्षक</Teacher>
+  </hi-in>
+</Search>
+

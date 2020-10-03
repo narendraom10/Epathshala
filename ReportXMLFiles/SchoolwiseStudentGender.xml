@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Schoolwise Student Gender Report</Title>
+    <HiddenFields></HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>SubjectID</Total>
+    <alignment>TotalStudent=center,AcademicYear=center,Male=center,Female=center,MalePer=center,FemalePer=Center</alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Acedemic year wise student gender report</tital>
+    <AcademicYear>true</AcademicYear>
+    <Male>true</Male>
+    <Female>true</Female>
+    <MalePer>false</MalePer>
+    <FemalePer>false</FemalePer>
+    <TotalStudent>true</TotalStudent>
+  </Exporttoexcelsettings>
+
+  <en-us>
+    <Title>Schoolwise Student Gender Report</Title>
+    <TotalStudent>Total Student</TotalStudent>
+    <AcademicYear>Academic Year</AcademicYear>
+    <Male>Male</Male>
+    <Female>Female</Female>
+    <MalePer>Male Percentage</MalePer>
+    <FemalePer>Female Percentage</FemalePer>
+  </en-us>
+  <gu-in>
+    <Title>શાળા દીઠ વિદ્યાર્થી લિંગ અહેવાલ</Title>
+    <TotalStudent>કુલ વિદ્યાર્થી</TotalStudent>
+    <AcademicYear>શૈક્ષણિક વર્ષ</AcademicYear>
+    <Male>પુરૂષ</Male>
+    <Female>સ્ત્રી</Female>
+    <MalePer>પુરૂષ ટકાવારી</MalePer>
+    <FemalePer>સ્ત્રી ટકાવારી</FemalePer>
+  </gu-in>
+
+  <hi-in>
+    <Title>स्कूल वार विद्यार्थी लिंग की रिपोर्ट</Title>
+    <TotalStudent>कुल विद्यार्थी</TotalStudent>
+    <AcademicYear>शैक्षिक वर्ष</AcademicYear>
+    <Male>पुस्र्ष</Male>
+    <Female>महिला</Female>
+    <MalePer>पुरूष प्रतिशत</MalePer>
+    <FemalePer>महिला प्रतिशत</FemalePer>
+  </hi-in>
+</Search>
+
+

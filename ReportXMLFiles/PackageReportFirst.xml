@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Board</Title>
+    <HiddenFields>BoardID</HiddenFields>
+    <ColumnWidth>Amount=20</ColumnWidth>
+    <allowfooter>true</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>Amount</Total>
+    <alignment>Amount=Right</alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language></language>
+  </SearchControlSettings>
+
+  <Exporttoexcelsettings>
+    <tital>Board</tital>
+    <BoardID>false</BoardID>
+    <Board>true</Board>
+    <Amount>true</Amount>
+    
+  </Exporttoexcelsettings>
+
+  <en-us>
+    <Title>Board</Title>
+    <Board>Board</Board>
+    
+  </en-us>
+  
+
+
+</Search>

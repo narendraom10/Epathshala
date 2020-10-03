@@ -1,0 +1,214 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Blank.master.cs" Inherits="Blank" %>
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <style type="text/css">
+        #wrap
+        {
+            width: auto;
+            position: relative;
+        }
+        
+        .left, .right
+        {
+            float: left;
+        }
+        
+        .right
+        {
+            float: right;
+        }
+    </style>
+    <title>ePathshala | Digital School</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"/>
+    <link href="App_Themes/Responsive/media.css" rel="stylesheet" type="text/css"/>
+    <link href="App_Themes/Responsive/css.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" language="javascript">
+
+        var clicked = false;
+
+        function bodyUnload() {
+
+            //            debugger;
+
+            if (clicked == false) {
+
+                //var request = GetRequest();
+
+                //location.href="/KB/tips/LogOut.aspx";
+
+
+                var request = GetRequest();
+
+                request.open("GET", "../Logout.aspx", true);
+
+                request.send();
+
+            }
+        }
+        function GetRequest() {
+
+            var xmlHttpSess = null;
+            if (window.XMLHttpRequest) {
+                // code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlHttpSess = new XMLHttpRequest();
+            }
+            else {
+                // code for IE6, IE5
+                try {
+                    //FF, Opera, Safari, Chrome, IE7+
+                    xmlHttp = new XMLHttpRequest();
+                }
+                catch (e) {
+                    try {
+                        // Firefox, Opera 8.0+, Safari
+                        xmlHttpSess = new XMLHttpRequest();
+                    }
+                    catch (e) {
+                        //Internet Explorer
+                        try {
+                            //IE6+
+                            xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                        }
+                        catch (e) {
+
+                            try {
+                                //IE5+
+                                xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+                            }
+                            catch (e) {
+                                xmlHttp = null;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            return xmlHttpSess;
+
+        }
+    </script>
+    <script type="text/javascript">
+        window.history.forward(-1);
+    </script>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-69363607-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body onbeforeunload="bodyUnload();" onclick="clicked=true;">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div id="header">
+        &nbsp;&nbsp;<asp:Label ID="Label1" CssClass="welcome" Style="color: #484ce2; font-weight: bold;"
+            Text="Welcome to" runat="server">
+        </asp:Label>
+        <div id="headerwrap">
+            <div id="logo1">
+                <a href="#">
+                    <img src="../App_Themes/Responsive/web/logo.png" alt="No Img" /></a>
+            </div>
+            <div id="tagline">
+                <canvas id="canvas" width="185" height="45" style="background-color: #F5F5F5">
+                </canvas>
+            </div>
+            <div>
+                <div style="margin-left: 80px; color: #AC2B28; float: left;">
+                    <asp:Label CssClass="Welcome" runat="server" ID="lblUserType" Text="User Type :"
+                        Visible="False" meta:resourcekey="lblUserTypeResource1"></asp:Label><br />
+                    <asp:Label ID="lblschool" runat="server" Text="School: " Visible="False" meta:resourcekey="lblschoolResource1"></asp:Label>
+                    <asp:Label runat="server" ID="lblSchoolName" meta:resourcekey="lblSchoolNameResource1"></asp:Label>
+                </div>
+                <div style="float: right; color: #AC2B28;">
+                    <asp:Label ID="Label2" runat="server" Text="Language:"> </asp:Label>
+                    <asp:DropDownList runat="server" ID="ddlLanguage12" AutoPostBack="True" OnSelectedIndexChanged="ddlLanguage12_SelectedIndexChanged"
+                        meta:resourcekey="ddlLanguage12Resource1">
+                        <asp:ListItem Text="English" Value="en-US" Selected="True" meta:resourcekey="ListItemResource1"></asp:ListItem>
+                        <asp:ListItem Text="ગુજરાતી" Value="gu-IN" meta:resourcekey="ListItemResource2"></asp:ListItem>
+                        <asp:ListItem Text="हिन्दी" Value="hi-IN" meta:resourcekey="ListItemResource3"></asp:ListItem>
+                    </asp:DropDownList>
+                    <br />
+                    <asp:Label CssClass="Welcome" runat="server" ID="lblWelcome"></asp:Label>
+                    &nbsp;
+                    <asp:LinkButton runat="server" ID="lbtnSignOut" Text="Sign Out" CssClass="logoutButton"
+                        OnClick="lbtnSignOut_Click" meta:resourcekey="lbtnSignOutResource1"></asp:LinkButton>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner" style="width: 100%; top: -542px; left: 0px;">
+        <div id="bannerwrap">
+            <div style="width: 100%">
+                <div class="Left">
+                </div>
+                <div class="Content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="right">
+                </div>
+            </div>
+        </div>
+    </div>
+    <%--   <div id="footer">
+        <div id="footerwrap">
+            <div id="add">
+                <p>
+                    B-13, 13/1 & 14, Electronic Estate,<br>
+                    GIDC Sector-25, Ghandinagar-382 024,<br />
+                    Gujarat,India.</p>
+
+            </div>
+            <div id="follow">
+                <h5>
+                    Follow Us On :</h5>
+                <div class="followbutton">
+                    <ul>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/fb.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/in.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/gp.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/twt.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/yt.png"></a></li>
+                        <li class="bottomimg"><a href="#">
+                            <img src="../App_Themes/Responsive/web/b.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/pin.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/wp.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/googleplay.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--end footer-->
+    </div>--%>
+    <div id="copyrightfooter">
+        <div class="copyright">
+            <p>
+                Copyright © 2014, All Rights Reserved. <a href="http://www.epath.net.in" target="_blank">
+                    Arraycom (India) Ltd. - Epath Division</a>
+            </p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

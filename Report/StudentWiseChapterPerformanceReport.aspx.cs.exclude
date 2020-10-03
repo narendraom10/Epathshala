@@ -1,0 +1,737 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Udev.UserMasterPage.Classes;
+using System.Globalization;
+using System.Data;
+using System.Collections;
+
+public partial class Report_StudentWiseChapterPerformanceReport : System.Web.UI.Page
+{
+
+    #region Variables
+    School_BLogic SchoolBLogic;
+    string connectionstring;
+    SYS_Role_BLogic obj_BAL_SYS_Role;
+    Student_DashBoard_BLogic obj_BAL_Student_Dashboard;
+    StudentDash obj_Student_Dashboard;
+
+    #endregion
+
+    protected override void InitializeCulture()
+    {
+        string culture = Convert.ToString(Session[Global.SESSION_KEY_CULTURE]);
+        // 'set culture to current thread 
+        System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(culture);
+        System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(culture);
+        //call base class 
+        base.InitializeCulture();
+    }
+
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            DateTime startOfMonth = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+            DateTime endOfMonth = startOfMonth.AddMonths(1).AddDays(-1);
+            //txtfromdate.Text = string.Format("{0:dd-MMM-yyyy}", startOfMonth);
+            //txttodate.Text = string.Format("{0:dd-MMM-yyyy}", endOfMonth);
+            BindAllDDLSchool();
+        }
+
+    }
+
+
+    private void BindAllDDLSchool()
+    {
+        SchoolBLogic = new School_BLogic();
+        DataTable dt = new DataTable();
+        dt = SchoolBLogic.BAL_SchoolAllNameWithID("Normal").Tables[0];
+        if (dt != null)
+        {
+            if (dt.Rows.Count > 0)
+            {
+                DropDownFill DdlFilling = new DropDownFill();
+                DdlFilling.BindDropDownByTable(ddlSchool, dt, "Name", "SchoolID");
+                ddlSchool.Items.Insert(Convert.ToInt32(EnumFile.AssignValue.Zero), "-- Select --");
+                ddlSchool.Items[0].Value = Convert.ToString((int)EnumFile.AssignValue.Zero);
+            }
+
+        }
+        DDLDisable(ddlBoard, false);
+
+    }
+
+    private void DDLDisable(DropDownList ddl, bool enbDsbl)
+    {
+        ddl.SelectedIndex = 0;
+        ddl.Enabled = enbDsbl;
+    }
+
+    protected void ddlSchool_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        if (ddlSchool.SelectedValue != "0")
+        {
+            DataSet ds = new DataSet();
+
+            SYS_Board_BLogic objSys_Board = new SYS_Board_BLogic();
+            ds = objSys_Board.BAL_SYS_Board_BySchoolID(Convert.ToInt32(ddlSchool.SelectedValue));
+
+            DropDownFill DdlFilling = new DropDownFill();
+            DdlFilling.BindDropDownByTable(ddlBoard, ds.Tables[0], "Board", "BoardID");
+
+            DDLDisable(ddlBoard, true);
+            DDLDisable(ddlMedium, false);
+            DDLDisable(ddlStandard, false);
+            DDLDisable(ddlsubject, false);
+
+        }
+        else
+        {
+            DDLDisable(ddlBoard, false);
+            DDLDisable(ddlMedium, false);
+            DDLDisable(ddlStandard, false);
+            DDLDisable(ddlsubject, false);
+
+        }
+    }
+    protected void ddlBoard_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        if (ddlBoard.SelectedValue != "0")
+        {
+            DataSet ds = new DataSet();
+
+            SYS_Board_BLogic objSys_Board = new SYS_Board_BLogic();
+            ds = objSys_Board.BAL_SYS_Medium_BySchoolIDBoardID(Convert.ToInt32(ddlSchool.SelectedValue), Convert.ToInt32(ddlBoard.SelectedValue));
+
+            DropDownFill DdlFilling = new DropDownFill();
+            DdlFilling.BindDropDownByTable(ddlMedium, ds.Tables[0], "Medium", "MediumID");
+
+
+
+            DDLDisable(ddlMedium, true);
+            DDLDisable(ddlStandard, false);
+            DDLDisable(ddlsubject, false);
+
+        }
+        else
+        {
+
+            DDLDisable(ddlMedium, false);
+            DDLDisable(ddlStandard, false);
+            DDLDisable(ddlsubject, false);
+
+        }
+    }
+    protected void ddlMedium_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        if (ddlMedium.SelectedValue != "0")
+        {
+            BindSubjectChapterTopic(1);
+        }
+        else
+        {
+
+            DDLDisable(ddlStandard, false);
+            DDLDisable(ddlsubject, false);
+
+        }
+    }
+
+    private void BindSubjectChapterTopic(int Step)
+    {
+
+        DataSet ds = new DataSet();
+
+        SYS_Board_BLogic objSys_Board = new SYS_Board_BLogic();
+        ds = objSys_Board.BAL_SYS_StdSubChapTopic_BySchoolIDBoardIDMediumid(Convert.ToInt32(ddlSchool.SelectedValue), Convert.ToInt32(ddlBoard.SelectedValue), Convert.ToInt32(ddlMedium.SelectedValue), Convert.ToInt32(ddlStandard.SelectedValue), Convert.ToInt32(ddlsubject.SelectedValue), 0);
+
+        DropDownFill DdlFilling = new DropDownFill();
+        if (Step <= 1)
+        {
+            if (ds.Tables.Count > 0)
+            {
+                DdlFilling.BindDropDownByTable(ddlStandard, ds.Tables[0], "Standard", "StandardID");
+                DDLDisable(ddlStandard, true);
+            }
+        }
+        if (Step <= 2)
+        {
+            if (ds.Tables.Count > 1)
+            {
+                DdlFilling.BindDropDownByTable(ddlsubject, ds.Tables[1], "Subject", "SubjectID");
+                DDLDisable(ddlsubject, true);
+            }
+        }
+    }
+    protected void ddlStandard_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+        BindSubjectChapterTopic(2);
+        BindDivision();
+
+    }
+
+    SYS_Division_BLogic DivisionBLogic = new SYS_Division_BLogic();
+
+    private void BindDivision()
+    {
+        int StandardID;
+        if (ddlStandard.SelectedIndex != 0)
+        {
+            StandardID = Convert.ToInt32(null);
+        }
+        else
+        {
+            StandardID = Convert.ToInt32(ddlStandard.SelectedValue);
+        }
+        DivisionBLogic = new SYS_Division_BLogic();
+        DataSet dsResult = new DataSet();
+        dsResult = DivisionBLogic.BAL_SYS_Division_SelectByBMSID(Convert.ToInt32(ddlBoard.SelectedValue), Convert.ToInt32(ddlMedium.SelectedValue), StandardID, Convert.ToInt32(Session["SchoolID"]));
+
+
+        DropDownFill DdlFilling = new DropDownFill();
+        if (dsResult.Tables.Count > 0)
+        {
+            DdlFilling.BindDropDownByTable(ddldivision, dsResult.Tables[0], "Division", "DivisionID");
+            DDLDisable(ddldivision, true);
+        }
+
+
+        //ddldivision.Items.Insert(Convert.ToInt32(EnumFile.AssignValue.Zero), "-- Select --");
+        //ddldivision.Items[0].Value = Convert.ToString((int)EnumFile.AssignValue.Zero);
+        //ddldivision.SelectedIndex = 0;
+        //ddldivision.DataSource = dsResult.Tables[0];
+        //ddldivision.DataTextField = "Division";
+        //ddldivision.DataValueField = "DivisionID";
+        //ddldivision.Enabled = true;
+
+
+    }
+    protected void ddlsubject_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        //BindSubjectChapterTopic(3);
+
+        try
+        {
+
+            if (ddlsubject.SelectedIndex != 0)
+            {
+
+                DataSet dsSelect = new DataSet();
+                //SYS_Board_BLogic objSys_Board = new SYS_Board_BLogic();
+                //dsSelect = objSys_Board.BAL_SYS_StdSubChapTopic_BySchoolIDBoardIDMediumid(Convert.ToInt32(ddlSchool.SelectedValue), Convert.ToInt32(ddlBoard.SelectedValue), Convert.ToInt32(ddlMedium.SelectedValue), Convert.ToInt32(ddlStandard.SelectedValue), Convert.ToInt32(ddlSubject.SelectedValue), Convert.ToInt32(ddlChapter.SelectedValue));
+
+
+                SYS_Board_BLogic objSys_Board = new SYS_Board_BLogic();
+                dsSelect = objSys_Board.BAL_SYS_StdSubChapTopic_BySchoolIDBoardIDMediumid(Convert.ToInt32(ddlSchool.SelectedValue), Convert.ToInt32(ddlBoard.SelectedValue), Convert.ToInt32(ddlMedium.SelectedValue), Convert.ToInt32(ddlStandard.SelectedValue), Convert.ToInt32(ddlsubject.SelectedValue), Convert.ToInt32(ddlchapter.SelectedValue));
+
+                //obj_BAL_SYS_Role = new SYS_Role_BLogic();
+
+                //dsSelect = obj_BAL_SYS_Role.BAL_Select_Chapters(Convert.ToInt64(ddlBoard.SelectedValue), Convert.ToInt32(ddlsubject.SelectedValue));
+
+                DropDownFill DdlFilling = new DropDownFill();
+                if (dsSelect.Tables.Count > 0)
+                {
+                    DdlFilling.BindDropDownByTable(ddlchapter, dsSelect.Tables[2], "Chapter", "ChapterID");
+                    DDLDisable(ddlchapter, true);
+                }
+
+
+                //ddlchapter.Items.Clear();
+                //ddlchapter.Items.Insert(0, "--Select--");
+                //ddlchapter.Items[0].Value = "0";
+                //ddlchapter.Enabled = true;
+                //ddlchapter.DataSource = dsSelect.Tables[2];
+                //ddlchapter.DataTextField = "Chapter";
+                //ddlchapter.DataValueField = "ChapterID";
+                //ddlchapter.DataBind();
+                //ddlchapter.Items.Insert(((int)EnumFile.AssignValue.Zero), new ListItem("-- Select --"));
+            }
+            else
+            {
+                ddlchapter.SelectedIndex = 0;
+                ddlchapter.Enabled = false;
+            }
+
+
+        }
+        catch (Exception ex)
+        {
+        }
+
+
+    }
+
+
+    private void CommanCallUserControl(DataSet ds, string reporttype)
+    {
+        GetConnectionStringSTRING obj = new GetConnectionStringSTRING();
+        connectionstring = obj.BAL_EpathshalaString();
+
+
+
+        try
+        {
+            //ReportControl1.ConnectionString = connectionstring;
+
+
+            //reporttype = Server.MapPath("Files/MonthlySummary.xml");
+            //ReportControl1.XMLReportFile = Server.MapPath(reporttype);
+
+            //ReportControl1.Search(ds.Tables[0]);
+
+        }
+        catch (Exception ex)
+        {
+            WebMsg.Show("" + ex.Message.ToString());
+        }
+    }
+    protected void btnview_Click(object sender, EventArgs e)
+    {
+        BindGrdData();
+        //GetStudentDetail();
+    }
+
+    DataSet dsResult = new DataSet();
+    DataTable dt1 = new DataTable("tblTest");
+    DataTable dt2;
+
+     
+
+    int Right = 0;
+    int Wrong = 0;
+
+    private void GetStudentDetail(int bmsid, int subject, int studentid, int cnt, int totalcnt, string name)
+    {
+
+        obj_BAL_Student_Dashboard = new Student_DashBoard_BLogic();
+        obj_Student_Dashboard = new StudentDash();
+
+        obj_Student_Dashboard.BMSID = Convert.ToInt64(bmsid);
+        obj_Student_Dashboard.SubjectID = Convert.ToInt16(subject);
+        obj_Student_Dashboard.StudentID = Convert.ToInt64(studentid);
+
+        //
+        DataSet dsSettings = new DataSet();
+
+
+        DataSet dsSelect = new DataSet();
+        dsSelect = obj_BAL_Student_Dashboard.BAL_Select_Covered_Syllabus(obj_Student_Dashboard);
+
+
+
+
+        //dt2 = new DataTable("tblTest1");
+
+        //dt2.Columns.Add("Chapter", typeof(string));
+        //dt2.Columns.Add("ChapterID", typeof(string));
+        //dt2.Columns.Add("TopicID", typeof(string));
+
+
+        if (dsSelect.Tables[1].Rows.Count > 0)
+        {
+            for (int j = 0; j < dsSelect.Tables[0].Rows.Count; j++)
+            {
+
+
+                if (dsSelect.Tables[0].Rows[j]["ChapterID"].ToString() == ddlchapter.SelectedValue.ToString())
+                {
+                    dt2 = new DataTable("tblTest1");
+
+                    dt2.Columns.Add("Chapter", typeof(string));
+                    dt2.Columns.Add("ChapterID", typeof(string));
+                    dt2.Columns.Add("TopicID", typeof(string));
+
+                    //DataTable dtn = dsSelect.Tables[1].Clone();
+                    for (int i = 0; i < dsSelect.Tables[1].Rows.Count; i++)
+                    {
+                        if (dsSelect.Tables[0].Rows[j]["ChapterID"].ToString() == dsSelect.Tables[1].Rows[i]["ChapterID"].ToString())
+                        {
+                            DataRow dr;
+                            dr = dt2.NewRow();
+                            dr["Chapter"] = dsSelect.Tables[0].Rows[j]["Chapter"].ToString();
+                            dr["ChapterID"] = dsSelect.Tables[0].Rows[j]["ChapterID"].ToString();
+                            dr["TopicID"] = dsSelect.Tables[1].Rows[i]["TopicID"].ToString();
+                            dt2.Rows.Add(dr);
+
+                        }
+
+                        //dtn.ImportRow(dsSelect.Tables[1].Rows[i]);
+                    }
+
+                    //for (int i = 0; i < dt2.Rows.Count; i++)
+                    //{
+
+                    //BindGridData1(Convert.ToInt32(dt2.Rows[i]["ChapterID"]), Convert.ToInt32(dt2.Rows[i]["TopicID"]),dt2.Rows[i]["Chapter"].ToString(), Convert.ToInt32(i) ,  Convert.ToInt32(dt2.Rows.Count));
+                    BindGridData1(dt2, bmsid, studentid, cnt, totalcnt, name);
+                    //BindGridData1(Convert.ToInt32(dt2.Rows[i]["ChapterID"]),Convert.ToInt32(dt2.Rows[i]["TopicID"]),dt2.Rows[i]["Chapter"].ToString(),
+                    //}
+                    Right = 0;
+                    Wrong = 0;
+
+                }
+                else
+                {
+                    DataTable dt = new DataTable();
+                    grchapterwiseperformance.DataSource = dt;
+                    grchapterwiseperformance.DataBind();
+
+                }
+
+            }
+
+
+        }
+        else
+        {
+
+            DataTable testdt = new DataTable();
+            BindGridData1(testdt, bmsid, studentid, cnt, totalcnt, name);
+
+
+            //DataTable dt = new DataTable();
+            //grchapterwiseperformance.DataSource = dt;
+            //grchapterwiseperformance.DataBind();
+
+        }
+
+    }
+
+    DataRow dr;
+    private void BindGridData1(DataTable dt, int bmsid, int studentid, int cnt, int totalcnt, string name)
+    {
+        DataSet dsResult = new DataSet();
+        double per = 0.0;
+
+
+        if (dt.Rows.Count > 0)
+        {
+            int count = 1;
+            for (int k = 0; k < dt.Rows.Count; k++)
+            {
+                int ChapterID = Convert.ToInt32(dt.Rows[k]["ChapterID"]);
+                int TopicID = Convert.ToInt32(dt.Rows[k]["TopicID"]);
+
+                Student_DashBoard_BLogic Student_BAL = new Student_DashBoard_BLogic();
+                int SubjectID = Convert.ToInt32(ddlsubject.SelectedValue);
+
+
+                int BMSID = Convert.ToInt32(bmsid);
+                int StudentID = Convert.ToInt32(studentid);
+                string TestType = string.Empty;
+
+
+                TestType = "Posttest";
+
+                dsResult = Student_BAL.BAL_SelectStudentTestResultwithDetails(SubjectID, ChapterID, TopicID, BMSID, StudentID, TestType);
+
+
+
+
+                if (dsResult.Tables[0].Rows.Count > 0)
+                {
+
+
+                    count += dsResult.Tables[0].Rows.Count;
+
+
+                    for (int i = 0; i < dsResult.Tables[0].Rows.Count; i++)
+                    {
+                        if (dsResult.Tables[0].Rows[i]["Result"].ToString() == "True")
+                        {
+                            Right++;
+                        }
+                        else if (dsResult.Tables[0].Rows[i]["Result"].ToString() == "False")
+                        {
+                            Wrong++;
+                        }
+                    }
+                }
+
+
+                per = Convert.ToDouble((100 * Right) / (count - 1));
+
+
+                //lblAverageValue.Text = per.ToString() + " %";
+
+            }
+
+            if (Right == 0 && Wrong == 0)
+            {
+
+            }
+            else
+            {
+
+                dr = dt1.NewRow();
+                dr["Student ID"] = studentid;
+                dr["Student Name"] = name;
+                dr["Chapter"] = dt.Rows[0]["Chapter"].ToString();
+                dr["Persentage"] = per.ToString() + "%";
+                dt1.Rows.Add(dr);
+                if (cnt == totalcnt)
+                {
+                    grchapterwiseperformance.DataSource = dt1;
+                    grchapterwiseperformance.DataBind();
+                }
+
+            }
+
+            if (dt1.Rows.Count == 0)
+            {
+                grchapterwiseperformance.DataSource = dt1;
+                grchapterwiseperformance.DataBind();
+            }
+
+
+
+        }
+        else
+        {
+            dr = dt1.NewRow();
+            dr["Student ID"] = studentid;
+            dr["Student Name"] = name;
+            dr["Chapter"] = ddlchapter.SelectedItem.ToString();
+            dr["Persentage"] = "AB";
+            dt1.Rows.Add(dr);
+            if (cnt == totalcnt)
+            {
+                grchapterwiseperformance.DataSource = dt1;
+                grchapterwiseperformance.DataBind();
+            }
+
+        }
+
+    }
+
+
+    private void BindGrdData()
+    {
+
+        ddlSchool.Enabled = false;
+        ddlBoard.Enabled = false;
+        ddlMedium.Enabled = false;
+        ddlStandard.Enabled = false;
+        ddlsubject.Enabled = false;
+        ddldivision.Enabled = false;
+        ddlchapter.Enabled = false;
+        //txtfromdate.Enabled = false;
+        //txttodate.Enabled = false;
+        BindGrvResultDetails();
+    }
+
+    private void BindGrvResultDetails()
+    {
+
+        Teacher_Dashboard_BLogic obj_BAL_Teacher_Dashboard;
+        Teacher_Dashboard obj_Teacher_Dashboard;
+        Teacher_Dashboard_BLogic Teacher_BAL = new Teacher_Dashboard_BLogic();
+
+
+        obj_BAL_Teacher_Dashboard = new Teacher_Dashboard_BLogic();
+        obj_Teacher_Dashboard = new Teacher_Dashboard();
+
+        obj_Teacher_Dashboard.BMSID = Convert.ToInt64(Session["BMSID"]);
+        obj_Teacher_Dashboard.SubjectID = Convert.ToInt16(Session["SubjectID"]);
+        obj_Teacher_Dashboard.DivisionID = Convert.ToInt16(Session["DivisionID"]);
+        obj_Teacher_Dashboard.EmployeeID = Convert.ToInt64(Session["EmpolyeeID"]);
+        obj_Teacher_Dashboard.SchoolID = Convert.ToInt64(Session["SchoolID"]);
+
+        DataSet dsSelect = new DataSet();
+
+        dsSelect = obj_BAL_Teacher_Dashboard.BAL_Select_Covered_Syllabus(obj_Teacher_Dashboard);
+        DataTable dtchapter = dsSelect.Tables[0];
+        DataTable dttopic = dsSelect.Tables[1];
+        string[][] persentage;
+        DataSet ds = new DataSet();
+        //ArrayList Alist = new ArrayList();
+        DataTable newdt = new DataTable();
+
+        DataTable dt1 = new DataTable();
+        dt1.Columns.Add("ExamID");
+        dt1.Columns.Add("Student ID");
+        dt1.Columns.Add("Student Name");
+        dt1.Columns.Add("Chapter");
+        dt1.Columns.Add("Persentage");
+
+
+        int cnt = 1;
+
+        double per = 0.0;
+
+        foreach (DataRow dc in dtchapter.Select("ChapterID  = " + Convert.ToInt32(ddlchapter.SelectedValue.ToString())))
+        {
+            foreach (DataRow dt in dttopic.Select("ChapterID  = " + Convert.ToInt32(ddlchapter.SelectedValue.ToString())))
+            {
+
+                dsResult = Teacher_BAL.SelectTeacherTestResult(Convert.ToInt16(Session["SchoolID"]), Convert.ToInt16(Session["BMSID"]), Convert.ToInt16(Session["EmpolyeeID"]), Convert.ToInt16(Session["DivisionID"]), Convert.ToInt16(ddlchapter.SelectedValue.ToString()), Convert.ToInt16(dt.ItemArray[0].ToString()), Convert.ToInt16(ddlsubject.SelectedValue.ToString()), "posttest");
+
+                for (int s_cnt = 0; s_cnt < dsResult.Tables[0].Rows.Count; s_cnt++)
+                {
+
+                    if (dt1.Rows.Count != dsResult.Tables[0].Rows.Count)
+                    {
+                        dt1.Rows.Add();
+                        
+                        if (dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().Trim() != "")
+                        {
+                            dt1.Rows[s_cnt]["Persentage"] = Math.Round(Convert.ToDouble(dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().Substring(0, dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().IndexOf("%"))) / cnt).ToString() + "%";
+                        }
+                        else
+                        {
+                            dt1.Rows[s_cnt]["Persentage"] = "AB";
+                        }
+                    }
+
+                    else 
+                    {
+                        if (dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().Trim() != "")
+                        {
+                            double totalper = (Convert.ToDouble(dt1.Rows[s_cnt]["Persentage"].ToString().Substring(0, dt1.Rows[s_cnt]["Persentage"].ToString().IndexOf("%"))) + Math.Round(Convert.ToDouble(dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().Substring(0, dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().IndexOf("%"))))) / cnt;
+                            //dt1.Rows[s_cnt]["Persentage"] = Math.Round(Convert.ToDouble(dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().Substring(0, dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().IndexOf("%"))) / cnt).ToString() + "%";
+                            dt1.Rows[s_cnt]["Persentage"] = totalper;
+                        }
+                        else
+                        {
+                            if (dt1.Rows[s_cnt]["Persentage"].ToString().ToUpper() == "AB")
+                            {
+ 
+
+                                if (dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().Trim() != "")
+                                {
+                                    double totalper = (Convert.ToDouble(dt1.Rows[s_cnt]["Persentage"].ToString()) / cnt);
+                                    ////dt1.Rows[s_cnt]["Persentage"] = Math.Round(Convert.ToDouble(dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().Substring(0, dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().IndexOf("%"))) / cnt).ToString() + "%";
+                                    dt1.Rows[s_cnt]["Persentage"] = totalper;
+                                }
+                                else
+                                {
+                                    dt1.Rows[s_cnt]["Persentage"] = "AB";
+                                }
+
+
+
+
+                                
+                            }
+                            else
+                            {
+                                double totalper = Math.Round(((Convert.ToDouble(dt1.Rows[s_cnt]["Persentage"].ToString())) * (cnt-1)) / cnt);
+                                ////dt1.Rows[s_cnt]["Persentage"] = Math.Round(Convert.ToDouble(dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().Substring(0, dsResult.Tables[0].Rows[s_cnt]["Perc"].ToString().IndexOf("%"))) / cnt).ToString() + "%";
+                                dt1.Rows[s_cnt]["Persentage"] = totalper;
+                            }
+                            
+                        }
+                    }
+
+                    //string per1 = dt1.Rows[s_cnt]["Persentage"].ToString(); 
+                    
+                    dt1.Rows[s_cnt]["ExamID"] = dsResult.Tables[0].Rows[s_cnt]["ExamID"].ToString(); ;
+                    dt1.Rows[s_cnt]["Student ID"] = dsResult.Tables[0].Rows[s_cnt]["StudentID"].ToString();
+                    dt1.Rows[s_cnt]["Student Name"] = dsResult.Tables[0].Rows[s_cnt]["StudentName"].ToString();
+                    dt1.Rows[s_cnt]["Chapter"] = dc.ItemArray[1];
+                   
+
+                }
+                //int studentcnt = dsResult.Tables[0].Rows.Count;
+                //persentage = new string[studentcnt][studentcnt];
+
+                //Alist.Add(new[] { dt.ItemArray[0].ToString(), "test" });
+
+                ////ds.Merge(dsResult.Tables[0]);
+                ////ds.Tables.Add(dsResult.Tables[0]);
+
+                //DataTable dtCopy = dsResult.Tables[0].Copy();
+                //dtCopy.TableName = "Tables" + cnt.ToString() ;
+                //ds.Tables.Add(dtCopy);
+              
+                //dt1.Rows[cnt]["Persentage"] =
+                    //dt1.Rows[cnt]["ID"] =
+                    //dt1.Rows[cnt]["ID"] =
+
+
+
+                //per = 
+
+
+                cnt = cnt + 1;
+
+                grchapterwiseperformance.DataSource = dt1;
+                grchapterwiseperformance.DataBind();
+
+                //for (int i = 0; i < dsResult.Tables[0].Rows.Count; i++)
+                //{ 
+
+
+                //}
+            }
+
+        }
+
+
+        if (dt1.Rows.Count <= 0)
+        {
+            grchapterwiseperformance.DataSource = dt1.Clone();
+            grchapterwiseperformance.DataBind();
+        }
+
+
+
+
+        //old code
+
+        //ViewState["Stage"] = 1;
+        //StageOneCalli();
+        //DataSet ds = new DataSet();
+        //ReportsForResult objRsultReport = new ReportsForResult();
+
+        //dt1.Columns.Add("Student ID", typeof(string));
+        //dt1.Columns.Add("Student Name", typeof(string));
+        //dt1.Columns.Add("Chapter", typeof(string));
+        //dt1.Columns.Add("Persentage", typeof(string));
+
+        //ds = objRsultReport.BAL_SYS_ResultStudentwise_Select1(Convert.ToInt32(ddlSchool.SelectedValue), Convert.ToInt32(ddlBoard.SelectedValue), Convert.ToInt32(ddlMedium.SelectedValue), Convert.ToInt32(ddlStandard.SelectedValue), Convert.ToInt32(ddlsubject.SelectedValue), Convert.ToInt32(ddldivision.SelectedValue));
+
+        //for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+        //{
+
+
+        //    GetStudentDetail(Convert.ToInt32(ds.Tables[0].Rows[i]["BMSID"]), Convert.ToInt32(ddlsubject.SelectedValue), Convert.ToInt32(ds.Tables[0].Rows[i]["StudentID"]), i, ds.Tables[0].Rows.Count - 1, ds.Tables[0].Rows[i]["FirstName"].ToString());
+
+        //}
+
+
+    }
+    protected void btnReset_Click(object sender, EventArgs e)
+    {
+        DDLDisable(ddlSchool, true);
+        DDLDisable(ddlBoard, false);
+        DDLDisable(ddlMedium, false);
+        DDLDisable(ddlStandard, false);
+        DDLDisable(ddlsubject, false);
+        DDLDisable(ddlchapter, false);
+        DDLDisable(ddldivision, false);
+    }
+
+
+    protected void grchapterwiseperformance_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+    {
+
+        WebMsg.Show("in pageindex changeing");
+        
+        //grchapterwiseperformance.PageIndex = sender.se
+        //grchapterwiseperformance.DataBind();
+
+        //BindGrdData();
+
+    }
+    protected void grchapterwiseperformance_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+        WebMsg.Show("in pageindex changed");
+    }
+}

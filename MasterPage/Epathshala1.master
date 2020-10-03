@@ -1,0 +1,955 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Epathshala1.master.cs" Inherits="Epathshala" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<%@ Register Src="MenuControl.ascx" TagName="Menu" TagPrefix="uc1" %>
+<html xmlns="http://www.w3.org/1999/xhtml" oncontextmenu="return(false);">
+<head runat="server">
+    <title>ePathshala | School Education | NCERT | CBSE</title>
+    <meta name="keywords" content="ePathshala, School Education, Home School, CBSE, NCERT, NCERT Syllabus, CBSE Syllabus, Digital School, School Learning, Online School" />
+    <meta name="description" content="ePathshala is an online home school which helps students from CBSE, NCERT, GSEB and UP Board school to learn easily. We complement school education while following school syllabus." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <script src="../App_Themes/Responsive/js/jquery-2.1.1.js" type="text/javascript"></script>
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <link href="../App_Themes/Green/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="../App_Themes/Green/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="../App_Themes/GreenDashboard.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../App_Themes/Green/menu3/css/normalize.css" />
+    <!-- Global Style -->
+    <link rel="stylesheet" href="../App_Themes/Green/menu3/css/main.css" />
+    <!-- Style of Responsive Mega menu -->
+    <link rel="stylesheet" href="../App_Themes/Green/menu3/css/1-first-layout-color-3.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="../App_Themes/Green/menu3/css/font-awesome.min.css" />
+    <script type="text/javascript">
+        window.history.forward(-1);
+    </script>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-69363607-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/564ed4d33b30fc9f6991c383/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <script type="text/javascript" src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+    <style type="text/css">
+        @font-face
+        {
+            font-family: 'social-sharing-buttons';
+            src: url('font/social-sharing-buttons.eot?93727803');
+            src: url('font/social-sharing-buttons.eot?93727803#iefix') format('embedded-opentype'), url('font/social-sharing-buttons.woff?93727803') format('woff'), url('font/social-sharing-buttons.ttf?93727803') format('truetype'), url('font/social-sharing-buttons.svg?93727803#social-sharing-buttons') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        
+        [class^="icon-"]:before, [class*=" icon-"]:before
+        {
+            font-family: "social-sharing-buttons";
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            margin-right: .2em;
+            text-align: center; /* opacity: .8; */ /* For safety - reset parent styles, that can break glyph codes*/
+            font-variant: normal;
+            text-transform: none; /* fix buttons height, for twitter bootstrap */
+            line-height: 1em; /* Animation center compensation - margins should be symmetric */ /* remove if not needed */
+            margin-left: .2em; /* you can be more comfortable with increased icons size */ /* font-size: 120%; */ /* Uncomment for 3D effect */ /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+        }
+        
+        .icon-facebook-1:before
+        {
+            content: '\e803';
+        }
+        /* '' */
+        .icon-stumbleupon:before
+        {
+            content: '\e804';
+        }
+        /* '' */
+        .icon-twitter-1:before
+        {
+            content: '\e805';
+        }
+        /* '' */
+        .icon-gplus:before
+        {
+            content: '\e806';
+        }
+        /* '' */
+        .icon-linkedin:before
+        {
+            content: '\e807';
+        }
+        /* '' */
+        .btn-twitter
+        {
+            background: #00acee;
+            border-radius: 0;
+            color: #fff;
+        }
+        .btn-twitter:link, .btn-twitter:visited
+        {
+            color: #fff;
+        }
+        .btn-twitter:active, .btn-twitter:hover
+        {
+            background: #0087bd;
+            color: #fff;
+        }
+        .btn-facebook
+        {
+            background: #3b5998;
+            border-radius: 0;
+            color: #fff;
+        }
+        .btn-facebook:link, .btn-facebook:visited
+        {
+            color: #fff;
+        }
+        .btn-facebook:active, .btn-facebook:hover
+        {
+            background: #30477a;
+            color: #fff;
+        }
+        .btn-googleplus
+        {
+            background: #e93f2e;
+            border-radius: 0;
+            color: #fff;
+        }
+        .btn-googleplus:link, .btn-googleplus:visited
+        {
+            color: #fff;
+        }
+        .btn-googleplus:active, .btn-googleplus:hover
+        {
+            background: #ba3225;
+            color: #fff;
+        }
+        .btn-stumbleupon
+        {
+            background: #f74425;
+            border-radius: 0;
+            color: #fff;
+        }
+        .btn-stumbleupon:link, .btn-stumbleupon:visited
+        {
+            color: #fff;
+        }
+        .btn-stumbleupon:active, .btn-stumbleupon:hover
+        {
+            background: #c7371e;
+            color: #fff;
+        }
+        .btn-linkedin
+        {
+            background: #0e76a8;
+            border-radius: 0;
+            color: #fff;
+        }
+        .btn-linkedin:link, .btn-linkedin:visited
+        {
+            color: #fff;
+        }
+        .btn-linkedin:active, .btn-linkedin:hover
+        {
+            background: #0b6087;
+            color: #fff;
+        }
+        
+        .puerto-menu
+        {
+            font-size: 11px !important;
+        }
+        .navbar-header img
+        {
+            text-align: center;
+        }
+    </style>
+    <style>
+        @media only screen and (max-width: 400px)
+        {
+            /* here comes the trick..this is the css, which would be applied to all the devices whose screen has a max-width of 400px */
+            img#logo
+            {
+                width: 50px;
+            }
+        }
+        
+        img#logo
+        {
+            max-width: 200px;
+            margin: 0 auto; 
+        }
+    </style>
+    <style>
+        @media (max-width: 767px)
+        {
+            .logo img
+            {
+                max-width: 25%;
+                height: auto;
+                margin: 0 33%;
+            }
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onclick="clicked=true;">
+    <form id="form1" runat="server" autocomplete="off">
+    <asp:MultiView ID="Mv_RolewiseMenus" runat="server">
+        <asp:View ID="ViewEAdmin" runat="server">
+            <div id="Div2" class="kw_header container-fluid" role="banner" style="padding: 0px;">
+                <div class="navbar navbar-default" style="background: SOLID; width: 100%; border: none;
+                    box-shadow: none; padding-top: 5px; position: fixed; z-index: 9999; padding: 5px;">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <div class="logo">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarEadmin">
+                                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="myNavbarEadmin" class="collapse navbar-collapse">
+                            <div role="navigation" style="margin-top: 15px;">
+                                <center>
+                                    <ul class="nav navbar-nav">
+                                        <li id="liEpathDashboard" runat="server"><a href="../Dashboard/EpathAdminDashboard.aspx"
+                                            target="_self"><span class="glyphicon glyphicon-home"></span>
+                                            <asp:Label ID="lblEAdminDashBoard" runat="server" Text="Dashboard"></asp:Label>
+                                        </a></li>
+                                        <li id="liManage" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-th-large"></span>&nbsp;Manage<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown-header">SCHOOL</li>
+                                                <li><a href="../SchoolManagement/SchoolList.aspx" target="_self">
+                                                    <asp:Label ID="lblEadminSchoolList" runat="server" Text="School List"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Registration/SchoolRegistration.aspx" target="_self">
+                                                    <asp:Label ID="lblSchoolRegistration" runat="server" Text="School Registration"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/StandardAllocation.aspx" target="_self">
+                                                    <asp:Label ID="lblStandardAllocation" runat="server" Text="Standard Allocation"></asp:Label>
+                                                </a></li>
+                                                <li class="divider"></li>
+                                                <li class="dropdown-header">USERS</li>
+                                                <li><a href="../UserManagement/UserList_New.aspx" target="_self">
+                                                    <asp:Label ID="lblEadminUserList" runat="server" Text="User List"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../UserManagement/UserLogInOut.aspx" target="_self">
+                                                    <asp:Label ID="lblEadminLogoutUser" runat="server" Text="End Session"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/TeacherClassAllocation.aspx" target="_self">
+                                                    <asp:Label ID="lblClassAllo" runat="server" Text="Standard Allocation"></asp:Label>
+                                                </a></li>
+                                                <li class="divider"></li>
+                                                <li class="dropdown-header">CHAPTERS</li>
+                                                <li><a href="../DataEntry/GenerateBMSSCT.aspx" target="_self">
+                                                    <asp:Label ID="lblGenerateBMSSCT" runat="server" Text="Generate BMS SCT"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../DataEntry/ChapterEntry.aspx" target="_self">
+                                                    <asp:Label ID="lblTeacherUploadChapter" runat="server" Text="Upload Chapter"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../DataEntry/ManageChapterSequence.aspx" target="_self">
+                                                    <asp:Label ID="lblManageChapterSeq" runat="server" Text="Chapter Sequence"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="li7" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-star"></span>&nbsp;Masters<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Admin/Board.aspx" target="_self">
+                                                    <asp:Label ID="lblBoardManage" runat="server" Text="Manage Board"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/Medium.aspx" target="_self">
+                                                    <asp:Label ID="lblMediumManage" runat="server" Text="Manage Medium"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/Standard.aspx" target="_self">
+                                                    <asp:Label ID="lblStandardManage" runat="server" Text="Manage Standard"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/BMS.aspx" target="_self">
+                                                    <asp:Label ID="lblBMSManage" runat="server" Text="Manage BMS"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/Division.aspx" target="_self">
+                                                    <asp:Label ID="lblDivisionManage" runat="server" Text="Manage Division"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/Subject.aspx" target="_self">
+                                                    <asp:Label ID="lblSubjectManage" runat="server" Text="Manage Subject"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/Chapter.aspx" target="_self">
+                                                    <asp:Label ID="lblChapterManage" runat="server" Text="Manage Chapter"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/Topic.aspx" target="_self">
+                                                    <asp:Label ID="lblTopicManage" runat="server" Text="Manage Topic"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/District.aspx" target="_self">
+                                                    <asp:Label ID="lblDistrictManage" runat="server" Text="Manage District"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/State.aspx" target="_self">
+                                                    <asp:Label ID="lblStateManage" runat="server" Text="Manage State"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/Country.aspx" target="_self">
+                                                    <asp:Label ID="lblCountryManage" runat="server" Text="Manage Country"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/Role.aspx" target="_self">
+                                                    <asp:Label ID="lblRoleManage" runat="server" Text="Manage Role"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/SchoolType.aspx" target="_self">
+                                                    <asp:Label ID="lblSchoolTypeManage" runat="server" Text="Manage School Type"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/QuestionEntry.aspx" target="_self">
+                                                    <asp:Label ID="lblQuestinEntry" runat="server" Text="Question Entry"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/ViewTeacherFeedBack.aspx" target="_self">
+                                                    <asp:Label ID="lblFeedBackReport0" runat="server" Text="Feedback"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/FeedbackQuestionnaire.aspx" target="_self">
+                                                    <asp:Label ID="lblFeedbackQuestionnaire0" runat="server" Text="Feedback Questionaire"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                        <%--                                <li id="li10" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                    href="#"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Manage Chapters<span
+                                        class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                    </ul>
+                                </li>
+                                <li id="liRescheduling"  runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                    href="#"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Rescheduling Approval<span
+                                        class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Admin/Rescheduling.aspx" target="_self">
+                                            <asp:Label ID="lblReschedulingApproval"  runat="server" Text="Teacher Rescheduling Approval"></asp:Label>
+                                        </a></li>
+                                        <li><a href="../Admin/ReschedulingStudent.aspx" target="_self">
+                                            <asp:Label ID="lblStudentReschedulingApproval"  runat="server" Text="Student Rescheduling Approval"></asp:Label>
+                                        </a></li>
+                                    </ul>
+                                </li>--%>
+                                        <li id="li13" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Reports<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Report/ClasswiseCoveredSyllabusNew.aspx" target="_self">
+                                                    <asp:Label ID="Label62" runat="server" Text="Covered Syllabus Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SchoolwiseStudentGenderReportNew.aspx" target="_self">
+                                                    <asp:Label ID="Label63" runat="server" Text="Gender Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/AgewiseStudentReportF.aspx" target="_self">
+                                                    <asp:Label ID="Label64" runat="server" Text="Agewise Student Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassroomWiseAttendanceF.aspx" target="_self">
+                                                    <asp:Label ID="Label65" runat="server" Text="Attendance Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassRoomWiseMonthlyAttendanceRpt.aspx" target="_self">
+                                                    <asp:Label ID="Label66" runat="server" Text="Monthly Attendace Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/TeacherTrackReport.aspx" target="_self">
+                                                    <asp:Label ID="Label67" runat="server" Text="Teacherwise Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/StudentTrackReport.aspx" target="_self">
+                                                    <asp:Label ID="Label2" runat="server" Text="Student Activity Track"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/TeachersTrack.aspx" target="_self">
+                                                    <asp:Label ID="Label68" runat="server" Text="Teacher's Track Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassRoomWiseActivity.aspx" target="_self">
+                                                    <asp:Label ID="Label69" runat="server" Text="Classroomwise Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassRoomTrack.aspx" target="_self">
+                                                    <asp:Label ID="Label70" runat="server" Text="Classroom Track Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SubjectWiseReportF.aspx" target="_self">
+                                                    <asp:Label ID="Label71" runat="server" Text="Subjectwise Exam Result"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/StudentWiseReportF.aspx" target="_self">
+                                                    <asp:Label ID="Label72" runat="server" Text="Student Wise Exam"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SchoolExamReports.aspx" target="_self">
+                                                    <asp:Label ID="Label73" runat="server" Text="Schoolwose Exam Result"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ActivityFeedbackReport.aspx" target="_self">
+                                                    <asp:Label ID="Label74" runat="server" Text="Activity Feedback Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SchoolwisePerformanceReport.aspx" target="_self">
+                                                    <asp:Label ID="Label75" runat="server" Text="School Performance Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SubjectwiseSchoolPerformanceReport.aspx" target="_self">
+                                                    <asp:Label ID="Label76" runat="server" Text="Subjectwise School Performace Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/PackageReport.aspx" target="_self">
+                                                    <asp:Label ID="Label30" runat="server" Text="Package Report"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="lisetting" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;Settings<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Admin/SysConfigPage.aspx" target="_self">
+                                                    <asp:Label ID="lblServer" runat="server" Text="Manage Server"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/ManageOffers.aspx" target="_self">
+                                                    <asp:Label ID="Label78" runat="server" Text="Manage Offers"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/ManageQuotes.aspx" target="_self">
+                                                    <asp:Label ID="Label79" runat="server" Text="Manage Quotes"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="li15" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-gift"></span>&nbsp;Package<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Admin/PackageRegistration.aspx" target="_self">
+                                                    <asp:Label ID="lblpackageregistration" runat="server" Text="Package Registration"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admin/RefundAmount.aspx" target="_self">
+                                                    <asp:Label ID="lblrefund" runat="server" Text="Refund Payment"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right" style="margin-top: 5px;">
+                                        <li class="dropdown">
+                                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                                <div style="height: 50px; display: inline-block; width: 50px; text-align: center;
+                                                    vertical-align: middle; border: 2px solid rgb(119, 119, 119); border-radius: 50%;
+                                                    box-shadow: 1px 1px 4px rgba(39, 52, 52,0.5); background-color: White;">
+                                                    <asp:Image ID="Image1" ImageUrl="~/App_Themes/Green/Images/adminprofile_default.png"
+                                                        runat="server" Height="45px" Width="45px" Style="border-radius: 50%;" />
+                                                </div>
+                                                <div>
+                                                    <asp:Label runat="server" ID="Label1" Text="EpathAdmin" CssClass="text-success" Font-Bold="true"></asp:Label>
+                                                    <span class="caret"></span>
+                                                </div>
+                                            </div>
+                                            <ul class="dropdown-menu" style="padding-left: 25px;">
+                                                <li><a href="../UserManagement/UpdateProfile.aspx">Update Profile</a> </li>
+                                                <li><a href="#" onclick="javascript:return showcp();">Change Password</a> </li>
+                                                <li class="divider"></li>
+                                                <li>
+                                                    <asp:LinkButton runat="server" ID="LinkButton1" Text="Sign Out" OnClick="lbtnSignOut_Click"></asp:LinkButton>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </asp:View>
+        <asp:View ID="ViewSdmin" runat="server">
+            <div id="Div4" class="kw_header container-fluid" role="banner" style="padding: 0px;">
+                <div class="navbar navbar-default" style="background: SOLID; width: 100%; border: none;
+                    box-shadow: none; padding-top: 5px; position: fixed; z-index: 9999; padding: 5px;">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <div class="logo">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarSadmin">
+                                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="myNavbarSadmin" class="collapse navbar-collapse">
+                            <div role="navigation" style="margin-top: 15px;">
+                                <center>
+                                    <ul class="nav navbar-nav">
+                                        <li id="li9" runat="server"><a href="../Dashboard/SchoolAdminDashboard.aspx"><span
+                                            class="glyphicon glyphicon-home"></span>
+                                            <asp:Label ID="Label16" runat="server" Text="Dashboard"></asp:Label>
+                                        </a></li>
+                                        <li id="li11" runat="server"><a href="../SchoolAdmin/ViewSchoolProfile.aspx"><span
+                                            class="glyphicon glyphicon-edit"></span>
+                                            <asp:Label ID="Label26" runat="server" Text="School Profile"></asp:Label>
+                                        </a></li>
+                                        <li id="li12" runat="server"><a href="../SchoolAdmin/EmployeeRegistration.aspx"><span
+                                            class="glyphicon glyphicon-plus"></span>
+                                            <asp:Label ID="Label27" runat="server" Text="Employee Enrollment"></asp:Label>
+                                        </a></li>
+                                        <li id="li14" runat="server"><a href="../UserManagement/UserList_New.aspx"><span
+                                            class="glyphicon glyphicon-user"></span>
+                                            <asp:Label ID="Label28" runat="server" Text="User List"></asp:Label>
+                                        </a></li>
+                                        <li id="li10" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Student<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Teacher/StudentAttendance.aspx" target="_self">
+                                                    <asp:Label ID="Label17" runat="server" Text="Student Attendance"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Registration/StudentRegistration.aspx" target="_self">
+                                                    <asp:Label ID="Label19" runat="server" Text="Student Registration"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Dashboard/PromoteBatch.aspx" target="_self">
+                                                    <asp:Label ID="Label20" runat="server" Text="Promote Batch"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Registration/BulkStudentRegistration.aspx" target="_self">
+                                                    <asp:Label ID="Label21" runat="server" Text="Bulk Student Registration"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Admission/admissiondashboard.aspx" target="_self">
+                                                    <asp:Label ID="Label22" runat="server" Text="Manage Admission"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../SchoolAdmin/SendMessage.aspx" target="_self">
+                                                    <asp:Label ID="Label23" runat="server" Text="Send Message To Student"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="li16" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Report<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Report/ClasswiseCoveredSyllabusNew.aspx" target="_self">
+                                                    <asp:Label ID="Label38" runat="server" Text="Covered Syllabus Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SchoolwiseStudentGenderReportNew.aspx" target="_self">
+                                                    <asp:Label ID="Label39" runat="server" meta:resourceKey="Label3" Text="Gender Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/AgewiseStudentReportF.aspx" target="_self">
+                                                    <asp:Label ID="Label40" runat="server" meta:resourceKey="lblAgewisestudentReport"
+                                                        Text="Agewise Student Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassroomWiseAttendanceF.aspx" target="_self">
+                                                    <asp:Label ID="Label41" runat="server" meta:resourceKey="Label4" Text="Attendance Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassRoomWiseMonthlyAttendanceRpt.aspx" target="_self">
+                                                    <asp:Label ID="Label42" runat="server" meta:resourcekey="Label10Resource1" Text="Monthly Attendance Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/TeacherTrackReport.aspx" target="_self">
+                                                    <asp:Label ID="Label43" runat="server" meta:resourceKey="lblTeacherTrackRPT" Text="Teacher Wise Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/TeachersTrack.aspx" target="_self">
+                                                    <asp:Label ID="Label44" runat="server" meta:resourceKey="lblTeacherWiseTrackRPT"
+                                                        Text="Teacher's Track Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassRoomWiseActivity.aspx" target="_self">
+                                                    <asp:Label ID="Label45" runat="server" meta:resourceKey="lblClassRoomTrackRPT" Text="Class Room Wise Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassRoomTrack.aspx" target="_self">
+                                                    <asp:Label ID="Label46" runat="server" meta:resourceKey="lblClassRoomwiseRPT" Text="Class Room Track Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SubjectWiseReportF.aspx" target="_self">
+                                                    <asp:Label ID="Label47" runat="server" meta:resourceKey="lblSubjectWiseReport" Text="Subject wise exam result"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/StudentWiseReportF.aspx" target="_self">
+                                                    <asp:Label ID="Label48" runat="server" meta:resourceKey="lblStudentWise" Text="Student wise exam result"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SchoolExamReports.aspx" target="_self">
+                                                    <asp:Label ID="Label49" runat="server" meta:resourceKey="lblSchoolExamReports" Text="School wise exam result"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ActivityFeedbackReport.aspx" target="_self">
+                                                    <asp:Label ID="Label50" runat="server" meta:resourceKey="lblActivityFeedbackReport"
+                                                        Text="Activity Feedback Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SchoolwisePerformanceReport.aspx" target="_self">
+                                                    <asp:Label ID="Label51" runat="server" meta:resourceKey="lblschoolperformanceReport"
+                                                        Text="School Performance Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SubjectwiseSchoolPerformanceReport.aspx" target="_self" style="border-right: none;">
+                                                    <asp:Label ID="Label52" runat="server" meta:resourceKey="lblsubjectwiseschoolperformanceReport"
+                                                        Text="Subjectwise School Performance Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/AllSentMessageReport.aspx" target="_self" style="border-right: none;">
+                                                    <asp:Label ID="Label53" runat="server" Text="All Sent Message Report"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="li19" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;Settings<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li id="li17" runat="server"><a href="../UserManagement/UserLogInOut.aspx"><span></span>
+                                                    <asp:Label ID="Label25" runat="server" Text="End Session"></asp:Label>
+                                                </a></li>
+                                                <li id="li18" runat="server"><a href="../SchoolAdmin/ManageTemplate.aspx"><span></span>
+                                                    <asp:Label ID="Label29" runat="server" Text="Manage Template"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right" style="margin-top: 5px;">
+                                        <li class="dropdown">
+                                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                                <div style="height: 50px; display: inline-block; width: 50px; text-align: center;
+                                                    vertical-align: middle; border: 2px solid rgb(119, 119, 119); border-radius: 50%;
+                                                    box-shadow: 1px 1px 4px rgba(39, 52, 52,0.5); background-color: White;">
+                                                    <asp:Image ID="Image2" ImageUrl="~/App_Themes/Green/Images/adminprofile_default.png"
+                                                        runat="server" Height="45px" Width="45px" Style="border-radius: 50%;" />
+                                                </div>
+                                                <div>
+                                                    <asp:Label runat="server" ID="Label18" Text="School Admin" CssClass="text-success"
+                                                        Font-Bold="true"></asp:Label>
+                                                    <span class="caret"></span>
+                                                </div>
+                                            </div>
+                                            <ul class="dropdown-menu" style="padding-left: 25px;">
+                                                <li><a href="../UserManagement/UpdateProfileStudent.aspx">Update Profile</a> </li>
+                                                <li><a href="#" onclick="javascript:return showcp();">Change Password</a> </li>
+                                                <li class="divider"></li>
+                                                <li>
+                                                    <asp:LinkButton  class="btn btn-link" runat="server" ID="LinkButton2" Text="Sign Out" OnClick="lbtnSignOut_Click"></asp:LinkButton>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </asp:View>
+        <asp:View ID="ViewTeacher" runat="server">
+            <div id="Div3" class="kw_header container-fluid" role="banner" style="padding: 0px;">
+                <div class="navbar navbar-default" style="background: SOLID; width: 100%; border: none;
+                    box-shadow: none; padding-top: 5px; position: fixed; z-index: 9999; padding: 5px;">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <div class="logo">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbarTeacheradmin">
+                                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="myNavbarTeacheradmin" class="collapse navbar-collapse">
+                            <div role="navigation" style="margin-top: 15px;">
+                                <center>
+                                    <ul class="nav navbar-nav">
+                                        <li id="li1" runat="server"><a href="../Dashboard/TeacherDashboard.aspx" target="_self">
+                                            <span class="glyphicon glyphicon-home"></span>
+                                            <asp:Label ID="Label3" runat="server" Text="Dashboard"></asp:Label>
+                                        </a></li>
+                                        <li id="li3" runat="server"><a href="../UserManagement/UserList_New.aspx" target="_self">
+                                            <span class="glyphicon glyphicon-th-list"></span>
+                                            <asp:Label ID="Label13" runat="server" Text="Student List"></asp:Label>
+                                        </a></li>
+                                        <li id="li4" runat="server"><a href="../Teacher/ReschedulingChapterTopic.aspx" target="_self">
+                                            <span class="glyphicon glyphicon-repeat"></span>
+                                            <asp:Label ID="Label14" runat="server" Text="Rescheduling"></asp:Label>
+                                        </a></li>
+                                        <li id="li2" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Exam<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Exam/ExamEntry.aspx" target="_self">
+                                                    <asp:Label ID="Label4" runat="server" Text="Exam Entry"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Exam/ResultEntry.aspx" target="_self">
+                                                    <asp:Label ID="Label5" runat="server" Text="Result Entry"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Exam/ExamSummaryReport.aspx" target="_self">
+                                                    <asp:Label ID="Label6" runat="server" Text="Summury Report"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="li8" runat="server"><a href="../Teacher/TeacherNotes.aspx" target="_self"><span
+                                            class="glyphicon glyphicon-edit"></span>
+                                            <asp:Label ID="Label8" runat="server" Text="Teacher's Note"></asp:Label>
+                                        </a></li>
+                                        <li id="li6" runat="server" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
+                                            href="#"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Report<span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../Report/ClasswiseCoveredSyllabusNew.aspx" target="_self">
+                                                    <asp:Label ID="Label7" runat="server" Text="Covered Syllabus Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassroomWiseAttendanceF.aspx" target="_self">
+                                                    <asp:Label ID="Label9" runat="server" Text="Attendance Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ClassRoomWiseMonthlyAttendanceRpt.aspx" target="_self">
+                                                    <asp:Label ID="Label10" runat="server" Text="Monthly Attaendace Report"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/SubjectWiseReportF.aspx" target="_self">
+                                                    <asp:Label ID="Label11" runat="server" Text="Subject Wise Exam Result"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/StudentWiseReportF.aspx" target="_self">
+                                                    <asp:Label ID="Label12" runat="server" Text="Student Wise Exam Result"></asp:Label>
+                                                </a></li>
+                                                <li><a href="../Report/ActivityFeedbackReport.aspx" target="_self">
+                                                    <asp:Label ID="Label15" runat="server" Text="Activity Feedback Report"></asp:Label>
+                                                </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right" style="margin-top: 5px;">
+                                        <li class="dropdown">
+                                            <div class="dropdown-toggle" data-toggle="dropdown">
+                                                <div style="height: 50px; display: inline-block; width: 50px; text-align: center;
+                                                    vertical-align: middle; border: 2px solid rgb(119, 119, 119); border-radius: 50%;
+                                                    box-shadow: 1px 1px 4px rgba(39, 52, 52,0.5); background-color: White;">
+                                                    <asp:Image ID="Image3" ImageUrl="~/App_Themes/Green/Images/adminprofile_default.png"
+                                                        runat="server" Height="45px" Width="45px" Style="border-radius: 50%;" />
+                                                </div>
+                                                <div>
+                                                    <asp:Label runat="server" ID="Label24" Text="" CssClass="text-success" Font-Bold="true"></asp:Label>
+                                                    <span class="caret"></span>
+                                                </div>
+                                            </div>
+                                            <ul class="dropdown-menu" style="padding-left: 25px;">
+                                                <li><a href="../UserManagement/UpdateProfile.aspx">Update Profile</a> </li>
+                                                <li><a href="#" onclick="javascript:return showcp();">Change Password</a> </li>
+                                                <li class="divider"></li>
+                                                <li>
+                                                    <asp:LinkButton runat="server" ID="LinkButton3" Text="Sign Out" OnClick="lbtnSignOut_Click"></asp:LinkButton>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </asp:View>
+        <asp:View ID="ViewStudent" runat="server">
+            <div class="navbar navbar-default">
+                <div class="container">
+                    <div class="col-lg-12">
+                        <div class="col-lg-2">
+                            <div class="logo">
+                                <img src="../App_Themes/Green/Images/Logo.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div style="padding-top: 10px;">
+                                <ul class="puerto-menu">
+                                    <li><a href="../Dashboard/StudentDashboard.aspx" target="_self" class="active"><i
+                                        class="fa fa-dashboard"></i><strong>Dashboard</strong> </a></li>
+                                    <li><a href="../OtherPages/AboutUsPanel.aspx" target="_self"><i class="fa fa-info-circle">
+                                    </i><strong>About us</strong> </a></li>
+                                    <li id="li5" runat="server" visible="false"><a href="../DashBoard/StudentCourses.aspx"
+                                        target="_self"><i class="fa fa-dashboard"></i><strong>Student Course</strong> </a>
+                                    </li>
+                                    <li><a href="../DashBoard/BuyPackage.aspx" target="_self"><i class="fa fa-shopping-cart">
+                                    </i><strong>Buy Package</strong> </a></li>
+                                    <li><a href="#"><i class="fa fa-file-text"></i><strong>Reports</strong> </a>
+                                        <ul>
+                                            <li><a href="../Report/StudentPackageReport.aspx" target="_self"><i class="fa fa-file">
+                                            </i>Package Report </a></li>
+                                            <li><a href="../Report/SubjectWiseReportF.aspx" target="_self"><i class="fa fa-file">
+                                            </i>Exam Result</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="float"><a target="_self">
+                                        <article class="thumbnail">
+                                            <asp:Image class="img-circle" ID="Image4" ImageUrl="~/Student/ImgHandler.ashx?imgid=1"
+                                                Width="35px" Height="35px" runat="server" />
+                                            <asp:Label runat="server" ID="lblWelcome" CssClass="text-success" Font-Bold="true"></asp:Label>
+                                        </article>
+                                        <div>
+                                        </div>
+                                    </a>
+                                        <ul>
+                                            <li><a href="../Student/MyAccount.aspx"><i class="fa fa-user"></i>My Account </a>
+                                            </li>
+                                            <li><a href="#" onclick="javascript:return showcp();"><i class="fa fa-key"></i>Change
+                                                Password</a></li>
+                                            <li>
+                                                <asp:LinkButton runat="server" ID="lbtnSignOut" Text="Sign Out" OnClick="lbtnSignOut_Click"></asp:LinkButton>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </asp:View>
+    </asp:MultiView>
+    <asp:DropDownList runat="server" ID="ddlLanguage12" AutoPostBack="True" OnSelectedIndexChanged="ddlLanguage12_SelectedIndexChanged"
+        Style="visibility: hidden;" meta:resourcekey="ddlLanguage12Resource1">
+        <asp:ListItem Text="English" Value="en-US" Selected="True" meta:resourcekey="ListItemResource1"></asp:ListItem>
+        <asp:ListItem Text="ગુજરાતી" Value="gu-IN" meta:resourcekey="ListItemResource2"></asp:ListItem>
+        <asp:ListItem Text="हिन्दी" Value="hi-IN" meta:resourcekey="ListItemResource3"></asp:ListItem>
+    </asp:DropDownList>
+    <div class="container">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+        </asp:ScriptManager>
+        <div class="row" style="display: none;">
+            <div class="col-sm-9">
+                <a href="#">
+                    <img src="../App_Themes/Responsive/web/icicic2.png" alt="ICICI" style="margin-top: 0px;"
+                        id="dvICICI" runat="server" />
+                    <img src="~/App_Themes/AISSlideshow/images/logo.jpg" alt="AIS" id="dvAIS" runat="server"
+                        style="position: absolute; top: 0; left: 0; margin-top: 0px; margin-left: 45px;" />
+                    <img src="../App_Themes/Responsive/web/logo_0.png" alt="Epathshala" id="dvICICIEpath"
+                        runat="server" />
+                </a>
+                <div id="tagline">
+                    <img src="../App_Themes/Responsive/web/tagline.gif" alt="ICICI Bank" />
+                </div>
+            </div>
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="WoodenBorder">
+                    <div class="GreenBoard">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <asp:UpdatePanel ID="UpdatePanelForTimer" runat="server">
+                            <ContentTemplate>
+                                <asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick" Interval="6000">
+                                </asp:Timer>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%--HEADER SECTION--%>
+        <div id="header" runat="server" clientidmode="Static" style="z-index: 1; display: none;">
+        </div>
+        <%--FOOTER SECTION--%>
+        <%--change password popup start--%>
+        <asp:Button ID="btncp" runat="server" Text="Show Modal Popup" Style="display: none" />
+        <asp:Button ID="btncpcancel" runat="server" Text="Show Modal Popup" Style="display: none" />
+        <cc1:ModalPopupExtender ID="mdlcp" runat="server" PopupControlID="pnlcp" TargetControlID="btncp"
+            CancelControlID="btncpcancel" BackgroundCssClass="modalBackground" DynamicServicePath=""
+            Enabled="True">
+        </cc1:ModalPopupExtender>
+        <div class="row">
+            <div class="col-sm-6 hidden-xs">
+                <asp:Panel ID="pnlcp" runat="server" Style="display: none; border-radius: 5px;" CssClass="Activity">
+                    <div class="ActivityHeading" style="margin-bottom: 0px;">
+                        <asp:Label ID="lblForgetPass" runat="server" Text="Change Password"></asp:Label>
+                    </div>
+                    <div class="ActivityContent">
+                        <div class="GreenBoard">
+                            <div style="padding-top: 15px;">
+                                <div>
+                                    <%--<asp:Label ID="lblnp" runat="server" Text="New Password" Style="padding: 0px 0px 5px 5px;"></asp:Label>--%>
+                                    <asp:TextBox ID="txtop" CssClass="form-control" runat="server" TextMode="Password"
+                                        placeholder="Old Password"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvop" ValidationGroup="vgcp" ControlToValidate="txtop"
+                                        ForeColor="White" runat="server" ErrorMessage="Required" Text="*"></asp:RequiredFieldValidator>
+                                </div>
+                                <div>
+                                    <%--<asp:Label ID="lblnp" runat="server" Text="New Password" Style="padding: 0px 0px 5px 5px;"></asp:Label>--%>
+                                    <asp:TextBox ID="txtnp" CssClass="form-control" runat="server" TextMode="Password"
+                                        placeholder="New Password"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvnp" ValidationGroup="vgcp" ControlToValidate="txtnp"
+                                        ForeColor="White" runat="server" ErrorMessage="Required" Text="*"></asp:RequiredFieldValidator>
+                                </div>
+                                <div>
+                                    <%--<asp:Label ID="lblcp" runat="server" Text="Confirm Password" Style="padding: 0px 0px 5px 5px;"></asp:Label>--%>
+                                    <asp:TextBox ID="txtcp" CssClass="form-control" runat="server" TextMode="Password"
+                                        placeholder="Confirm Password"></asp:TextBox>
+                                    <asp:RequiredFieldValidator ID="rfvcp" ValidationGroup="vgcp" ControlToValidate="txtcp"
+                                        ForeColor="White" runat="server" ErrorMessage="*" Text="*"></asp:RequiredFieldValidator>
+                                    <asp:CompareValidator ID="cmpcp" runat="server" ControlToCompare="txtnp" ControlToValidate="txtcp"
+                                        ForeColor="White" ErrorMessage="Password Mismatch" ValidationGroup="vgcp"></asp:CompareValidator>
+                                </div>
+                                <asp:ValidationSummary ID="vscp" ShowMessageBox="false" ShowSummary="false" ValidationGroup="vgcp"
+                                    runat="server" ForeColor="White" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ActivityHeading" style="margin-bottom: 0px;">
+                        <div class="text-center">
+                            <asp:Button ID="btncpsubmit" runat="server" Text="Change" ValidationGroup="vgcp"
+                                OnClick="btncpsubmit_Click" Style="border: 2px solid #F77408; padding: 8px 15px;
+                                text-decoration: none; border-radius: 34px; display: table-cell; background: none;
+                                color: #F77408;" />
+                            &nbsp;&nbsp;
+                            <asp:Button ID="btnclose" runat="server" Text="Cancel" OnClientClick="javascript:return Closecp();"
+                                Style="border: 2px solid #F77408; padding: 8px 15px; text-decoration: none; border-radius: 34px;
+                                display: table-cell; background: none; color: #F77408;" />
+                        </div>
+                    </div>
+                </asp:Panel>
+            </div>
+            <div class="col-xs-6 hidden-xs">
+            </div>
+        </div>
+        <%--change password popup end--%>
+        <script type="text/javascript">
+            function showcp() {
+                if ($("#<%= btncp.ClientID%>") != null) {
+                    $("#<%= btncp.ClientID%>").click();
+                }
+            }
+            function Closecp() {
+                if ($("#<%= btncpcancel.ClientID%>") != null) {
+                    $("#<%= btncpcancel.ClientID%>").click();
+                }
+                return false;
+            }
+        </script>
+    </div>
+    </form>
+    <div id="Div1" class="kw_footer container-fluid">
+        <div class="container">
+            <div class="col-md-5">
+                © Arraycom (india) Ltd. - Epath Division. All Rights Reserved.
+                <br />
+                <a href="../Policy/PrivacyPolicy.aspx">Privacy Policy</a> | <a href="../Policy/TermsAndConditions.aspx">
+                    Terms &amp; Condition</a> | <a href="../Policy/CancellationPolicy.aspx">Cancellation Policy</a>
+                | <a href="../Policy/FAQs.aspx">FAQs</a> <a href="../Sitemap.xml" style="display: none">
+                    Sitemap</a>
+            </div>
+            <div class="col-md-4">
+                <div style="text-align: left; padding: 10px; line-height: 5px;">
+                    <div id="fb-root">
+                    </div>
+                    <script type="text/javascript">
+                        (function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1644954879108959";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }
+                        (document, 'script', 'facebook-jssdk'));
+                    </script>
+                    <div>
+                    </div>
+                    <div class="fb-share-button" data-href="https://www.facebook.com/myepathshala/" data-layout="button_count">
+                    </div>
+                    <%--<div id="fb-root">
+                    </div>
+                    <div class="fb-share-button" data-href="https://www.facebook.com/myepathshala/" data-layout="button_count">
+                    </div>--%>
+                    <script type="text/javascript" src="https://apis.google.com/js/platform.js" async defer></script>
+                    <div class="g-plus" data-action="share" data-annotation="bubble" data-height="24"
+                        data-href="https://plus.google.com/107382785045892082006/posts">
+                    </div>
+                    <!-- Google+ -->
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.twitter.com/myepathshala"
+                        data-text="Hello" data-via="myepathshala"></a>
+                    <script type="text/javascript">
+                        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } } (document, 'script', 'twitter-wjs');
+                    </script>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="OtherVentures">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

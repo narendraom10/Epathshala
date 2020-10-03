@@ -1,0 +1,205 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Epathshala.master.cs" Inherits="Epathshala" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<%@ Register Src="MenuControl.ascx" TagName="Menu" TagPrefix="uc1" %>
+<html xmlns="http://www.w3.org/1999/xhtml" oncontextmenu="return(false);">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style type="text/css">
+        label
+        {
+            display: inline-block; /*width: 5em;*/
+        }
+        #wrap
+        {
+            width: auto;
+            position: relative;
+        }
+        
+        .left, .right
+        {
+            float: left;
+        }
+        
+        .right
+        {
+            float: right;
+        }
+    </style>
+      <link href="../App_Themes/Responsive/media.css" rel="stylesheet" type="text/css" />
+    <link href="../App_Themes/Responsive/css.css" rel="stylesheet" type="text/css" />
+    
+     <link href="../App_Themes/Responsive/menu.css" rel="stylesheet" type="text/css" />
+        <link href="../App_Themes/Responsive/GeneralCss.css" rel="stylesheet" type="text/css" />
+          
+    <link href="../App_Themes/Responsive/GridView.css" rel="stylesheet" type="text/css" />
+    <script src="../App_Themes/Responsive/js/jquery-2.1.1.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.history.forward(-1);
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onclick="clicked=true;">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+    </asp:ScriptManager>
+    <div id="header" runat="server" clientidmode="Static" style="z-index: 1;">
+        <div id="headerwrap">
+            <div id="logo">
+                <a href="#">
+                    <img src="../App_Themes/Responsive/web/icicic2.png" alt="ICICI" style="margin-top: 0px;"
+                        id="dvICICI" runat="server" />
+                    <img src="~/App_Themes/AISSlideshow/images/logo.jpg" alt="AIS" id="dvAIS" runat="server"
+                        style="position: absolute; top: 0; left: 0; margin-top: 0px; margin-left: 45px;" />
+                    <img src="../App_Themes/Responsive/web/logo.png" alt="Epathshala" id="dvICICIEpath"
+                        runat="server" />
+                </a>
+            </div>
+            <div id="tagline">
+                <img src="../App_Themes/Responsive/web/tagline.gif" alt="ICICI Bank" />
+            </div>
+            <div class="contactMaster">
+                <ul>
+                    <li class="innerhead">
+                        <asp:DropDownList runat="server" ID="ddlLanguage12" AutoPostBack="True" OnSelectedIndexChanged="ddlLanguage12_SelectedIndexChanged"
+                            meta:resourcekey="ddlLanguage12Resource1">
+                            <asp:ListItem Text="English" Value="en-US" Selected="True" meta:resourcekey="ListItemResource1"></asp:ListItem>
+                            <asp:ListItem Text="ગુજરાતી" Value="gu-IN" meta:resourcekey="ListItemResource2"></asp:ListItem>
+                            <asp:ListItem Text="हिन्दी" Value="hi-IN" meta:resourcekey="ListItemResource3"></asp:ListItem>
+                        </asp:DropDownList>
+                    </li>
+                    <li class="innerhead">
+                        <asp:Label CssClass="Welcome" runat="server" ID="lblWelcome" Style="font-size: 1.05em;
+                            color: #2E3192; text-align: right; white-space: nowrap;"></asp:Label>
+                    </li>
+                    <li class="innerhead">
+                        <asp:LinkButton runat="server" ID="lbtnSignOut" Text="Sign Out" CssClass="logoutButton"
+                            OnClick="lbtnSignOut_Click" meta:resourcekey="lbtnSignOutResource1"></asp:LinkButton>
+                    </li>
+                    <li class="innerhead"><a href="#" onclick="javascript:return showcp();" style="font-size:0.95em;">Change password</a>
+                        |
+                        <asp:LinkButton ID="lnkup" Text="Update profile" runat="server" onclick="lnkup_Click" style="font-size:0.95em;"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="display: inline-block; width: 100%; background-color: #2E3192; box-shadow: 0 4px 9px #4D4D4D;
+        position: relative; z-index: 2; margin-top: 0; padding-top: 0;">
+        <div class="newmenuwrap" style="position: relative;">
+            <uc1:Menu ID="Menu1" ClientIDMode="Static" runat="server" style="position: relative" />
+        </div>
+    </div>
+    <div id="banner" style="z-index: 0;">
+        <div id="bannerwrap">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:UpdatePanel ID="UpdatePanelForTimer" runat="server">
+                <ContentTemplate>
+                    <asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick" Interval="6000">
+                    </asp:Timer>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </div>
+    </div>
+    <%--    <div id="footer" style="z-index: 3;">
+        <div id="footerwrap">
+            <div id="add">
+                <p>
+                    B-13, 13/1 & 14, Electronic Estate,<br>
+                    GIDC Sector-25, Ghandinagar-382 024,<br />
+                    Gujarat,India.</p>
+            </div>
+            <div id="follow">
+                <h5>
+                    Follow Us On :</h5>
+                <div class="followbutton">
+                    <ul>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/fb.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/in.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/gp.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/twt.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/yt.png"></a></li>
+                        <li class="bottomimg"><a href="#">
+                            <img src="../App_Themes/Responsive/web/b.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/pin.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/wp.png"></a></li>
+                        <li><a href="#">
+                            <img src="../App_Themes/Responsive/web/googleplay.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--end footer-->
+    </div>--%>
+    <div id="copyrightfooter" style="z-index: 0;">
+        <div class="copyright">
+            <p>
+                Copyright © 2015, All Rights Reserved. <a href="http://www.epath.net.in" target="_blank">
+                    Arraycom (India) Ltd. - Epath Division</a>
+            </p>
+        </div>
+    </div>
+    <%--change password popup start--%>
+    <asp:Button ID="btncp" runat="server" Text="Show Modal Popup" Style="display: none" />
+    <asp:Button ID="btncpcancel" runat="server" Text="Show Modal Popup" Style="display: none" />
+    <cc1:ModalPopupExtender ID="mdlcp" runat="server" PopupControlID="pnlcp" TargetControlID="btncp"
+        CancelControlID="btncpcancel" BackgroundCssClass="modalBackground" DynamicServicePath=""
+        Enabled="True">
+    </cc1:ModalPopupExtender>
+    <asp:Panel ID="pnlcp" runat="server" Style="display: none;">
+        <div class="activitydivfull" style="width: 450px; box-shadow: 0 0 4px #000">
+            <div class="ActivityHeader">
+                <asp:Label ID="lblForgetPass" runat="server" Text="Change Password"></asp:Label>
+            </div>
+            <div class="ActivityContent">
+                <div style="margin-top: 15px;">
+                    <asp:Label ID="lblnp" runat="server" Text="New Password" Style="padding: 0px 0px 5px 5px;"></asp:Label>
+                    <asp:TextBox ID="txtnp" CssClass="text" Style="padding: 0 5px; width: 90%;" runat="server"
+                        TextMode="Password"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvnp" ValidationGroup="vgcp" ControlToValidate="txtnp"
+                        runat="server" ErrorMessage="*" Text="*"></asp:RequiredFieldValidator>
+                </div>
+                <div>
+                    <asp:Label ID="lblcp" runat="server" Text="Confirm Password" Style="padding: 0px 0px 5px 5px;"></asp:Label>
+                    <asp:TextBox ID="txtcp" CssClass="text" Style="padding: 0 5px; width: 90%;" runat="server"
+                        TextMode="Password"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvcp" ValidationGroup="vgcp" ControlToValidate="txtcp"
+                        runat="server" ErrorMessage="*" Text="*"></asp:RequiredFieldValidator>
+                    <asp:CompareValidator ID="cmpcp" runat="server" ControlToCompare="txtnp" ControlToValidate="txtcp"
+                        ErrorMessage="Password Mismatch" ValidationGroup="vgcp"></asp:CompareValidator>
+                </div>
+                <div>
+                    <asp:Button ID="btncpsubmit" runat="server" Text="Change" ValidationGroup="vgcp"
+                        OnClick="btncpsubmit_Click" />
+                    <asp:Button ID="btnclose" runat="server" Text="Cancel" OnClientClick="javascript:return Closecp();" />
+                </div>
+                <asp:ValidationSummary ID="vscp" ShowMessageBox="false" ShowSummary="false" ValidationGroup="vgcp"
+                    runat="server" />
+            </div>
+        </div>
+    </asp:Panel>
+    <%--change password popup end--%>
+    </form>
+    <script type="text/javascript">
+        function showcp() {
+            if ($("#<%= btncp.ClientID%>") != null) {
+                $("#<%= btncp.ClientID%>").click();
+            }
+        }
+        function Closecp() {
+            if ($("#<%= btncpcancel.ClientID%>") != null) {
+                $("#<%= btncpcancel.ClientID%>").click();
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>

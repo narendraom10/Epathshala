@@ -1,0 +1,565 @@
+@media (max-width: 480px) {
+    .epath-header-1 /*.epath-top-bar ul.social-btns,*/ .epath-header-1 .epath-top-bar .shopping-cart, .epath-header-1 /*.epath-top-bar p.contacts i,*/ .epath-header-1 .epath-header-bg nav,
+    .epath-header-2 .epath-header-bg .social-buttons, .epath-header-2 .epath-header-bg .header-search, .epath-header-2 .epath-desktop-menu-bg, .epath-header-3 .epath-header-bg .contact-info,
+    .epath-header-3 .epath-desktop-menu-bg, img.shadow, .epath-desktop-breadscrubs {
+        display: none;
+    }
+
+    .epath-header-3 .epath-header-bg .epath-logo {
+        float: left;
+    }
+
+    .container {
+        max-width: 350px;
+    }
+
+    .epath-boxed {
+        max-width: 100%;
+    }
+    /* newly added */
+    .epath-section-cta2 p span {
+        font-size: 125%;
+        margin-right: 30px;
+        display: inline-block;
+    }
+
+    .epath-logo p.tagline {
+        font-size: 10px;
+    }
+
+    .epath-copyright-widget {
+        font-size: 10px;
+    }
+
+    .epath-header-1 .epath-header-bg .epath-logo {
+        border: 0 solid #f00;
+        box-sizing: border-box;
+        height: 60px;
+        left: 0;
+        padding: 5px 0;
+        position: relative;
+        top: 0;
+    }
+
+    h2, .h2 {
+        font-size: 18px;
+    }
+
+    .epath-section h2 {
+        color: #333;
+        display: inline-block;
+        font-size: 15px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .epath-header-1 .epath-header-bg nav {
+        width: auto;
+        float: right;
+        display: none;
+    }
+
+    .epath-header-1 .epath-top-bar .shopping-cart p.contacts {
+        display: none;
+    }
+
+    .epath-header-1 .epath-top-bar p.contacts span {
+        display: none;
+    }
+    h4, .h4 {
+    font-size: 13px;
+}
+    .epath-header-1 .epath-header-bg .epath-logo p.tagline {
+    border: 0 solid #f00;
+    color: #999;
+    display: block;
+    left: 115px;
+    line-height: 14px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    width: 275px;
+}
+    .riva-toggle-tab label{ display:none;}
+    .epath-header-1 .epath-top-bar p.contacts {
+        width: 10%;
+        text-align: center;
+        margin: 0px;
+        float: left;
+        font-size: 12px;
+    }
+    span.addrs {
+
+    float: left;
+    margin-left: 0;
+    width: 197px;
+    color:#fff !important;
+    float: none !important;
+}
+    /*newly end css*/
+    #epath-mobile-menu-btn, #epath-mobile-cart-btn, .epath-mobile-menu, .epath-mobile-breadscrubs {
+        display: block;
+    }
+
+    .epath-feature, .epath-feature-2 {
+        margin-bottom: 60px;
+    }
+
+    .epath-section-cta2 p span, .epath-feature-store {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .epath-page-title-1 .search {
+        margin-top: 20px;
+    }
+
+    .epath-partner-1 figure {
+        width: 100px;
+    }
+
+    .epath-partner-1 {
+        padding-left: 130px;
+    }
+
+    .riva-countdown .riva-countdown-item {
+        width: 60px;
+    }
+
+    .epath-content-404-inner p.coming {
+        font-size: 300%;
+    }
+
+    ul.epath-property-options li {
+        width: 50%;
+    }
+
+    .epath-f1 input.sec {
+        margin-left: 0px;
+    }
+
+    .epath-f1 input.wide, .epath-f1 textarea {
+        min-width: 100%;
+    }
+
+    .payment-option {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .epath-post-2 {
+        padding-left: 75px;
+    }
+
+        .epath-post-2 figure {
+            position: relative;
+            max-width: 100%;
+            left: 0px;
+        }
+
+    .epath-comment .epath-comment {
+        padding-left: 30px;
+    }
+
+    .epath-comment p.meta .date {
+        float: left;
+        margin-top: 10px;
+    }
+
+    .epath-page-title-1 h1 {
+        line-height: 40px;
+        font-size: 200%;
+        /*text-transform: capitalize;*/
+        color: #fff;
+        margin: 0px;
+        padding: 0px;
+        font-weight: lighter;
+    }
+
+    .homebanner img {
+        /*width: 100%;
+        height: auto;*/
+        /*background-image: url('../Slider/img/homepageimg.jpg');*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: contain;
+        border: 1px solid red;*/
+        /*background-position: center center;
+        background-size: 100% auto;*/
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+    }
+
+    .con {
+        float: left;
+        margin-top: 0px;
+    }
+
+    body {
+        font-size: 2em;
+        color: aquamarine;
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .epath-comment .epath-comment {
+        padding-left: 30px;
+    }
+
+    .epath-comment p.meta .date {
+        float: left;
+        margin-top: 10px;
+    }
+
+    .payment-option {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .epath-header-1 /*.epath-top-bar ul.social-btns, .epath-header-1*/ /*.epath-top-bar .shopping-cart,*/ .epath-header-1 .epath-header-bg nav, .epath-header-2 .epath-header-bg .social-buttons,
+    .epath-header-2 .epath-desktop-menu-bg, .epath-header-3 .epath-header-bg .contact-info p.phone, .epath-header-3 .epath-desktop-menu-bg, img.shadow, .epath-desktop-breadscrubs {
+        display: none;
+    }
+
+    .container {
+        max-width: 420px;
+    }
+
+    .epath-boxed {
+        max-width: 480px;
+    }
+
+    .epath-header-1 .epath-top-bar p.contacts {
+        text-align: left;
+        float: left;
+    }
+
+    #epath-mobile-menu-btn, #epath-mobile-cart-btn, .epath-mobile-menu, .epath-mobile-breadscrubs {
+        display: block;
+    }
+
+    .epath-feature, .epath-feature-2 {
+        margin-bottom: 60px;
+    }
+
+    .epath-section-cta2 p span, .epath-feature-store {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .epath-page-title-1 .search {
+        margin-top: 20px;
+    }
+
+    ul.epath-property-options li {
+        width: 50%;
+    }
+
+    .epath-f1 input.sec {
+        margin-left: 0px;
+    }
+
+    .epath-f1 input.wide, .epath-f1 textarea {
+        min-width: 100%;
+    }
+
+    .epath-post-2 {
+        padding-left: 75px;
+    }
+
+        .epath-post-2 figure {
+            position: relative;
+            max-width: 100%;
+            left: 0px;
+        }
+    /* newly added */
+    .epath-header-1 .epath-top-bar ul.social-btns li {
+        float: left;
+        height: 40px;
+        margin: 0 0 0 1px;
+        overflow: hidden;
+        padding: 0;
+        position: a;
+        width: 35px;
+    }
+
+    h2, .h2 {
+        font-size: 27px;
+    }
+
+    .epath-section h2 {
+        color: #333;
+        display: inline-block;
+        font-size: 15px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .epath-header-1 .epath-header-bg nav {
+        width: auto;
+        float: right;
+        display: none;
+    }
+
+    .epath-header-1 .epath-top-bar .shopping-cart p.contacts {
+        display: none;
+    }
+
+    .epath-header-1 .epath-top-bar p.contacts span {
+        display: none;
+    }
+
+    .epath-header-1 .epath-top-bar p.contacts {
+        width: 10%;
+        text-align: center;
+        margin: 0px;
+        float: left;
+        font-size: 12px;
+    }
+
+    .epath-top-bar .shopping-cart .epath-top-bar ul.social-btns {
+        display: block;
+    }
+        span.addrs {
+
+     
+    float: right;
+    margin-left: 0;
+    width: 197px;
+    color:#fff !important;
+    
+}
+    /*newly end css*/
+}
+@media (min-width:768px) and (max-width:1024px){
+            span.addrs {
+    float: right;
+    margin-left: 0;
+    width: 197px;
+    color:#fff !important;
+    float: none;
+}
+}
+@media (min-width:768px) and (max-width: 992px) {
+    .epath-header-1 .epath-header-bg .epath-logo p.tagline {
+        width: 160px;
+    }
+
+    .epath-header-1 .epath-header-bg nav ul li, .epath-header-2 .epath-desktop-menu-bg nav > ul > li, .epath-header-3 .epath-desktop-menu-bg nav > ul > li {
+        padding: 0px 8px;
+    }
+
+    .epath-section-cta2 p span {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .epath-partner-logo .inner {
+        padding: 0px 10px;
+    }
+
+    .epath-property-1 ul li span {
+        display: none;
+    }
+
+    .epath-property-1 p.title {
+        min-height: 96px;
+    }
+
+    .epath-boxed {
+        max-width: 790px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .epath-partner-logo .inner {
+        padding: 0px 20px;
+    }
+
+    .epath-header-1 .epath-header-bg nav ul li, .epath-header-3 .epath-desktop-menu-bg nav > ul > li {
+        padding: 0px 15px;
+    }
+
+    .epath-property-1 ul li span {
+        display: none;
+    }
+
+    .epath-f1 input[type=submit], .epath-f1 button {
+        margin-left: 0px !important;
+    }
+
+    .epath-boxed {
+        max-width: 1020px;
+    }
+}
+
+
+@media (min-width:1200px ) {
+    .epath-boxed {
+        max-width: 1250px;
+    }
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    /* newly added */
+    .epath-header-1 .epath-top-bar ul.social-btns li {
+        float: left;
+        height: 40px;
+        margin: 0 0 0 1px;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        width: 35px;
+    }
+
+
+    h2, .h2 {
+        font-size: 18px;
+    }
+
+    .epath-section h2 {
+        color: #333;
+        display: inline-block;
+        font-size: 15px;
+        text-align: left;
+        width: auto;
+    }
+
+    .epath-header-1 .epath-header-bg nav {
+        width: auto;
+        float: right;
+        display: none;
+    }
+
+    .epath-header-1 .epath-top-bar .shopping-cart p.contacts {
+        display: none;
+    }
+
+    .epath-header-1 .epath-top-bar p.contacts span {
+        display: none;
+    }
+
+    .epath-header-1 .epath-top-bar p.contacts {
+        width: 10%;
+        text-align: center;
+        margin: 0px;
+        float: left;
+        font-size: 12px;
+    }
+
+    .epath-top-bar .shopping-cart .epath-top-bar ul.social-btns {
+        display: block;
+    }
+}
+
+@media (max-width:320) {
+    .epath-header-1 .epath-top-bar ul.social-btns li {
+        float: left;
+        height: 40px;
+        margin: 0 0 0 1px;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        width: 35px !important;
+    }
+}
+/* #### Desktops #### */
+@media screen and (min-width: 1024px) {
+    .epath-header-1 .epath-top-bar ul.social-btns li {
+        float: left;
+        height: 40px;
+        margin: 0 0 0 1px;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        width: 35px;
+    }
+
+    .epath-logo img {
+        display: block;
+        max-width: 230px;
+        max-height: 95px;
+        width: auto;
+        height: auto;
+    }
+        span.addrs {
+    float: right;
+    margin-left: 0;
+    width: 197px;
+    color:#fff !important;
+}
+}
+
+@media screen and (min-width: 980px) /* Desktop */ {
+    .epath-header-1 .epath-top-bar {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 979px) /* Tablet */ {
+    .epath-header-1 .epath-top-bar {
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    .epath-header-1 .epath-top-bar {
+        background-color: yellow;
+    }
+}
+@media (max-width: 375px) { 
+
+    .epath-header-1 .epath-header-bg .epath-logo p.tagline {
+    border: 0 solid #f00;
+    color: #999;
+    display: block;
+    left: 115px;
+    line-height: 14px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    width: 275px;
+}
+
+
+        
+
+}
+@media (max-width: 640px) {
+    .epath-page-title-1 h1 {
+    color: #fff;
+    font-size: 200%;
+    font-weight: lighter;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+}
+@media (max-width: 768px) {
+    .epath-page-title-1 h1 {
+    color: #fff;
+    font-size: 200%;
+    font-weight: lighter;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+}
+@media (max-width: 1024px) {
+    .epath-page-title-1 h1 {
+    color: #fff;
+    font-size: 200%;
+    font-weight: lighter;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+}
+/*newly end css*/

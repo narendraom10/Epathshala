@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>BMSwise Student Gender Report</Title>
+    <HiddenFields>BMSID,DivisionID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>BMSID</Total>
+    <alignment>TotalStudent=center,BMS=center,Division=center,Male=center,Female=center,MalePer=center,FemalePer=Center</alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>BMSwise student gender report</tital>
+    <BMS>true</BMS>
+    <BMSID>false</BMSID>
+    <Division>true</Division>
+    <DivisionID>false</DivisionID>
+    <Male>true</Male>
+    <Female>true</Female>
+    <MalePer>true</MalePer>
+    <FemalePer>true</FemalePer>
+    <TotalStudent>true</TotalStudent>
+  </Exporttoexcelsettings>
+
+  <en-us>
+    <Title>Board Medium Standardwise Student Gender Report</Title>
+    <BMS>Board Medium Standard</BMS>
+    <Division>Division</Division>
+    <TotalStudent>Total Student</TotalStudent>
+    <Male>Male</Male>
+    <Female>Female</Female>
+    <MalePer>Male Percentage</MalePer>
+    <FemalePer>Female Percentage</FemalePer>
+  </en-us>
+  <gu-in>
+    <Title>બોર્ડ માધ્યમ ધોરણ મુજબના વિદ્યાર્થી લિંગ અહેવાલ</Title>
+    <BMS>બોર્ડ માધ્યમ ધોરણ</BMS>
+    <Division>ડિવિઝન</Division>
+    <TotalStudent>કુલ વિદ્યાર્થી</TotalStudent>
+    <Male>પુરૂષ</Male>
+    <Female>સ્ત્રી</Female>
+    <MalePer>પુરૂષ ટકાવારી</MalePer>
+    <FemalePer>સ્ત્રી ટકાવારી</FemalePer>
+  </gu-in>
+
+  <hi-in>
+    <Title>बोर्ड माध्यम स्टैंडर्ड वार विद्यार्थी लिंग की रिपोर्ट </Title>
+    <BMS>बोर्ड माध्यम स्टैंडर्ड</BMS>
+    <Division>डिवीजन</Division>
+    <TotalStudent>कुल विद्यार्थी</TotalStudent>
+    <Male>पुस्र्ष</Male>
+    <Female>महिला</Female>
+    <MalePer>पुरूष प्रतिशत</MalePer>
+    <FemalePer>महिला प्रतिशत</FemalePer>
+  </hi-in>
+</Search>

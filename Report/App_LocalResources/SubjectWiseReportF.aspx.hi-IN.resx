@@ -1,0 +1,900 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnbackResource1.Text" xml:space="preserve">
+    <value>वापस जाएँ</value>
+  </data>
+  <data name="btnbackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnResetResource1.Text" xml:space="preserve">
+    <value>रीसेट करें</value>
+  </data>
+  <data name="btnResetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnviewResource1.Text" xml:space="preserve">
+    <value>रिपोर्ट देखें</value>
+  </data>
+  <data name="btnviewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlBoardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSchoolResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStandardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlsubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblBoardResource1.Text" xml:space="preserve">
+    <value>बोर्ड:</value>
+  </data>
+  <data name="filblBoardResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="filblBoardValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblBoardValueResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="filblChapterResource1.Text" xml:space="preserve">
+    <value>अध्याय:</value>
+  </data>
+  <data name="filblChapterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblChapterValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblChapterValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblDateResource1.Text" xml:space="preserve">
+    <value>दिनांक:</value>
+  </data>
+  <data name="filblDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblFalseAnsResource1.Text" xml:space="preserve">
+    <value>ग़लत जवाब:</value>
+  </data>
+  <data name="filblFalseAnsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblFalseAnsValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblFalseAnsValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblMediumResource1.Text" xml:space="preserve">
+    <value>माध्यम:</value>
+  </data>
+  <data name="filblMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblMediumValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblMediumValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblResultResource1.Text" xml:space="preserve">
+    <value>रिजल्ट (%):</value>
+  </data>
+  <data name="filblResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblResultValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblResultValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblSchoolResource1.Text" xml:space="preserve">
+    <value>स्कूल:</value>
+  </data>
+  <data name="filblSchoolResource1.ToolTip" xml:space="preserve">
+    <value>स्कूल का नाम</value>
+  </data>
+  <data name="filblSchoolValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblSchoolValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblStandardResource1.Text" xml:space="preserve">
+    <value>कक्षा:</value>
+  </data>
+  <data name="filblStandardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblStandardValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblStandardValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblStudentResource1.Text" xml:space="preserve">
+    <value>छात्र:</value>
+  </data>
+  <data name="filblStudentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblStudentValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblStudentValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblsubjectResource1.Text" xml:space="preserve">
+    <value>विषय:</value>
+  </data>
+  <data name="filblsubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblsubjectValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblsubjectValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblteacherResource1.Text" xml:space="preserve">
+    <value>शिक्षक:</value>
+  </data>
+  <data name="filblteacherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblteacherValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblteacherValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filbltopicResource1.Text" xml:space="preserve">
+    <value>प्रकरण:</value>
+  </data>
+  <data name="filbltopicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filbltopicValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filbltopicValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblTrueAnsResource1.Text" xml:space="preserve">
+    <value>सच उत्तर:</value>
+  </data>
+  <data name="filblTrueAnsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblTrueAnsValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="filblTrueAnsValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblBoardResource1.Text" xml:space="preserve">
+    <value>बोर्ड:</value>
+  </data>
+  <data name="flblBoardResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="flblBoardValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblBoardValueResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="flblFromDateResource1.Text" xml:space="preserve">
+    <value>दिनांक से:</value>
+  </data>
+  <data name="flblFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblFromDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblFromDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblMediumResource1.Text" xml:space="preserve">
+    <value>माध्यम:</value>
+  </data>
+  <data name="flblMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblMediumValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblMediumValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblPercResource1.Text" xml:space="preserve">
+    <value>प्रतिशत:</value>
+  </data>
+  <data name="flblPercResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblPercValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblPercValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblSchoolResource1.Text" xml:space="preserve">
+    <value>स्कूल:</value>
+  </data>
+  <data name="flblSchoolResource1.ToolTip" xml:space="preserve">
+    <value>स्कूल का नाम</value>
+  </data>
+  <data name="flblSchoolValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblSchoolValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblStandardResource1.Text" xml:space="preserve">
+    <value>कक्षा:</value>
+  </data>
+  <data name="flblStandardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblStandardValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblStandardValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblStudentResource1.Text" xml:space="preserve">
+    <value>छात्र:</value>
+  </data>
+  <data name="flblStudentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblStudentValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblStudentValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblsubjectResource1.Text" xml:space="preserve">
+    <value>विषय:</value>
+  </data>
+  <data name="flblsubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblsubjectValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblsubjectValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblteacherResource1.Text" xml:space="preserve">
+    <value>शिक्षक:</value>
+  </data>
+  <data name="flblteacherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblteacherValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblteacherValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblToDateResource1.Text" xml:space="preserve">
+    <value>तारीख तक:</value>
+  </data>
+  <data name="flblToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblToDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flblToDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvAnalysisResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvAnalysisResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvAnalysisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnDateResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnToDateResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>सही:</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13Resource1.Text" xml:space="preserve">
+    <value>ग़लत:</value>
+  </data>
+  <data name="Label13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>मूल्यांकन</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>कुल प्रश्न:</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblASumResource1.Text" xml:space="preserve">
+    <value>आकलन सारांश</value>
+  </data>
+  <data name="lblASumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBoardResource1.Text" xml:space="preserve">
+    <value>बोर्ड:</value>
+  </data>
+  <data name="lblBoardResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="lblCorrectAnsResource1.Text" xml:space="preserve">
+    <value>विकल्प:</value>
+  </data>
+  <data name="lblCorrectAnsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfrmdateResource1.Text" xml:space="preserve">
+    <value>दिनांक से:</value>
+  </data>
+  <data name="lblfrmdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMediumResource1.Text" xml:space="preserve">
+    <value>माध्यम:</value>
+  </data>
+  <data name="lblMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQResource1.Text" xml:space="preserve">
+    <value>प्रश्न</value>
+  </data>
+  <data name="lblQResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResultResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResuResource1.Text" xml:space="preserve">
+    <value>रिजल्ट:</value>
+  </data>
+  <data name="lblResuResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSchoolResource1.Text" xml:space="preserve">
+    <value>स्कूल:</value>
+  </data>
+  <data name="lblSchoolResource1.ToolTip" xml:space="preserve">
+    <value>स्कूल का नाम:</value>
+  </data>
+  <data name="lblSolutionTitleResource1.Text" xml:space="preserve">
+    <value>घोल</value>
+  </data>
+  <data name="lblSolutionTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSrNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSrNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStandardResource1.Text" xml:space="preserve">
+    <value>कक्षा:</value>
+  </data>
+  <data name="lblStandardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblsubjectResource1.Text" xml:space="preserve">
+    <value>विषय:</value>
+  </data>
+  <data name="lblsubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleFirstResource1.Text" xml:space="preserve">
+    <value>विषय वार परिणाम रिपोर्ट</value>
+  </data>
+  <data name="lblTitleFirstResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleFourthResource1.Text" xml:space="preserve">
+    <value>परीक्षा विस्तार सारांश</value>
+  </data>
+  <data name="lblTitleFourthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleSecondResource1.Text" xml:space="preserve">
+    <value>विषय वार परिणाम रिपोर्ट</value>
+  </data>
+  <data name="lblTitleSecondResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleThirdResource1.Text" xml:space="preserve">
+    <value>विषय वार परिणाम रिपोर्ट</value>
+  </data>
+  <data name="lblTitleThirdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbltodateResource1.Text" xml:space="preserve">
+    <value>तारीख तक:</value>
+  </data>
+  <data name="lbltodateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalQuesResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblTotalQuesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbluserScoreResource1.Text" xml:space="preserve">
+    <value>आपका स्कोर</value>
+  </data>
+  <data name="lbluserScoreResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbluserScoreValueResource1.Text" xml:space="preserve">
+    <value>लेबल</value>
+  </data>
+  <data name="lbluserScoreValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>- चुनें -</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>- चुनें -</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>- चुनें -</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>- चुनें -</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>- चुनें -</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ltAnsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Option1Resource1.Text" xml:space="preserve">
+    <value>एक</value>
+  </data>
+  <data name="Option2Resource1.Text" xml:space="preserve">
+    <value>बी</value>
+  </data>
+  <data name="Option3Resource1.Text" xml:space="preserve">
+    <value>सी</value>
+  </data>
+  <data name="Option4Resource1.Text" xml:space="preserve">
+    <value>डी</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>ई-पथशाला</value>
+  </data>
+  <data name="ReqFieldBoardResource1.ErrorMessage" xml:space="preserve">
+    <value>बोर्ड का चयन करें</value>
+  </data>
+  <data name="ReqFieldBoardResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ReqFieldBoardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFieldMediumResource1.ErrorMessage" xml:space="preserve">
+    <value>माध्यम का चयन करें</value>
+  </data>
+  <data name="ReqFieldMediumResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ReqFieldMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>तारीख से दर्ज करें</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RequiredFieldValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>तारीख को दर्ज करें</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RequiredFieldValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFVddlSchoolResource1.ErrorMessage" xml:space="preserve">
+    <value>स्कूल का चयन करें.</value>
+  </data>
+  <data name="RFVddlSchoolResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFVddlSchoolResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblBoardResource1.Text" xml:space="preserve">
+    <value>बोर्ड:</value>
+  </data>
+  <data name="slblBoardResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="slblBoardValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblBoardValueResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="slblFromDateResource1.Text" xml:space="preserve">
+    <value>दिनांक से:</value>
+  </data>
+  <data name="slblFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblFromDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblFromDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblMediumResource1.Text" xml:space="preserve">
+    <value>माध्यम:</value>
+  </data>
+  <data name="slblMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblMediumValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblMediumValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblSchoolResource1.Text" xml:space="preserve">
+    <value>स्कूल:</value>
+  </data>
+  <data name="slblSchoolResource1.ToolTip" xml:space="preserve">
+    <value>स्कूल का नाम</value>
+  </data>
+  <data name="slblSchoolValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblSchoolValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblsubjectResource1.Text" xml:space="preserve">
+    <value>विषय:</value>
+  </data>
+  <data name="slblsubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblsubjectValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblsubjectValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblToDateResource1.Text" xml:space="preserve">
+    <value>तारीख तक:</value>
+  </data>
+  <data name="slblToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblToDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="slblToDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblBoardResource1.Text" xml:space="preserve">
+    <value>बोर्ड:</value>
+  </data>
+  <data name="TlblBoardResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="TlblBoardValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblBoardValueResource1.ToolTip" xml:space="preserve">
+    <value>बोर्ड</value>
+  </data>
+  <data name="TlblFromDateResource1.Text" xml:space="preserve">
+    <value>दिनांक से:</value>
+  </data>
+  <data name="TlblFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblFromDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblFromDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblMediumResource1.Text" xml:space="preserve">
+    <value>माध्यम:</value>
+  </data>
+  <data name="TlblMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblMediumValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblMediumValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblSchoolResource1.Text" xml:space="preserve">
+    <value>स्कूल:</value>
+  </data>
+  <data name="TlblSchoolResource1.ToolTip" xml:space="preserve">
+    <value>स्कूल का नाम</value>
+  </data>
+  <data name="TlblSchoolValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblSchoolValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblStandardResource1.Text" xml:space="preserve">
+    <value>कक्षा:</value>
+  </data>
+  <data name="TlblStandardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblStandardValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblStandardValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblsubjectResource1.Text" xml:space="preserve">
+    <value>विषय:</value>
+  </data>
+  <data name="TlblsubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblsubjectValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblsubjectValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblteacherResource1.Text" xml:space="preserve">
+    <value>शिक्षक:</value>
+  </data>
+  <data name="TlblteacherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblteacherValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblteacherValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblToDateResource1.Text" xml:space="preserve">
+    <value>तारीख तक:</value>
+  </data>
+  <data name="TlblToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblToDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TlblToDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtfromdateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtfromdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txttodateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txttodateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValidationSummary1Resource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValidationSummary1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CommonHeaderFooter.master.cs"
+    Inherits="MasterPage_CommonHeaderFooter" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Src="~/UserControl/LoginControl.ascx" TagName="ReportControl" TagPrefix="uc2" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>ePathshala | Digital School</title>
+    <meta name="keywords" content="ePathshala, Digital School, Online Education, School Education, Online course, school curriculum, eLearning, school curriculum videos, school curriculum animations, MCQ" />
+    <meta name="description" content="ePathshala is a cloud platform which enables students learn efficiently and effectively using digital content. ePathshala has digitized course curriculams of CBSE, GSEB, UP and Rajasthan Boards." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <script type="text/javascript" src="../App_Themes/Responsive/js/jquery-2.1.4.min.js"></script>
+    <script src="../App_Themes/Green/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="../App_Themes/Green/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="../App_Themes/Green/Green.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../App_Themes/Green/menu3/css/normalize.css" />
+    <!-- Global Style -->
+    <link rel="stylesheet" href="../App_Themes/Green/menu3/css/main.css" />
+    <!-- Style of Responsive Mega menu -->
+    <link rel="stylesheet" href="../App_Themes/Green/menu3/css/1-first-layout-color-3.css" />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="../App_Themes/Green/menu3/css/font-awesome.min.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-69363607-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/564ed4d33b30fc9f6991c383/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <style>
+        @media (max-width: 767px)
+        {
+            .logo img
+            {
+                max-width: 25%;
+                height: auto;
+                margin: 0 33%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="button-wrapper">
+        <a href="https://www.youtube.com/v/x4_F_K4csK8" target="_blank" class="a-btn"><span
+            class="a-btn-symbol">x</span> <span class="a-btn-text">How to Register</span> <span
+                class="a-btn-slide-text"></span></a>
+    </div>
+    <div class="button-wrapper2">
+        <a href="https://www.youtube.com/v/jQn0PsJfRNE" target="_blank" class="a-btn"><span
+            class="a-btn-symbol">J</span> <span class="a-btn-text">How to Subscribe</span> <span
+                class="a-btn-slide-text"></span></a>
+    </div>
+    <%--<div class="button-wrapper3">
+        <a href="http://www.evolveassessment.com" target="_blank" class="a-btn2"><span class="a-btn-text2">
+            eVolve | An Online Assessment Portal</span> <span class="a-btn-slide-text"></span>
+        </a>
+    </div>--%>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="col-lg-2">
+                    <div class="logo">
+                        <img src="../App_Themes/Green/Images/Logo.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div style="padding-top: 10px;">
+                        <ul class="puerto-menu">
+                            <li><a href="../OtherPages/Landing.aspx"><i class="fa fa-home"></i><strong>Home</strong>
+                            </a></li>
+                            <li><a href="../OtherPages/AboutUs.aspx"><i class="fa fa-info-circle"></i><strong>About
+                                us</strong> </a></li>
+                            <li><a href="../OtherPages/ContactUs.aspx"><i class="fa fa-envelope-o"></i><strong>Contact
+                                Us</strong> </a></li>
+                            <li class="float"><a href="#" id="btnmplogin" runat="server"><i class="fa fa-sign-in">
+                            </i><strong>Login</strong> </a></li>
+                            <li class="float"><a href="../OtherPages/Registration.aspx"><i class="fa fa-pencil-square-o">
+                            </i><strong>Register</strong> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <cc1:ModalPopupExtender ID="mplogin" runat="server" CancelControlID="mpbtnCancel"
+        OkControlID="btnOkay" TargetControlID="btnmplogin" PopupControlID="Panel1" Drag="true"
+        BackgroundCssClass="modalBackground">
+    </cc1:ModalPopupExtender>
+    <asp:Panel ID="Panel1" Style="display: none" runat="server" DefaultButton="uclogin$ucbtnGo">
+        <uc2:ReportControl ID="uclogin" runat="server" />
+        <input id="btnOkay" type="button" value="Done" style="display: none; visibility: hidden;" />
+        <input id="mpbtnCancel" type="button" value="Cancel" style="display: none; visibility: hidden;" />
+    </asp:Panel>
+    </form>
+    <div id="Div1" class="kw_footer container-fluid">
+        <div class="container">
+            <div class="col-md-6 col-sm-7 col-sx-12" style="padding-left: 30px;">
+                © Arraycom (india) Ltd. - Epath Division. All Rights Reserved.
+                <br />
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Policy/LoginPrivacyPolicy.aspx"
+                    Text="Privacy Policy" />
+                |
+                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Policy/LoginTermsAndConditions.aspx"
+                    Text="Terms And Conditions" />
+                |
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Policy/LoginCancellationPolicy.aspx"
+                    Text="Cancellation Policy" />
+                |
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Policy/LoginFAQ.aspx"
+                    Text="FAQs" />
+                <asp:HyperLink ID="HyperLink5" runat="server" Visible="false" NavigateUrl="~/Sitemap.xml"
+                    Text="Sitemap"></asp:HyperLink>
+            </div>
+            <div class="col-md-3 col-sm-3 col-sx-12">
+                <div style="text-align: center; padding: 10px;">
+                    <a href="https://www.facebook.com/myepathshala" title="facebook" target="_blank"
+                        style="padding: 10px;">
+                        <img src="../App_Themes/Green/Images/fb.png" width="30" height="30" alt="" /></a>
+                    <a href="https://twitter.com/myepathshala" title="twitter" target="_blank" style="padding: 10px;">
+                        <img src="../App_Themes/Green/Images/tw.png" width="30" height="30" alt="" /></a>
+                    <a href="https://plus.google.com/107382785045892082006/posts" title="Googleplus"
+                        target="_blank" style="padding: 10px;">
+                        <img src="../App_Themes/Green/Images/gp.png" width="30" height="30" alt="" /></a>
+                    <a href="../Download/ePathshala.apk" title="Download ePathshala android App" target="_blank"
+                        style="padding: 10px;">
+                        <img src="../App_Themes/Green/Images/apk.png" width="30" height="30" alt="" /></a>
+                    <a href="https://www.youtube.com/channel/UCxoGyrJicnxPvZZMwezAK6Q" title="YouTube"
+                        target="_blank" style="padding: 10px;">
+                        <img src="../App_Themes/Green/Images/yt.png" width="30" height="30" alt="" /></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-sx-12">
+                <div class="OtherVentures">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

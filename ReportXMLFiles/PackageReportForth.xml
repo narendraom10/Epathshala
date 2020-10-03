@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Student</Title>
+    <HiddenFields>TransactionID,PackageID,MediumID,StandardID,BMSID,BoardID,StudentID</HiddenFields>
+    <ColumnWidth>Amount=60</ColumnWidth>
+    <allowfooter>true</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>Amount</Total>
+    <alignment></alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language></language>
+  </SearchControlSettings>
+
+  <Exporttoexcelsettings>
+    <tital>Standard</tital>
+    <TransactionID>false</TransactionID>
+    <PackageID>false</PackageID>
+    <MediumID>false</MediumID>
+    <StandardID>false</StandardID>
+    <BMSID>false</BMSID>
+    <BoardID>false</BoardID>
+    <StudentID>false</StudentID>
+    <StudentName>true</StudentName>
+    <PackageName>true</PackageName>
+    <PurchasedDate>true</PurchasedDate>
+    <FromDate>true</FromDate>
+    <EndDate>true</EndDate>
+    <Amount>true</Amount>
+
+  </Exporttoexcelsettings>
+
+  <en-us>
+    <Title>Student</Title>
+    <Student>Student</Student>
+  </en-us>
+
+
+
+</Search>

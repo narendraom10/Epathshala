@@ -1,0 +1,26 @@
+﻿Dashboard/StudentDashboard.aspx
+================================
+* Current Packages - Tab : Resize Column Size of Grid.
+
+
+
+Dashboard/StudentPreTestPostTestResult.aspx (By Clicking on Covered Syllabus Chapters)
+======================================================================================
+
+
+Epathshala LoginPage redirection into Index.htm/default.htm  from login.aspx to OtherPages/Login.aspx 
+
+* Remove : after Label from Profile and Update Profile Pages.
+
+* Set Header of Epathshala.master page.
+
+
+
+
+Covered-Uncovered Chapters
+==========================
+				Min.	Max.
+				Width	Width
+Main Box		188		305		
+
+Combobox		154*27

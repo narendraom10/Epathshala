@@ -1,0 +1,118 @@
+﻿using System;
+using System.Collections;
+using System.Data;
+using System.IO;
+using System.Text;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+
+
+public partial class Admission_EditApplication : System.Web.UI.Page
+{
+    #region Declaration
+    Admission_BLogic oAdmission_BLogic;
+    Admission oAdmission;
+    #endregion
+
+    #region "Properties"
+
+    string SortDirection
+    {
+        get
+        {
+            object o = this.ViewState["SortDirection"];
+            if (o == null)
+            {
+                return string.Empty;
+            }
+            else
+            {
+                return (string)o;
+            }
+        }
+
+        set
+        {
+            this.ViewState["SortDirection"] = value;
+        }
+    }
+    string SortField
+    {
+        get
+        {
+            object o = this.ViewState["SortField"];
+            if (o == null)
+            {
+                return string.Empty;
+            }
+            else
+            {
+                return (string)o;
+            }
+        }
+
+        set
+        {
+            this.ViewState["SortField"] = value;
+        }
+    }
+
+    #endregion
+
+    #region Page
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        BindAdmissionGrid("");
+    }
+    #endregion
+
+    #region Private Methods
+    private void BindAdmissionGrid(string status)
+    {
+        oAdmission = new Admission();
+        oAdmission_BLogic = new Admission_BLogic();
+
+        DataSet ods = oAdmission_BLogic.Admission_Select_All(oAdmission);
+
+        GridViewOperations GrvOperation = new GridViewOperations();
+        GrvOperation.BindGridWithSorting(this.GvAdmission, ods, this.SortField, this.SortDirection);
+    }
+    #endregion
+
+    #region GridViewEvents
+    protected void GvAdmission_Sorting(object sender, GridViewSortEventArgs e)
+    {
+        try
+        {
+            if (e.SortExpression.Trim() == this.SortField)
+            {
+                this.SortDirection = this.SortDirection == "descending" ? "ascending" : "descending";
+            }
+            else
+            {
+                this.SortDirection = "ascending";
+            }
+
+            this.SortField = e.SortExpression;
+            this.BindAdmissionGrid("");
+        }
+        catch (Exception ex)
+        {
+            WebMsg.Show(ex.Message);
+        }
+    }
+    #endregion
+  
+    protected void GvAdmission_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        if (e.CommandName == "Select")
+        {
+            Label GetAdmissionid = (Label)GvAdmission.FindControl("LblApplicationNo");
+            if (GetAdmissionid != null && GetAdmissionid.Text != string.Empty)
+            {
+                Response.Redirect(@"~\Admission\EditAdmission.aspx?Admid=" + GetAdmissionid.Text);
+            }
+        }
+    }
+}

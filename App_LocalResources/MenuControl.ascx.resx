@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblEadminSchoolListlnk.Text" xml:space="preserve">
+    <value>School List</value>
+  </data>
+  <data name="lblEadminSchoolListlnk.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEadminUserListResource1.Text" xml:space="preserve">
+    <value>User List</value>
+  </data>
+  <data name="lblEadminUserListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSadminDashboardResource1.Text" xml:space="preserve">
+    <value>DashBoard</value>
+  </data>
+  <data name="lblSadminDashboardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSadminStdAllocationResource1.Text" xml:space="preserve">
+    <value>Standard Allocation</value>
+  </data>
+  <data name="lblSadminStdAllocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblsadminUserListResource1.Text" xml:space="preserve">
+    <value>User List</value>
+  </data>
+  <data name="lblsadminUserListResource1.ToolTip" xml:space="preserve">
+    <value>User List</value>
+  </data>
+  <data name="lblStudDashboardResource1.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="lblStudDashboardResource1.ToolTip" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="lblTeacherDashboardResource1.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="lblTeacherDashboardResource1.ToolTip" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="lblTeacherStdListResource1.Text" xml:space="preserve">
+    <value>Student List</value>
+  </data>
+  <data name="lblTeacherStdListResource1.ToolTip" xml:space="preserve">
+    <value>Student List</value>
+  </data>
+  <data name="lblSchoolProfileResource1.Text" xml:space="preserve">
+    <value>School Profile</value>
+  </data>
+  <data name="lblSchoolProfileResource1.ToolTip" xml:space="preserve">
+    <value>View/update School Profile</value>
+  </data>
+  <data name="lblTeacherUploadChapterResource1.Text" xml:space="preserve">
+    <value>Upload Chapter</value>
+  </data>
+  <data name="lblTeacherUploadChapterResource1.ToolTip" xml:space="preserve">
+    <value>Upload Chapter</value>
+  </data>
+  <data name="lblEadminLogoutUserResource1.Text" xml:space="preserve">
+    <value>End Session</value>
+  </data>
+  <data name="lblEadminLogoutUserResource1.ToolTip" xml:space="preserve">
+    <value>End Session</value>
+  </data>
+  <data name="lblGenerateBMSSCTResource1.Text" xml:space="preserve">
+    <value>Generate BMS SCT</value>
+  </data>
+  <data name="lblGenerateBMSSCTResource1.ToolTip" xml:space="preserve">
+    <value>Generate Board medium standard subject chapter topic details</value>
+  </data>
+  <data name="lblManageChapterSeqResource1.Text" xml:space="preserve">
+    <value>Chapter Sequence</value>
+  </data>
+  <data name="lblManageChapterSeqResource1.ToolTip" xml:space="preserve">
+    <value>Sequence of each Chapter </value>
+  </data>
+  <data name="lblStudentAttendanceResource1.Text" xml:space="preserve">
+    <value>Student Attendance</value>
+  </data>
+  <data name="lblStudentAttendanceResource1.ToolTip" xml:space="preserve">
+    <value>Student Attendance</value>
+  </data>
+  <data name="lblReschedulingChpTopicResource1.Text" xml:space="preserve">
+    <value>Rescheduling</value>
+  </data>
+  <data name="lblReschedulingChpTopicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTeacherNotesResource1.Text" xml:space="preserve">
+    <value>Teacher's Note</value>
+  </data>
+  <data name="lblTeacherNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmpEnrollResource1.Text" xml:space="preserve">
+    <value>Employee Enrollment</value>
+  </data>
+  <data name="lblEmpEnrollResource1.ToolTip" xml:space="preserve">
+    <value>View/Update Employee Enrollment</value>
+  </data>
+  <data name="lblBMSManage.Text" xml:space="preserve">
+    <value>Manage BMS</value>
+  </data>
+  <data name="lblBoardManage.Text" xml:space="preserve">
+    <value>Manage Board</value>
+  </data>
+  <data name="lblChapterManage.Text" xml:space="preserve">
+    <value>Manage Chapter</value>
+  </data>
+  <data name="lblClassRoomTrackRPT.Text" xml:space="preserve">
+    <value>Class Room Wise Report</value>
+  </data>
+  <data name="lblCountryManage.Text" xml:space="preserve">
+    <value>Manage Country</value>
+  </data>
+  <data name="lblDistrictManage.Text" xml:space="preserve">
+    <value>Manage District</value>
+  </data>
+  <data name="lblDivisionManage.Text" xml:space="preserve">
+    <value>Manage Division</value>
+  </data>
+  <data name="lblEAdminDashBoard.Text" xml:space="preserve">
+    <value>DashBoard</value>
+  </data>
+  <data name="lblExamEntry.Text" xml:space="preserve">
+    <value>Exam Entry</value>
+  </data>
+  <data name="lblFeedBackReport.Text" xml:space="preserve">
+    <value>FeedBack</value>
+  </data>
+  <data name="lblManageChapter.Text" xml:space="preserve">
+    <value>Manage Chapter</value>
+  </data>
+  <data name="lblManageUsers.Text" xml:space="preserve">
+    <value>Manage Users</value>
+  </data>
+  <data name="lblMastersManage.Text" xml:space="preserve">
+    <value>Manage Masters</value>
+  </data>
+  <data name="lblMediumManage.Text" xml:space="preserve">
+    <value>Manage Medium</value>
+  </data>
+  <data name="lblProfile.Text" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="lblReschedul.Text" xml:space="preserve">
+    <value>Rescheduling Approval</value>
+  </data>
+  <data name="lblReschedulingApproval.Text" xml:space="preserve">
+    <value>Teacher Rescheduling Approval</value>
+  </data>
+  <data name="lblResultEntry.Text" xml:space="preserve">
+    <value>Result Entry</value>
+  </data>
+  <data name="lblRoleManage.Text" xml:space="preserve">
+    <value>Manage Role</value>
+  </data>
+  <data name="lblRPT.Text" xml:space="preserve">
+    <value>Track Report</value>
+  </data>
+  <data name="lblSchoolExamReports.Text" xml:space="preserve">
+    <value>School Wise Exam Result</value>
+  </data>
+  <data name="lblSchoolRegistration.Text" xml:space="preserve">
+    <value>School Registration</value>
+  </data>
+  <data name="lblSchoolTypeManage.Text" xml:space="preserve">
+    <value>Manage SchoolType</value>
+  </data>
+  <data name="lblSelectPackage.Text" xml:space="preserve">
+    <value>Buy Package</value>
+  </data>
+  <data name="lblServer.Text" xml:space="preserve">
+    <value>Manage Server</value>
+  </data>
+  <data name="lblStandardManage.Text" xml:space="preserve">
+    <value>Manage Standard</value>
+  </data>
+  <data name="lblStateManage.Text" xml:space="preserve">
+    <value>Manage State</value>
+  </data>
+  <data name="lblStudentPackage.Text" xml:space="preserve">
+    <value>Student Packages</value>
+  </data>
+  <data name="lblStudentRegistration.Text" xml:space="preserve">
+    <value>Student Registration</value>
+  </data>
+  <data name="lblStudentReschedulingApproval.Text" xml:space="preserve">
+    <value>Student Rescheduling Approval</value>
+  </data>
+  <data name="lblSubjectManage.Text" xml:space="preserve">
+    <value>Manage Subject</value>
+  </data>
+  <data name="lblSummaryReport.Text" xml:space="preserve">
+    <value>Summary Report</value>
+  </data>
+  <data name="lblTeacherTrackRPT.Text" xml:space="preserve">
+    <value>Teacher Wise Report</value>
+  </data>
+  <data name="lblTopicManage.Text" xml:space="preserve">
+    <value>Manage Topic</value>
+  </data>
+  <data name="lblStudentWise.Text" xml:space="preserve">
+    <value>Student wise exam result</value>
+  </data>
+  <data name="lblSubjectWiseReport.Text" xml:space="preserve">
+    <value>Subject wise exam result</value>
+  </data>
+  <data name="lblExam.Text" xml:space="preserve">
+    <value>Exam</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Covered Syllabus Report</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Gender Report</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Attendance Report</value>
+  </data>
+  <data name="lblFeedbackQuestionnaire.Text" xml:space="preserve">
+    <value>Feedback Questionnaire</value>
+  </data>
+  <data name="lblAgewisestudentReport.Text" xml:space="preserve">
+    <value>Agewise Student Report</value>
+  </data>
+  <data name="lblActivityFeedbackReport.Text" xml:space="preserve">
+    <value>Activity Feedback Report</value>
+  </data>
+  <data name="lblContactUS.Text" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="lblHome.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblClassRoomwiseRPT" xml:space="preserve">
+    <value>Clssroom Wise Track Report</value>
+  </data>
+  <data name="lblTeacherWiseTrackRPT" xml:space="preserve">
+    <value>Teacher's Track Report</value>
+  </data>
+  <data name="lblsubjectallocation.Text" xml:space="preserve">
+    <value>Subject Allocation</value>
+  </data>
+</root>

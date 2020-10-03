@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title></Title>
+    <HiddenFields>EmployeeID</HiddenFields>
+    <ColumnWidth>Activity=100,Remark=100,ActivityDateTime=50</ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>false</Total>
+    <alignment></alignment>
+    <AllowPaging>true</AllowPaging>.
+    <pagesize>10</pagesize>
+    <language>english</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <title>Student Activity Track Report</title>
+    <Activity>true</Activity>
+    <Remark>true</Remark>
+    <Duration>true</Duration>
+    <Activity_DateTime>true</Activity_DateTime>
+    </Exporttoexcelsettings>
+
+</Search>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Studentwise result report</Title>
+    <HiddenFields>	EmployeeID,	StandardID,	DivisionID,	SubjectID,	BMSSCTID,	ChapterID,	TopicID,StudentID	,	BMSID,FirstName,	Standard,Subject,Teacher</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>PercN</Total>
+    <alignment></alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Chapterwise result report</tital>
+    <Examdate>true</Examdate>
+    <Totalque>true</Totalque>
+    <True>true</True>
+    <False>true</False>
+    <Studentid>false</Studentid>
+    <Firstname>false</Firstname>
+    <Bmsid>false</Bmsid>
+    <Standard>false</Standard>
+    <Subject>false</Subject>
+    <Perc>true</Perc>
+    <Teacher>false</Teacher>
+    <Employeeid>false</Employeeid>
+    <Standardid>false</Standardid>
+    <Divisionid>false</Divisionid>
+    <Subjectid>false</Subjectid>
+    <Bmssctid>false</Bmssctid>
+    <Chapterid>false</Chapterid>
+    <Topicid>false</Topicid>
+    <Chapter>true</Chapter>
+    <Topic>true</Topic>
+  </Exporttoexcelsettings>
+  <gu-in>
+    <Title>વિષય મુજબના પરિણામ અહેવાલ</Title>    
+    <ExamDate>પરીક્ષાની તારીખ </ExamDate>
+    <TotalQue>કુલ પ્રશ્ન </TotalQue>
+    <True>સાચા</True>
+    <False>ખોટા</False>
+    <Perc>ટકાવારી</Perc>
+    <Chapter>પ્રકરણ</Chapter>
+    <Topic>મુદ્દો</Topic>
+  </gu-in>
+
+  <hi-in>
+    <Title>विषय वार परिणाम रिपोर्ट</Title>
+    <ExamDate>परीक्षा की तारीख </ExamDate>
+    <TotalQue>कुल प्रश्न </TotalQue>
+    <True>सच</True>
+    <False>ग़लत</False>
+    <Perc>प्रतिशतता </Perc>
+    <Chapter>अध्याय </Chapter>
+    <Topic>प्रकरण</Topic>
+  </hi-in>
+  <en-us>
+    <Title>Subjectwise result report</Title>     
+    <ExamDate>Exam Date</ExamDate>
+    <TotalQue>Total Question</TotalQue>
+    <True>True</True>
+    <False>False</False>
+    <Perc>Percentage</Perc>
+    <Chapter>Chapter</Chapter>
+    <Topic>Topic</Topic>
+  </en-us>
+
+</Search>

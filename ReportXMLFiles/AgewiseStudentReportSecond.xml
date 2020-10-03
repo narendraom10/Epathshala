@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Age wise StudentReport 2</Title>
+    <HiddenFields>StudentAgeGropID,AgeGroup,Description,GroupName,BMSID,DivisionID,CurrentAcademicYear</HiddenFields>
+    <ColumnWidth>Transaction Date=90,Location=200</ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment>BMS=center,Division=center,NoStudent=center</alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <title>Board->Medium->standard wise age report</title>
+    <Studentagegropid>true</Studentagegropid>
+    <agegroup>true</agegroup>
+    <description>true</description>
+    <groupname>true</groupname>
+    <BMS>true</BMS>
+    <Division>true</Division>
+    <Nostudent>true</Nostudent>
+    <Bmsid>true</Bmsid>
+    <Divisionid>true</Divisionid>
+    <currentacademicyear>true</currentacademicyear>
+  </Exporttoexcelsettings>
+
+
+  <en-US>
+    <Title>Agewise Student Report 2</Title>
+    <BMS>Board >> Medium >> Standard</BMS>
+    <Division>Division</Division>
+    <NoStudent>Students</NoStudent>
+  </en-US>
+
+
+
+  <gu-IN>
+    <Title>ઉંમર મુજબ વિદ્યાર્થી અહેવાલ 2</Title>
+    <BMS>બોર્ડ >> મધ્યમ >> સ્ટાન્ડર્ડ</BMS>
+    <Division>ડિવિઝન</Division>
+    <NoStudent>વિદ્યાર્થી</NoStudent>
+  </gu-IN>
+
+  <hi-IN>
+    <Title>उम्र वार विद्यार्थी रिपोर्ट 2</Title>
+    <BMS>बोर्ड >> मध्यम >> स्टैंडर्ड</BMS>
+    <Division>डिवीजन</Division>
+    <NoStudent>छात्र</NoStudent>
+  </hi-IN>
+</Search>

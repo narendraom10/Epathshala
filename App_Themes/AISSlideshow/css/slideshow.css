@@ -1,0 +1,134 @@
+/* slideshow styles */
+
+.slideShow{
+	margin:0px auto;
+	padding:0px;
+	width:960px;
+	height:390px;
+	position:relative;
+	background:#ccc;
+}
+.slideShow ul,
+.slideShow li,
+.slideShow ol {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: Geneva, Arial, Verdana;
+	height:390px;
+	
+}
+.slideShow li span {
+	width:900px;
+	height:40px;line-height:40px;
+	padding:0px 30px;
+	background:#ccc;
+	position:absolute;
+	right:0; bottom:0;
+	color:#fff; font-size:25px; font-weight:normal;
+}
+.slideShow span {
+	width:900px;
+	height:40px;line-height:40px;
+	padding:0px 30px;
+	background:#e07126;
+	position:absolute;
+	right:0; bottom:0;
+	color:#888; font-size:25px; font-weight:normal;
+}
+
+.slideShow li h2{ position:absolute;
+	font-size:20px; width:300px;
+	color:#000829; right:0px;
+	font-weight:bold;
+	margin:250px 0 10px 0;
+	padding:10px 15px; background:url(../images/banner-bg.png) repeat;
+	line-height:22px;
+	-moz-border-radius:3px 0 0 3px;
+	-webkit-border-radius:3px 0 0 3px;
+}
+.slideShow {
+	padding: 0px;
+	clear: both;
+	margin-bottom: 0px;
+}
+
+/** navigation **/
+.slideShow .navigation {
+	margin:-38px 25px 0 0;
+	*margin-top:-25px;
+	display: block;
+	position:absolute;
+	right:0;
+	height:11px;
+}
+.slideShow .navigation li {
+	display: inline;
+}
+.slideShow .navigation a {
+	background: url(../images/banner-menu.gif) no-repeat left top;
+	margin: 0px 2px 0px 0px;
+	padding:0;
+	width:12px;
+	height:12px;
+	color: #232323;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 0px;
+	text-transform: uppercase;
+}
+.slideShow .thumbs a {
+	padding: 0px;
+	overflow: hidden;
+	background-color: transparent;
+	height: 50px;
+}
+.slideShow .navigation a:hover {
+	background: url(../images/banner-menu.gif) no-repeat left -12px !important;
+}
+.slideShow .navigation a.selected {
+	background: url(../images/banner-menu.gif) no-repeat left -12px !important;
+}
+.slideShow ol.topNavigation {
+	margin: 0px 0px 10px 0px;
+}
+
+/** slides with more than an image in it **/
+.slide h1 {
+	position: absolute;
+	background-color: #ffffff;
+	left: 0px;
+	top: 0px;
+}
+
+.slide dl dt {
+	width: 500px;
+}
+
+/** slides with text over images **/
+.slide p {
+	margin: 1em;
+	position: absolute;
+	background-color: #000;
+	color: #fff;
+	z-index: 1;
+	padding: 0.2em 0.8em;
+}
+.slide p a {
+	color: #fff;
+}
+
+/** slideshow with images in navigation **/
+.navigation.white a, .navigation.white li {
+	background-color: #ffffff;
+}
+.navigation.white a {
+	border: 1px solid #ffffff;
+	padding: 0px;
+	line-height: 0.8em;
+}
+.navigation.white a:hover,
+.navigation.white a.selected {
+	background: #000 !important;
+	border: 1px solid #999;
+}

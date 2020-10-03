@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Classroom wise attendance report of the day</Title>
+    <HiddenFields>BMSID,DivisionID,SchoolID,SchoolName</HiddenFields>
+    <ColumnWidth>Transaction Date=90,Location=200</ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment>BMS=center,Division=center,Attendance=center,Teacher=center</alignment>
+    <AllowPaging>false</AllowPaging>
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <title>Classroom wise attendance report</title>
+    <bmsid>true</bmsid>
+    <bms>true</bms>
+    <divisionid>true</divisionid>
+    <division>true</division>
+    <Schoolid>true</Schoolid>
+    <schoolname>true</schoolname>
+    <attendance>true</attendance>
+    <teacher>true</teacher>
+  </Exporttoexcelsettings>
+  <en-US>
+    <Title>Classroom Wise Attendance</Title>
+    <BMS>Board >> Medium >> Standard</BMS>
+    <Division>Division</Division>
+    <Attendance>Attendance</Attendance>
+    <Teacher>Teacher</Teacher>
+  </en-US>
+  <gu-IN>
+    <Title>દિવસ ની વર્ગખંડ મુજબ હાજરી અહેવાલ</Title>
+    <BMS>બોર્ડ >> મધ્યમ >> સ્ટાન્ડર્ડ</BMS>
+    <Division>ડિવિઝન</Division>
+    <Attendance>હાજરી</Attendance>
+    <Teacher>શિક્ષક</Teacher>
+  </gu-IN>
+
+  <hi-IN>
+    <Title>विद्यार्थी वार परिणाम रिपोर्ट</Title>
+    <BMS>बोर्ड >> मध्यम >> स्टैंडर्ड</BMS>
+    <Division>डिवीजन</Division>
+    <Attendance>उपस्थिति</Attendance>
+    <Teacher>शिक्षक</Teacher>
+  </hi-IN>
+
+</Search>

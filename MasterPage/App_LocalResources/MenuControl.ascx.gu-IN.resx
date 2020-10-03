@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblEadminSchoolListlnk.Text" xml:space="preserve">
+    <value>શાળા ની યાદી</value>
+  </data>
+  <data name="lblEadminSchoolListlnk.ToolTip" xml:space="preserve">
+    <value>શાળા ની યાદી</value>
+  </data>
+  <data name="lblEadminUserListResource1.Text" xml:space="preserve">
+    <value>વપરાશકર્તા ની યાદી</value>
+  </data>
+  <data name="lblEadminUserListResource1.ToolTip" xml:space="preserve">
+    <value>વપરાશકર્તા ની યાદી</value>
+  </data>
+  <data name="lblSadminDashboardResource1.Text" xml:space="preserve">
+    <value>ડેશબોર્ડ</value>
+  </data>
+  <data name="lblSadminDashboardResource1.ToolTip" xml:space="preserve">
+    <value>ડેશબોર્ડ</value>
+  </data>
+  <data name="lblSadminStdAllocationResource1.Text" xml:space="preserve">
+    <value>ધોરણ સોંપણી</value>
+  </data>
+  <data name="lblSadminStdAllocationResource1.ToolTip" xml:space="preserve">
+    <value>ધોરણ સોંપણી</value>
+  </data>
+  <data name="lblsadminUserListResource1.Text" xml:space="preserve">
+    <value>વપરાશકર્તા ની યાદી</value>
+  </data>
+  <data name="lblsadminUserListResource1.ToolTip" xml:space="preserve">
+    <value>વપરાશકર્તા ની યાદી</value>
+  </data>
+  <data name="lblStudDashboardResource1.Text" xml:space="preserve">
+    <value>ડેશબોર્ડ</value>
+  </data>
+  <data name="lblStudDashboardResource1.ToolTip" xml:space="preserve">
+    <value>ડેશબોર્ડ</value>
+  </data>
+  <data name="lblTeacherDashboardResource1.Text" xml:space="preserve">
+    <value>ડેશબોર્ડ</value>
+  </data>
+  <data name="lblTeacherDashboardResource1.ToolTip" xml:space="preserve">
+    <value>ડેશબોર્ડ</value>
+  </data>
+  <data name="lblTeacherStdListResource1.Text" xml:space="preserve">
+    <value>વિદ્યાર્થી ની યાદી</value>
+  </data>
+  <data name="lblTeacherStdListResource1.ToolTip" xml:space="preserve">
+    <value>વિદ્યાર્થી ની યાદી</value>
+  </data>
+  <data name="lblSchoolProfileResource1.Text" xml:space="preserve">
+    <value>શાળા પ્રોફાઇલ</value>
+  </data>
+  <data name="lblSchoolProfileResource1.ToolTip" xml:space="preserve">
+    <value>શાળા પ્રોફાઇલ જુઓ / સુધારો</value>
+  </data>
+  <data name="lblTeacherUploadChapterResource1.Text" xml:space="preserve">
+    <value>પ્રકરણ અપલોડ કરો</value>
+  </data>
+  <data name="lblTeacherUploadChapterResource1.ToolTip" xml:space="preserve">
+    <value>પ્રકરણ અપલોડ કરો</value>
+  </data>
+  <data name="lblEadminLogoutUserResource1.Text" xml:space="preserve">
+    <value>સત્ર સમાપ્ત કરો</value>
+  </data>
+  <data name="lblEadminLogoutUserResource1.ToolTip" xml:space="preserve">
+    <value>સત્ર સમાપ્ત કરો</value>
+  </data>
+  <data name="lblGenerateBMSSCTResource1.Text" xml:space="preserve">
+    <value>બીએમએસ એસસીટી બનાવો</value>
+  </data>
+  <data name="lblGenerateBMSSCTResource1.ToolTip" xml:space="preserve">
+    <value>બોર્ડ માધ્યમ ધોરણ વિષય પ્રકરણ વિષય વિગતો બનાવો</value>
+  </data>
+  <data name="lblManageChapterSeqResource1.Text" xml:space="preserve">
+    <value>પ્રકરણ સિક્વન્સ</value>
+  </data>
+  <data name="lblManageChapterSeqResource1.ToolTip" xml:space="preserve">
+    <value>પ્રકરણ સિક્વન્સ</value>
+  </data>
+  <data name="lblStudentAttendanceResource1.Text" xml:space="preserve">
+    <value>વિદ્યાર્થી હાજરી</value>
+  </data>
+  <data name="lblStudentAttendanceResource1.ToolTip" xml:space="preserve">
+    <value>વિદ્યાર્થી હાજરી</value>
+  </data>
+  <data name="lblReschedulingChpTopicResource1.Text" xml:space="preserve">
+    <value>પુનઃગોઠવણી</value>
+  </data>
+  <data name="lblReschedulingChpTopicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTeacherNotesResource1.Text" xml:space="preserve">
+    <value>શિક્ષક નોંધ</value>
+  </data>
+  <data name="lblTeacherNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmpEnrollResource1.Text" xml:space="preserve">
+    <value>કર્મચારીની નોંધણી</value>
+  </data>
+  <data name="lblEmpEnrollResource1.ToolTip" xml:space="preserve">
+    <value>જુઓ / સુધારો કર્મચારીની નોંધણી</value>
+  </data>
+  <data name="lblBMSManage.Text" xml:space="preserve">
+    <value>બીએમએસ ની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblBoardManage.Text" xml:space="preserve">
+    <value>બોર્ડની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblChapterManage.Text" xml:space="preserve">
+    <value>પ્રકરણની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblClassRoomTrackRPT.Text" xml:space="preserve">
+    <value>વર્ગ રૂમ મુજબના અહેવાલ</value>
+  </data>
+  <data name="lblCountryManage.Text" xml:space="preserve">
+    <value>દેશની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblDistrictManage.Text" xml:space="preserve">
+    <value>જિલ્લાની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblDivisionManage.Text" xml:space="preserve">
+    <value>ડિવિઝન વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblEAdminDashBoard.Text" xml:space="preserve">
+    <value>ડેશબોર્ડ</value>
+  </data>
+  <data name="lblExamEntry.Text" xml:space="preserve">
+    <value>પરીક્ષા પ્રવેશ</value>
+  </data>
+  <data name="lblFeedBackReport.Text" xml:space="preserve">
+    <value>પ્રતિક્રિયા</value>
+  </data>
+  <data name="lblManageChapter.Text" xml:space="preserve">
+    <value>પ્રકરણની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblManageUsers.Text" xml:space="preserve">
+    <value>વપરાશકર્તાઓની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblMastersManage.Text" xml:space="preserve">
+    <value>માસ્ટર્સની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblMediumManage.Text" xml:space="preserve">
+    <value>મધ્યમની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblProfile.Text" xml:space="preserve">
+    <value>રૂપરેખા</value>
+  </data>
+  <data name="lblReschedul.Text" xml:space="preserve">
+    <value>પુનઃગોઠવણની મંજૂરી</value>
+  </data>
+  <data name="lblReschedulingApproval.Text" xml:space="preserve">
+    <value>શિક્ષકોની પુનઃગોઠવણની મંજૂરી</value>
+  </data>
+  <data name="lblResultEntry.Text" xml:space="preserve">
+    <value>પરિણામ પ્રવેશ</value>
+  </data>
+  <data name="lblRoleManage.Text" xml:space="preserve">
+    <value>ભૂમિકાની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblRPT.Text" xml:space="preserve">
+    <value>ટ્રિપોર્ટ</value>
+  </data>
+  <data name="lblSchoolExamReports.Text" xml:space="preserve">
+    <value>શાળા દીઠ પરીક્ષા પરિણામ</value>
+  </data>
+  <data name="lblSchoolRegistration.Text" xml:space="preserve">
+    <value>શાળાની નોંધણી</value>
+  </data>
+  <data name="lblSchoolTypeManage.Text" xml:space="preserve">
+    <value>શાળા પ્રકારની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblSelectPackage.Text" xml:space="preserve">
+    <value>પેકેજ ખરીદી</value>
+  </data>
+  <data name="lblServer.Text" xml:space="preserve">
+    <value>સર્વરની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblStandardManage.Text" xml:space="preserve">
+    <value>ધોરણની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblStateManage.Text" xml:space="preserve">
+    <value>રાજ્યની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblStudentPackage.Text" xml:space="preserve">
+    <value>વિદ્યાર્થીઓનો પેકેજો</value>
+  </data>
+  <data name="lblStudentRegistration.Text" xml:space="preserve">
+    <value>વિદ્યાર્થીની નોંધણી</value>
+  </data>
+  <data name="lblStudentReschedulingApproval.Text" xml:space="preserve">
+    <value>વિદ્યાર્થી પુનઃગોઠવણની મંજૂરી</value>
+  </data>
+  <data name="lblSubjectManage.Text" xml:space="preserve">
+    <value>વિષયની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblSummaryReport.Text" xml:space="preserve">
+    <value>સંક્ષિપ્ત અહેવાલ</value>
+  </data>
+  <data name="lblTeacherTrackRPT.Text" xml:space="preserve">
+    <value>શિક્ષક મુજબના અહેવાલ</value>
+  </data>
+  <data name="lblTopicManage.Text" xml:space="preserve">
+    <value>ટોપિકની વ્યવસ્થા કરો</value>
+  </data>
+  <data name="lblStudentWise.Text" xml:space="preserve">
+    <value>વિદ્યાર્થી મુજબના પરીક્ષા પરિણામ</value>
+  </data>
+  <data name="lblSubjectWiseReport.Text" xml:space="preserve">
+    <value>વિષય મુજબના પરીક્ષા પરિણામ</value>
+  </data>
+  <data name="lblExam.Text" xml:space="preserve">
+    <value>પરીક્ષા</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>અહેવાલ</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>આવરી લેવામાં આવેલ અભ્યાસક્રમ અહેવાલ</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>જાતી મુજબના વિદ્યાર્થી અહેવાલ</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>હાજરી અહેવાલ</value>
+  </data>
+  <data name="lblFeedbackQuestionnaire.Text" xml:space="preserve">
+    <value>પ્રતિક્રિયા પ્રશ્નાવલિ</value>
+  </data>
+  <data name="lblAgewisestudentReport.Text" xml:space="preserve">
+    <value>ઉંમર મુજબના વિદ્યાર્થી અહેવાલ</value>
+  </data>
+  <data name="lblActivityFeedbackReport.Text" xml:space="preserve">
+    <value>પ્રવૃત્તિ પ્રતિસાદ રિપોર્ટ</value>
+  </data>
+  <data name="lblContactUS.Text" xml:space="preserve">
+    <value>અમારો સંપર્ક</value>
+  </data>
+  <data name="lblHome.Text" xml:space="preserve">
+    <value>હોમ પેજ</value>
+  </data>
+  <data name="lblschoolperformanceReport.Text" xml:space="preserve">
+    <value>શાળા  કામગીરી અહેવાલ</value>
+  </data>
+  <data name="lblSchoolExamReportsteacher.Text" xml:space="preserve">
+    <value>પરીક્ષા પરિણામ રીપોર્ટ</value>
+  </data>
+</root>

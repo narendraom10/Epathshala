@@ -1,0 +1,1304 @@
+﻿/*This Menu Style Sheet on Date 17/04/2012 by narendra*/
+/*Put qm0 or etc id of ul same code only where qm0 there new one if qm11 copy of qm0 and past in the this same file and rename qm0 to new one qm11*/
+
+.roundMenuItem
+{
+    background: #ade8e8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ade8e8 0%, #4bbbbb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ade8e8), color-stop(100%,#4bbbbb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ade8e8 0%,#4bbbbb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ade8e8 0%,#4bbbbb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ade8e8 0%,#4bbbbb 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ade8e8 0%,#4bbbbb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ade8e8', endColorstr='#4bbbbb',GradientType=0 ); /* IE6-9 */
+    margin-right: 0px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border: 1px solid #35B1B1;
+    border-bottom: none;
+}
+
+
+.roundMenuItem:hover, .roundMenuItem:active, .roundMenuItem:visited
+{
+    background: #24a9a9; /* Old browsers */ /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI0YTlhOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2ViZWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #24a9a9 0%, #b3ebeb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#24a9a9), color-stop(100%,#b3ebeb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #24a9a9 0%,#b3ebeb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #24a9a9 0%,#b3ebeb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #24a9a9 0%,#b3ebeb 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #24a9a9 0%,#b3ebeb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24a9a9', endColorstr='#b3ebeb',GradientType=0 ); /* IE6-8 */
+    margin-right: 0px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border: 1px solid rgb(191, 255, 246);
+    border-bottom: none; /*     border-top-left-radius:2em; 	border-top-right-radius:2em;     */
+}
+.qmfv
+{
+    visibility: visible !important;
+}
+.qmfh
+{
+    visibility: hidden !important;
+}
+.qmclear
+{
+}
+.qmmc:after
+{
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+}
+.qmmc div > a, .qmmc dd > a, .qmmc li > a, .qmmc div > span, .qmmc dd > span, .qmmc li > span, .qmmc div, .qmmc dl, .qmmc dd, .qmmc li, .qmmc ul
+{
+    font-wieght: normal;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: normal;
+    padding: 0px;
+    margin: 0px;
+}
+.qmmc .qmdivider
+{
+    display: block;
+    font-size: 1px;
+    border-width: 0px;
+    border-style: solid;
+    position: relative;
+    z-index: 1;
+}
+.qmmc .qmdividery
+{
+    float: left;
+    width: 0px;
+}
+.qmmc .qmtitle
+{
+    display: block;
+    cursor: default;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+}
+.qmmc
+{
+    position: relative;
+    zoom: 1;
+}
+.qmmc a, .qmmc li
+{
+    float: left;
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    line-height: normal;
+}
+.qmmc div a, .qmmc ul a, .qmmc ul li
+{
+    float: none;
+}
+.qmsh div a
+{
+    float: left;
+}
+.qmmc div
+{
+    visibility: hidden;
+    position: absolute;
+}
+.qmmc .qmcbox
+{
+    cursor: default;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.qmmc .qmcbox a
+{
+    display: inline;
+}
+.qmmc .qmcbox div, .qmmc .qmcbox ul
+{
+    float: none;
+    position: static;
+    visibility: inherit;
+    left: auto;
+}
+.qmmc .qmmulti
+{
+    float: left;
+    position: relative;
+}
+.qmmc .qmmulti dd
+{
+    margin: 0px;
+    padding: 0px;
+}
+.qmmc dd
+{
+    position: relative;
+}
+.qmmc .qmml0
+{
+    z-index: 99;
+}
+.qmmc .qmml1
+{
+    z-index: 98;
+}
+.qmmc .qmml2
+{
+    z-index: 97;
+}
+.qmmc .qmml3
+{
+    z-index: 96;
+}
+.qmmc .qmml4
+{
+    z-index: 95;
+}
+.qmmc .qmml5
+{
+    z-index: 94;
+}
+.qmmc .qmml6
+{
+    z-index: 93;
+}
+.qmmc .qmml7
+{
+    z-index: 92;
+}
+.qmmc .qmml8
+{
+    z-index: 91;
+}
+.qmmc .qmml9
+{
+    z-index: 90;
+}
+.qmmc li
+{
+    z-index: auto;
+}
+.qmmc ul
+{
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+}
+.qmmc, .qmmc ul, .qmmc dl
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px 8px;
+}
+.qmmc li a
+{
+    float: none;
+}
+.qmmc li:hover > ul
+{
+    visibility: inherit;
+    left: auto;
+}
+
+
+
+#qm0 ul
+{
+    top: 100%;
+}
+#qm0 ul li:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm0 ul dd:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm0.qmmc, .qmcoreindicator
+{
+    /* z-index: 9999999; */
+}
+#qm0 span.qmcbox div, #qm0 span.qmcbox ul, #qm0 span.qmcbox li, #qm0 span.qmcbox span, .qmcoreindicator
+{
+    border-style: none;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+    white-space: normal;
+    box-shadow: none;
+    border-radius: 0px;
+}
+#qm0
+{
+    width: auto;
+    background-color: transparent;
+}
+#qm0 a
+{
+    /*Menu Property*/
+    padding: 7px 20px 6px 10px;
+    margin: 0px -1px 0px 0px; /*  background-color : rgb(191, 255, 246);     */
+    color: #258484;
+    font-family: Arial;
+    font-size: 13px; /*  font-weight:bold;*/
+    text-decoration: none;
+    text-align: left; /*     border-width: 1px;             border-style: solid;            border-color: rgb(52,176,176);             border-radius: 12px 12px 0px 0px;             -moz-border-radius: 12px 12px 0px 0px;             -webkit-border-radius: 0px 0px 12px 12px;             -ms-border-radius: 0px 0px 12px 12px;             -o-border-radius: 0px 0px 12px 12px;             -khtml-border-radius: 0px 0px 12px 12px;*/
+}
+#qm0 a:hover
+{
+    text-decoration: none; /*color: Blue;*/
+}
+#qm0 li:hover > a
+{
+    text-decoration: underline;
+}
+body #qm0 .qmactive, body #qm0 > li:hover > .qmparent
+{
+    /* z-index: 100;            background-color: #F3F3F3;             color: #555555;             text-decoration: underline; /* border-color: #111111 #111111 #F3F3F3;*/
+}
+#qm0 div, #qm0 ul
+{
+    padding: 10px;
+    margin: 0.01em 0px 0px -1px; /* background:gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-ms-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-o-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-khtml-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;            background:-webkit-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;             background: -moz-linear-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;*/
+    background-color: rgb(10, 117, 192);
+    font-size: 11px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(191, 255, 246);
+    border-radius: 0px 0px 12px 12px;
+    border-top: none;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 0px 12px 12px 12px;
+    -ms-border-radius: 0px 12px 12px 12px;
+    -o-border-radius: 0px 12px 12px 12px;
+    -khtml-border-radius: 0px 12px 12px 12px;
+    box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -moz-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -webkit-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -ms-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -o-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -khtml-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+}
+#qm0 div .qmmulti, #qm0 ul .qmmulti
+{
+    padding: 10px;
+}
+#qm0 div a, #qm0 ul a
+{
+    /* font-weight:bold;            font-size:12px;*/ /* padding: 2px 40px 2px 5px;             background-color: transparent;                         color: White;             border-width: 0px;             border-style: none;             border-color: #111111;             border-radius: 0px 0px 0px 0px;             -moz-border-radius: 0px 0px 0px 0px;             -webkit-border-radius: 0px 0px 0px 0px;             -ms-border-radius: 0px 0px 0px 0px;             -o-border-radius: 0px 0px 0px 0px;             -khtml-border-radius: 0px 0px 0px 0px;             box-shadow: none;             -moz-box-shadow: none;             -webkit-box-shadow: none;             -ms-box-shadow: none;             -o-box-shadow: none;             -khtml-box-shadow: none;*/
+}
+#qm0 div a:hover
+{
+    color: Aqua;
+    text-decoration: none;
+}
+#qm0 ul li:hover > a, #qm0 ul dd:hover > a
+{
+    /*Sub menu Property on over*/
+    color: #448989;
+    text-decoration: none;
+    background-color: rgb(80, 195, 195);
+    border-radius: 8px 8px 8px 8px;
+}
+body #qm0 div .qmactive, body #qm0 ul li:hover > .qmparent
+{
+    background-color: transparent;
+    color: #111111;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -ms-border-radius: 0px 0px 0px 0px;
+    -o-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+}
+#qm0 .qmtitle
+{
+    cursor: default;
+    padding: 3px 0px 3px 4px;
+    margin: 10px 0px 8px; /* background-color: #DBDBDB;*/
+    color: #111111;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555555;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -moz-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -webkit-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -ms-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -o-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -khtml-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+}
+#qm0 .qmdividerx
+{
+    border-top-width: 1px;
+    margin: 4px 0px;
+    border-color: #8F8E8E;
+}
+#qm0 .qmdividery
+{
+    border-left-width: 1px;
+    height: 15px;
+    margin: 4px 2px 0px;
+    border-color: #555555;
+}
+ul#qm0 ul li:hover > a.qmparent
+{
+    /*background-image: url("qmimages/arrow_5.gif");*/
+}
+ul#qm0 ul .qmparent
+{
+    /*background-image: url("qmimages/arrow_4.gif");*/
+    background-position: 95% center;
+}
+ul#qm0 li:hover > a.qmparent
+{
+    /*  background-color: rgb(73,180,180);             background-image: url("qmimages/arrow_7.gif");*/
+    color: #3E8484;
+    text-decoration: none;
+    border-color: rgb(191, 255, 246);
+    border-bottom: none;
+}
+ul#qm0 .qmparent
+{
+    /*background-image: url("qmimages/arrow_6.gif");             background-repeat: no-repeat;             background-position: 90% 12px;*/
+}
+
+
+
+
+#qm1 ul
+{
+    top: 100%;
+}
+#qm1 ul li:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm1 ul dd:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm1.qmmc, .qmcoreindicator
+{
+    /* z-index: 9999999; */
+}
+#qm1 span.qmcbox div, #qm1 span.qmcbox ul, #qm1 span.qmcbox li, #qm1 span.qmcbox span, .qmcoreindicator
+{
+    border-style: none;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+    white-space: normal;
+    box-shadow: none;
+    border-radius: 0px;
+}
+#qm1
+{
+    width: auto;
+    background-color: transparent;
+}
+#qm1 a
+{
+    /*Menu Property*/
+    padding: 7px 20px 6px 10px;
+    margin: 0px -1px 0px 0px; /*  background-color : rgb(191, 255, 246);     */
+    color: #258484;
+    font-family: Arial;
+    font-size: 13px; /*  font-weight:bold;*/
+    text-decoration: none;
+    text-align: left; /*     border-width: 1px;             border-style: solid;            border-color: rgb(52,176,176);             border-radius: 12px 12px 0px 0px;             -moz-border-radius: 12px 12px 0px 0px;             -webkit-border-radius: 0px 0px 12px 12px;             -ms-border-radius: 0px 0px 12px 12px;             -o-border-radius: 0px 0px 12px 12px;             -khtml-border-radius: 0px 0px 12px 12px;*/
+}
+#qm1 a:hover
+{
+    text-decoration: none; /*color: Blue;*/
+}
+#qm1 li:hover > a
+{
+    text-decoration: underline;
+}
+body #qm1 .qmactive, body #qm1 > li:hover > .qmparent
+{
+    /* z-index: 100;            background-color: #F3F3F3;             color: #555555;             text-decoration: underline; /* border-color: #111111 #111111 #F3F3F3;*/
+}
+#qm1 div, #qm1 ul
+{
+    padding: 10px;
+    margin: 0.01em 0px 0px -1px; /* background:gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-ms-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-o-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-khtml-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;            background:-webkit-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;             background: -moz-linear-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;*/
+    background-color: rgb(10, 117, 192);
+    font-size: 11px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(191, 255, 246);
+    border-radius: 0px 0px 12px 12px;
+    border-top: none;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 0px 12px 12px 12px;
+    -ms-border-radius: 0px 12px 12px 12px;
+    -o-border-radius: 0px 12px 12px 12px;
+    -khtml-border-radius: 0px 12px 12px 12px;
+    box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -moz-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -webkit-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -ms-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -o-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -khtml-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+}
+#qm1 div .qmmulti, #qm1 ul .qmmulti
+{
+    padding: 10px;
+}
+#qm1 div a, #qm1 ul a
+{
+    /* font-weight:bold;            font-size:12px;*/ /* padding: 2px 40px 2px 5px;             background-color: transparent;                         color: White;             border-width: 0px;             border-style: none;             border-color: #111111;             border-radius: 0px 0px 0px 0px;             -moz-border-radius: 0px 0px 0px 0px;             -webkit-border-radius: 0px 0px 0px 0px;             -ms-border-radius: 0px 0px 0px 0px;             -o-border-radius: 0px 0px 0px 0px;             -khtml-border-radius: 0px 0px 0px 0px;             box-shadow: none;             -moz-box-shadow: none;             -webkit-box-shadow: none;             -ms-box-shadow: none;             -o-box-shadow: none;             -khtml-box-shadow: none;*/
+}
+#qm1 div a:hover
+{
+    color: Aqua;
+    text-decoration: none;
+}
+#qm1 ul li:hover > a, #qm1 ul dd:hover > a
+{
+    /*Sub menu Property on over*/
+    color: #448989;
+    text-decoration: none;
+    background-color: rgb(80, 195, 195);
+    border-radius: 8px 8px 8px 8px;
+}
+body #qm1 div .qmactive, body #qm1 ul li:hover > .qmparent
+{
+    background-color: transparent;
+    color: #111111;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -ms-border-radius: 0px 0px 0px 0px;
+    -o-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+}
+#qm1 .qmtitle
+{
+    cursor: default;
+    padding: 3px 0px 3px 4px;
+    margin: 10px 0px 8px; /* background-color: #DBDBDB;*/
+    color: #111111;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555555;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -moz-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -webkit-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -ms-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -o-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -khtml-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+}
+#qm1 .qmdividerx
+{
+    border-top-width: 1px;
+    margin: 4px 0px;
+    border-color: #8F8E8E;
+}
+#qm1 .qmdividery
+{
+    border-left-width: 1px;
+    height: 15px;
+    margin: 4px 2px 0px;
+    border-color: #555555;
+}
+ul#qm1 ul li:hover > a.qmparent
+{
+    /*background-image: url("qmimages/arrow_5.gif");*/
+}
+ul#qm1 ul .qmparent
+{
+    /*background-image: url("qmimages/arrow_4.gif");*/
+    background-position: 95% center;
+}
+ul#qm1 li:hover > a.qmparent
+{
+    /*  background-color: rgb(73,180,180);             background-image: url("qmimages/arrow_7.gif");*/
+    color: #3E8484;
+    text-decoration: none;
+    border-color: rgb(191, 255, 246);
+    border-bottom: none;
+}
+ul#qm1 .qmparent
+{
+    /*background-image: url("qmimages/arrow_6.gif");             background-repeat: no-repeat;             background-position: 90% 12px;*/
+}
+
+
+
+
+#qm2 ul
+{
+    top: 100%;
+}
+#qm2 ul li:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm2 ul dd:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm2.qmmc, .qmcoreindicator
+{
+    /*  z-index: 9999999;*/
+}
+#qm2 span.qmcbox div, #qm2 span.qmcbox ul, #qm2 span.qmcbox li, #qm2 span.qmcbox span, .qmcoreindicator
+{
+    border-style: none;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+    white-space: normal;
+    box-shadow: none;
+    border-radius: 0px;
+}
+#qm2
+{
+    width: auto;
+    background-color: transparent;
+}
+#qm2 a
+{
+    /*Menu Property*/
+    padding: 7px 20px 6px 10px;
+    margin: 0px -1px 0px 0px; /*  background-color : rgb(191, 255, 246);     */
+    color: #258484;
+    font-family: Arial;
+    font-size: 13px; /*  font-weight:bold;*/
+    text-decoration: none;
+    text-align: left; /*     border-width: 1px;             border-style: solid;            border-color: rgb(52,176,176);             border-radius: 12px 12px 0px 0px;             -moz-border-radius: 12px 12px 0px 0px;             -webkit-border-radius: 0px 0px 12px 12px;             -ms-border-radius: 0px 0px 12px 12px;             -o-border-radius: 0px 0px 12px 12px;             -khtml-border-radius: 0px 0px 12px 12px;*/
+}
+#qm2 a:hover
+{
+    text-decoration: none; /*color: Blue;*/
+}
+#qm2 li:hover > a
+{
+   /* text-decoration: underline;*/
+}
+body #qm2 .qmactive, body #qm2 > li:hover > .qmparent
+{
+    /* z-index: 100;            background-color: #F3F3F3;             color: #555555;             text-decoration: underline; /* border-color: #111111 #111111 #F3F3F3;*/
+}
+#qm2 div, #qm2 ul
+{
+    padding: 10px;
+    margin: 0.01em 0px 0px -1px; /* background:gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-ms-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-o-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-khtml-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;            background:-webkit-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;             background: -moz-linear-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;*/
+    background-color: rgb(10, 117, 192);
+    font-size: 11px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(191, 255, 246);
+    border-radius: 0px 0px 12px 12px;
+    border-top: none;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 0px 12px 12px 12px;
+    -ms-border-radius: 0px 12px 12px 12px;
+    -o-border-radius: 0px 12px 12px 12px;
+    -khtml-border-radius: 0px 12px 12px 12px;
+    box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -moz-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -webkit-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -ms-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -o-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -khtml-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+}
+#qm2 div .qmmulti, #qm2 ul .qmmulti
+{
+    padding: 10px;
+}
+#qm2 div a, #qm2 ul a
+{
+    /* font-weight:bold;            font-size:12px;*/ /* padding: 2px 40px 2px 5px;             background-color: transparent;                         color: White;             border-width: 0px;             border-style: none;             border-color: #111111;             border-radius: 0px 0px 0px 0px;             -moz-border-radius: 0px 0px 0px 0px;             -webkit-border-radius: 0px 0px 0px 0px;             -ms-border-radius: 0px 0px 0px 0px;             -o-border-radius: 0px 0px 0px 0px;             -khtml-border-radius: 0px 0px 0px 0px;             box-shadow: none;             -moz-box-shadow: none;             -webkit-box-shadow: none;             -ms-box-shadow: none;             -o-box-shadow: none;             -khtml-box-shadow: none;*/
+}
+#qm2 div a:hover
+{
+    color: Aqua;
+    text-decoration: none;
+}
+#qm2 ul li:hover > a, #qm2 ul dd:hover > a
+{
+    /*Sub menu Property on over*/
+    color: #448989;
+    text-decoration: none;
+    background-color: rgb(80, 195, 195);
+    border-radius: 8px 8px 8px 8px;
+}
+body #qm2 div .qmactive, body #qm2 ul li:hover > .qmparent
+{
+    background-color: transparent;
+    color: #111111;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -ms-border-radius: 0px 0px 0px 0px;
+    -o-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+}
+#qm2 .qmtitle
+{
+    cursor: default;
+    padding: 3px 0px 3px 4px;
+    margin: 10px 0px 8px; /* background-color: #DBDBDB;*/
+    color: #111111;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555555;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -moz-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -webkit-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -ms-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -o-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -khtml-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+}
+#qm2 .qmdividerx
+{
+    border-top-width: 1px;
+    margin: 4px 0px;
+    border-color: #8F8E8E;
+}
+#qm2 .qmdividery
+{
+    border-left-width: 1px;
+    height: 15px;
+    margin: 4px 2px 0px;
+    border-color: #555555;
+}
+ul#qm2 ul li:hover > a.qmparent
+{
+    /*background-image: url("qmimages/arrow_5.gif");*/
+}
+ul#qm2 ul .qmparent
+{
+    /*background-image: url("qmimages/arrow_4.gif");*/
+    background-position: 95% center;
+}
+ul#qm2 li:hover > a.qmparent
+{
+    /*  background-color: rgb(73,180,180);             background-image: url("qmimages/arrow_7.gif");*/
+    color: #3E8484;
+    text-decoration: none;
+    border-color: rgb(191, 255, 246);
+    border-bottom: none;
+}
+ul#qm2 .qmparent
+{
+    /*background-image: url("qmimages/arrow_6.gif");             background-repeat: no-repeat;             background-position: 90% 12px;*/
+}
+
+
+.menuSelected
+{
+    /* text-decoration: none;     color: Red;     border-color: rgb(191, 255, 246);     border-bottom: none;*/
+    background: #2AACAD;
+    display: block;
+    text-decoration: none;
+}
+
+.menuSelectedColor
+{
+    color:White;
+}
+
+
+#qm3 ul
+{
+    top: 100%;
+}
+#qm3 ul li:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm3 ul dd:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm3.qmmc, .qmcoreindicator
+{
+    /* z-index: 9999999; */
+}
+#qm3 span.qmcbox div, #qm3 span.qmcbox ul, #qm3 span.qmcbox li, #qm3 span.qmcbox span, .qmcoreindicator
+{
+    border-style: none;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+    white-space: normal;
+    box-shadow: none;
+    border-radius: 0px;
+}
+#qm3
+{
+    width: auto;
+    background-color: transparent;
+}
+#qm3 a
+{
+    /*Menu Property*/
+    padding: 7px 20px 6px 10px;
+    margin: 0px -1px 0px 0px; /*  background-color : rgb(191, 255, 246);     */
+    color: #258484;
+    font-family: Arial;
+    font-size: 13px; /*  font-weight:bold;*/
+    text-decoration: none;
+    text-align: left; /*     border-width: 1px;             border-style: solid;            border-color: rgb(52,176,176);             border-radius: 12px 12px 0px 0px;             -moz-border-radius: 12px 12px 0px 0px;             -webkit-border-radius: 0px 0px 12px 12px;             -ms-border-radius: 0px 0px 12px 12px;             -o-border-radius: 0px 0px 12px 12px;             -khtml-border-radius: 0px 0px 12px 12px;*/
+}
+#qm3 a:hover
+{
+    text-decoration: none; /*color: Blue;*/
+}
+#qm3 li:hover > a
+{
+    text-decoration: underline;
+}
+body #qm3 .qmactive, body #qm3 > li:hover > .qmparent
+{
+    /* z-index: 100;            background-color: #F3F3F3;             color: #555555;             text-decoration: underline; /* border-color: #111111 #111111 #F3F3F3;*/
+}
+#qm3 div, #qm3 ul
+{
+    padding: 10px;
+    margin: 0.01em 0px 0px -1px; /* background:gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-ms-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-o-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-khtml-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;            background:-webkit-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;             background: -moz-linear-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;*/
+    background-color: rgb(10, 117, 192);
+    font-size: 11px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(191, 255, 246);
+    border-radius: 0px 0px 12px 12px;
+    border-top: none;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 0px 12px 12px 12px;
+    -ms-border-radius: 0px 12px 12px 12px;
+    -o-border-radius: 0px 12px 12px 12px;
+    -khtml-border-radius: 0px 12px 12px 12px;
+    box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -moz-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -webkit-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -ms-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -o-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -khtml-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+}
+#qm3 div .qmmulti, #qm3 ul .qmmulti
+{
+    padding: 10px;
+}
+#qm3 div a, #qm3 ul a
+{
+    /* font-weight:bold;            font-size:12px;*/ /* padding: 2px 40px 2px 5px;             background-color: transparent;                         color: White;             border-width: 0px;             border-style: none;             border-color: #111111;             border-radius: 0px 0px 0px 0px;             -moz-border-radius: 0px 0px 0px 0px;             -webkit-border-radius: 0px 0px 0px 0px;             -ms-border-radius: 0px 0px 0px 0px;             -o-border-radius: 0px 0px 0px 0px;             -khtml-border-radius: 0px 0px 0px 0px;             box-shadow: none;             -moz-box-shadow: none;             -webkit-box-shadow: none;             -ms-box-shadow: none;             -o-box-shadow: none;             -khtml-box-shadow: none;*/
+}
+#qm3 div a:hover
+{
+    color: Aqua;
+    text-decoration: none;
+}
+#qm3 ul li:hover > a, #qm3 ul dd:hover > a
+{
+    /*Sub menu Property on over*/
+    color: #448989;
+    text-decoration: none;
+    background-color: rgb(80, 195, 195);
+    border-radius: 8px 8px 8px 8px;
+}
+body #qm3 div .qmactive, body #qm3 ul li:hover > .qmparent
+{
+    background-color: transparent;
+    color: #111111;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -ms-border-radius: 0px 0px 0px 0px;
+    -o-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+}
+#qm3 .qmtitle
+{
+    cursor: default;
+    padding: 3px 0px 3px 4px;
+    margin: 10px 0px 8px; /* background-color: #DBDBDB;*/
+    color: #111111;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555555;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -moz-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -webkit-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -ms-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -o-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -khtml-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+}
+#qm3 .qmdividerx
+{
+    border-top-width: 1px;
+    margin: 4px 0px;
+    border-color: #8F8E8E;
+}
+#qm3 .qmdividery
+{
+    border-left-width: 1px;
+    height: 15px;
+    margin: 4px 2px 0px;
+    border-color: #555555;
+}
+ul#qm3 ul li:hover > a.qmparent
+{
+    /*background-image: url("qmimages/arrow_5.gif");*/
+}
+ul#qm3 ul .qmparent
+{
+    /*background-image: url("qmimages/arrow_4.gif");*/
+    background-position: 95% center;
+}
+ul#qm3 li:hover > a.qmparent
+{
+    /*  background-color: rgb(73,180,180);             background-image: url("qmimages/arrow_7.gif");*/
+    color: #3E8484;
+    text-decoration: none;
+    border-color: rgb(191, 255, 246);
+    border-bottom: none;
+}
+ul#qm3 .qmparent
+{
+    /*background-image: url("qmimages/arrow_6.gif");             background-repeat: no-repeat;             background-position: 90% 12px;*/
+}
+
+
+
+
+#qm4 ul
+{
+    top: 100%;
+}
+#qm4 ul li:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm4 ul dd:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm4.qmmc, .qmcoreindicator
+{
+    /* z-index: 9999999; */
+}
+#qm4 span.qmcbox div, #qm4 span.qmcbox ul, #qm4 span.qmcbox li, #qm4 span.qmcbox span, .qmcoreindicator
+{
+    border-style: none;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+    white-space: normal;
+    box-shadow: none;
+    border-radius: 0px;
+}
+#qm4
+{
+    width: auto;
+    background-color: transparent;
+}
+#qm4 a
+{
+    /*Menu Property*/
+    padding: 7px 20px 6px 10px;
+    margin: 0px -1px 0px 0px; /*  background-color : rgb(191, 255, 246);     */
+    color: #258484;
+    font-family: Arial;
+    font-size: 13px; /*  font-weight:bold;*/
+    text-decoration: none;
+    text-align: left; /*     border-width: 1px;             border-style: solid;            border-color: rgb(52,176,176);             border-radius: 12px 12px 0px 0px;             -moz-border-radius: 12px 12px 0px 0px;             -webkit-border-radius: 0px 0px 12px 12px;             -ms-border-radius: 0px 0px 12px 12px;             -o-border-radius: 0px 0px 12px 12px;             -khtml-border-radius: 0px 0px 12px 12px;*/
+}
+#qm4 a:hover
+{
+    text-decoration: none; /*color: Blue;*/
+}
+#qm4 li:hover > a
+{
+    text-decoration: underline;
+}
+body #qm4 .qmactive, body #qm4 > li:hover > .qmparent
+{
+    /* z-index: 100;            background-color: #F3F3F3;             color: #555555;             text-decoration: underline; /* border-color: #111111 #111111 #F3F3F3;*/
+}
+#qm4 div, #qm4 ul
+{
+    padding: 10px;
+    margin: 0.01em 0px 0px -1px; /* background:gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-ms-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-o-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-khtml-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;            background:-webkit-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;             background: -moz-linear-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;*/
+    background-color: rgb(10, 117, 192);
+    font-size: 11px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(191, 255, 246);
+    border-radius: 0px 0px 12px 12px;
+    border-top: none;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 0px 12px 12px 12px;
+    -ms-border-radius: 0px 12px 12px 12px;
+    -o-border-radius: 0px 12px 12px 12px;
+    -khtml-border-radius: 0px 12px 12px 12px;
+    box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -moz-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -webkit-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -ms-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -o-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -khtml-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+}
+#qm4 div .qmmulti, #qm4 ul .qmmulti
+{
+    padding: 10px;
+}
+#qm4 div a, #qm4 ul a
+{
+    /* font-weight:bold;            font-size:12px;*/ /* padding: 2px 40px 2px 5px;             background-color: transparent;                         color: White;             border-width: 0px;             border-style: none;             border-color: #111111;             border-radius: 0px 0px 0px 0px;             -moz-border-radius: 0px 0px 0px 0px;             -webkit-border-radius: 0px 0px 0px 0px;             -ms-border-radius: 0px 0px 0px 0px;             -o-border-radius: 0px 0px 0px 0px;             -khtml-border-radius: 0px 0px 0px 0px;             box-shadow: none;             -moz-box-shadow: none;             -webkit-box-shadow: none;             -ms-box-shadow: none;             -o-box-shadow: none;             -khtml-box-shadow: none;*/
+}
+#qm4 div a:hover
+{
+    color: Aqua;
+    text-decoration: none;
+}
+#qm4 ul li:hover > a, #qm4 ul dd:hover > a
+{
+    /*Sub menu Property on over*/
+    color: #448989;
+    text-decoration: none;
+    background-color: rgb(80, 195, 195);
+    border-radius: 8px 8px 8px 8px;
+}
+body #qm4 div .qmactive, body #qm4 ul li:hover > .qmparent
+{
+    background-color: transparent;
+    color: #111111;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -ms-border-radius: 0px 0px 0px 0px;
+    -o-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+}
+#qm4 .qmtitle
+{
+    cursor: default;
+    padding: 3px 0px 3px 4px;
+    margin: 10px 0px 8px; /* background-color: #DBDBDB;*/
+    color: #111111;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555555;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -moz-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -webkit-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -ms-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -o-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -khtml-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+}
+#qm4 .qmdividerx
+{
+    border-top-width: 1px;
+    margin: 4px 0px;
+    border-color: #8F8E8E;
+}
+#qm4 .qmdividery
+{
+    border-left-width: 1px;
+    height: 15px;
+    margin: 4px 2px 0px;
+    border-color: #555555;
+}
+ul#qm4 ul li:hover > a.qmparent
+{
+    /*background-image: url("qmimages/arrow_5.gif");*/
+}
+ul#qm4 ul .qmparent
+{
+    /*background-image: url("qmimages/arrow_4.gif");*/
+    background-position: 95% center;
+}
+ul#qm4 li:hover > a.qmparent
+{
+    /*  background-color: rgb(73,180,180);             background-image: url("qmimages/arrow_7.gif");*/
+    color: #3E8484;
+    text-decoration: none;
+    border-color: rgb(191, 255, 246);
+    border-bottom: none;
+}
+ul#qm4 .qmparent
+{
+    /*background-image: url("qmimages/arrow_6.gif");             background-repeat: no-repeat;             background-position: 90% 12px;*/
+}
+
+
+
+
+#qm5 ul
+{
+    top: 100%;
+}
+#qm5 ul li:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm5 ul dd:hover > ul
+{
+    visibility: inherit;
+    top: 0px;
+    left: 100%;
+}
+#qm5.qmmc, .qmcoreindicator
+{
+    /* z-index: 9999999; */
+}
+#qm5 span.qmcbox div, #qm5 span.qmcbox ul, #qm5 span.qmcbox li, #qm5 span.qmcbox span, .qmcoreindicator
+{
+    border-style: none;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+    white-space: normal;
+    box-shadow: none;
+    border-radius: 0px;
+}
+#qm5
+{
+    width: auto;
+    background-color: transparent;
+}
+#qm5 a
+{
+    /*Menu Property*/
+    padding: 7px 20px 6px 10px;
+    margin: 0px -1px 0px 0px; /*  background-color : rgb(191, 255, 246);     */
+    color: #258484;
+    font-family: Arial;
+    font-size: 13px; /*  font-weight:bold;*/
+    text-decoration: none;
+    text-align: left; /*     border-width: 1px;             border-style: solid;            border-color: rgb(52,176,176);             border-radius: 12px 12px 0px 0px;             -moz-border-radius: 12px 12px 0px 0px;             -webkit-border-radius: 0px 0px 12px 12px;             -ms-border-radius: 0px 0px 12px 12px;             -o-border-radius: 0px 0px 12px 12px;             -khtml-border-radius: 0px 0px 12px 12px;*/
+}
+#qm5 a:hover
+{
+    text-decoration: none; /*color: Blue;*/
+}
+#qm5 li:hover > a
+{
+    text-decoration: underline;
+}
+body #qm5 .qmactive, body #qm5 > li:hover > .qmparent
+{
+    /* z-index: 100;            background-color: #F3F3F3;             color: #555555;             text-decoration: underline; /* border-color: #111111 #111111 #F3F3F3;*/
+}
+#qm5 div, #qm5 ul
+{
+    padding: 10px;
+    margin: 0.01em 0px 0px -1px; /* background:gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-ms-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-o-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;             background:-khtml-gradient(left bottom , rgb(52,176,176), rgb(52,176,176)) repeat scroll 50% 5% transparent;            background:-webkit-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;             background: -moz-linear-gradient(left bottom , rgb(63, 131, 192), rgb(255, 255, 255)) repeat scroll 50% 5% transparent;*/
+    background-color: rgb(10, 117, 192);
+    font-size: 11px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(191, 255, 246);
+    border-radius: 0px 0px 12px 12px;
+    border-top: none;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 0px 12px 12px 12px;
+    -ms-border-radius: 0px 12px 12px 12px;
+    -o-border-radius: 0px 12px 12px 12px;
+    -khtml-border-radius: 0px 12px 12px 12px;
+    box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -moz-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -webkit-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -ms-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -o-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+    -khtml-box-shadow: 0px 14px 15px rgb(85, 85, 85);
+}
+#qm5 div .qmmulti, #qm5 ul .qmmulti
+{
+    padding: 10px;
+}
+#qm5 div a, #qm5 ul a
+{
+    /* font-weight:bold;            font-size:12px;*/ /* padding: 2px 40px 2px 5px;             background-color: transparent;                         color: White;             border-width: 0px;             border-style: none;             border-color: #111111;             border-radius: 0px 0px 0px 0px;             -moz-border-radius: 0px 0px 0px 0px;             -webkit-border-radius: 0px 0px 0px 0px;             -ms-border-radius: 0px 0px 0px 0px;             -o-border-radius: 0px 0px 0px 0px;             -khtml-border-radius: 0px 0px 0px 0px;             box-shadow: none;             -moz-box-shadow: none;             -webkit-box-shadow: none;             -ms-box-shadow: none;             -o-box-shadow: none;             -khtml-box-shadow: none;*/
+}
+#qm5 div a:hover
+{
+    color: Aqua;
+    text-decoration: none;
+}
+#qm5 ul li:hover > a, #qm5 ul dd:hover > a
+{
+    /*Sub menu Property on over*/
+    color: #448989;
+    text-decoration: none;
+    background-color: rgb(80, 195, 195);
+    border-radius: 8px 8px 8px 8px;
+}
+body #qm5 div .qmactive, body #qm5 ul li:hover > .qmparent
+{
+    background-color: transparent;
+    color: #111111;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    -ms-border-radius: 0px 0px 0px 0px;
+    -o-border-radius: 0px 0px 0px 0px;
+    -khtml-border-radius: 0px 0px 0px 0px;
+}
+#qm5 .qmtitle
+{
+    cursor: default;
+    padding: 3px 0px 3px 4px;
+    margin: 10px 0px 8px; /* background-color: #DBDBDB;*/
+    color: #111111;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #555555;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+    -khtml-border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -moz-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -webkit-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -ms-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -o-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+    -khtml-box-shadow: 2px 2px 2px rgba(143, 142, 142, 0.8);
+}
+#qm5 .qmdividerx
+{
+    border-top-width: 1px;
+    margin: 4px 0px;
+    border-color: #8F8E8E;
+}
+#qm5 .qmdividery
+{
+    border-left-width: 1px;
+    height: 15px;
+    margin: 4px 2px 0px;
+    border-color: #555555;
+}
+ul#qm5 ul li:hover > a.qmparent
+{
+    /*background-image: url("qmimages/arrow_5.gif");*/
+}
+ul#qm5 ul .qmparent
+{
+    /*background-image: url("qmimages/arrow_4.gif");*/
+    background-position: 95% center;
+}
+ul#qm5 li:hover > a.qmparent
+{
+    /*  background-color: rgb(73,180,180);             background-image: url("qmimages/arrow_7.gif");*/
+    color: #3E8484;
+    text-decoration: none;
+    border-color: rgb(191, 255, 246);
+    border-bottom: none;
+}
+ul#qm5 .qmparent
+{
+    /*background-image: url("qmimages/arrow_6.gif");             background-repeat: no-repeat;             background-position: 90% 12px;*/
+}

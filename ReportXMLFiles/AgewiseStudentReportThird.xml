@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Age wise StudentReport 3</Title>
+    <HiddenFields>StudentID,AgeGroup,Description,GroupName,StudentAgeGropID,BMSID,DivisionID</HiddenFields>
+    <ColumnWidth>Transaction Date=90,Location=200</ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment>FirstName=center,RollNo=center,ContactNo=center,Gender=center</alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <title>Detail student report</title>
+    <studentid>false</studentid>
+    <firstname>true</firstname>
+    <rollno>true</rollno>
+    <contactno>true</contactno>
+    <gender>true</gender>
+    <agegroup>true</agegroup>
+    <description>true</description>
+    <groupname>true</groupname>
+    <studentagegropid>false</studentagegropid>
+    <bmsid>false</bmsid>
+    <divisionid>false</divisionid>
+</Exporttoexcelsettings>
+  <en-US>
+    <Title>Agewise Student Report 3</Title>
+    <FirstName>Name</FirstName>
+    <RollNo>Roll No</RollNo>
+    <ContactNo>Contact No</ContactNo>
+    <Gender>Gender</Gender>
+  </en-US>
+
+  <gu-IN>
+    <Title>ઉંમર મુજબ વિદ્યાર્થી અહેવાલ 3</Title>
+    <FirstName>નામ</FirstName>
+    <RollNo>રોલ નંબર</RollNo>
+    <ContactNo>સંપર્ક નંબર</ContactNo>
+    <Gender>જાતિ</Gender>
+  </gu-IN>
+
+  <hi-IN>
+    <Title>उम्र वार विद्यार्थी रिपोर्ट 3</Title>
+    <FirstName>नाम</FirstName>
+    <RollNo>रोल नंबर</RollNo>
+    <ContactNo>संपर्क नंबर</ContactNo>
+    <Gender>लिंग</Gender>
+  </hi-IN>
+
+</Search>

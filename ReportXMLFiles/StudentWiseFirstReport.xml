@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Studentwise result report</Title>
+    <HiddenFields>BMSID,DivisionID,True,False,StudentID</HiddenFields>
+    <ColumnWidth>Transaction Date=90,Location=200</ColumnWidth>
+    <allowfooter>true</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>studentid</Total>
+    <alignment></alignment>
+    <AllowPaging>false</AllowPaging>
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+
+  <Exporttoexcelsettings>
+    <tital>Studentwise Result Report</tital>
+    <Studentid>false</Studentid>
+    <Firstname>true</Firstname>
+    <Bmsid>false</Bmsid>
+    <Divisionid>false</Divisionid>
+    <Division>true</Division>
+    <Standard>true</Standard>
+    <Perc>true</Perc>
+    <True>false</True>
+    <False>false</False>
+  </Exporttoexcelsettings>
+
+
+  <en-us>
+    <Title>Student wise Report</Title>
+    <StudentID>student identity</StudentID>
+    <FirstName>First Name</FirstName>
+    <BMSID>BMS ID</BMSID>
+    <DivisionID>Division ID</DivisionID>
+    <Divison>Division</Divison>
+    <Standard>Standard</Standard>
+    <Perc>Percentage</Perc>
+    <True>True</True>
+    <False>False</False>
+  </en-us>
+  <gu-in>
+    <Title>વિદ્યાર્થી મુજબના પરિણામ અહેવાલ</Title>
+    <StudentID>વિદ્યાર્થીનો આઇ. ડી.</StudentID>
+    <FirstName>વિદ્યાર્થી</FirstName>
+    <BMSID>બી.એમ.એસ આઇ. ડી.</BMSID>
+    <DivisionID>વિભાગ આઇ. ડી.</DivisionID>
+    <Division>વિભાગ</Division>
+    <Standard>ધોરણ</Standard>
+    <Perc>પરિણામ</Perc>
+    <True>સાચું</True>
+    <False>ખોટા</False>
+  </gu-in>
+
+
+
+  <hi-in>
+    <Title>विद्यार्थी वार परिणाम रिपोर्ट2</Title>
+    <StudentID>विद्यार्थी आइ. डी.</StudentID>
+    <FirstName>विद्यार्थी</FirstName>
+    <BMSID>बी.एम.एस आइ. डी.</BMSID>
+    <DivisionID>विभाग आइ. डी.</DivisionID>
+    <Division>विभाग</Division>
+    <Standard>स्टैंडर्ड</Standard>
+    <Perc>परिणाम</Perc>
+    <True>सच</True>
+    <False>झूठा</False>
+  </hi-in>
+</Search>

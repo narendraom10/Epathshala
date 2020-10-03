@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Subjectwise covered syllabus</Title>
+    <HiddenFields>SubjectID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>SubjectID</Total>
+    <alignment>Subject=center,SyllabusCovered=center,Teacher=center </alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Subjectwise covered syllabus</tital>
+    <SubjectID>false</SubjectID>
+    <Subject>true</Subject>
+    <SyllabusCovered>true</SyllabusCovered>
+    <teacher>true</teacher>
+  </Exporttoexcelsettings>
+
+  <en-us>
+    <Title>Subjectwise covered syllabus Report</Title>
+    <Subject>Subject</Subject>
+    <SyllabusCovered>Syllabus Covered</SyllabusCovered>
+    <Teacher>Teacher</Teacher>
+  </en-us>
+  <gu-in>
+    <Title>વિષય મુજબના આવરી લેવામાં અભ્યાસ અહેવાલ</Title>
+    <Subject>વિષય</Subject>
+    <SyllabusCovered>આવરી લેવામાં અભ્યાસ</SyllabusCovered>
+    <Teacher>શિક્ષક</Teacher>
+  </gu-in>
+
+  <hi-in>
+    <Title>विषय वार कवर किया पाठ्यक्रम रिपोर्ट</Title>
+    <Subject>विषय</Subject>
+    <SyllabusCovered>पाठ्यक्रम कवर किया</SyllabusCovered>
+    <Teacher>शिक्षक</Teacher>
+  </hi-in>
+</Search>

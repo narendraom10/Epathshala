@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>આઈડી</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>શાળા ના પ્રકાર</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>ધોરણ</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>માધ્યમ</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>બોર્ડ</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>વિદ્યાર્થીઓ</value>
+  </data>
+  <data name="btnAddResource1.Text" xml:space="preserve">
+    <value>ઉમેરો</value>
+  </data>
+  <data name="btnAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnNextResource1.Text" xml:space="preserve">
+    <value>આગળ</value>
+  </data>
+  <data name="btnNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPreviousResource1.Text" xml:space="preserve">
+    <value>પહેલાનું</value>
+  </data>
+  <data name="btnPreviousResource1.ToolTip" xml:space="preserve">
+    <value>પહેલાનું</value>
+  </data>
+  <data name="btnResetResource1.Text" xml:space="preserve">
+    <value>રીસેટ </value>
+  </data>
+  <data name="btnResetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSubmitResource1.Text" xml:space="preserve">
+    <value>સબમિટ</value>
+  </data>
+  <data name="btnSubmitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkStandardResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clstStandardListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlStandardResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlStandardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlBoardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCountryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDistrictResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSchlTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlStateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvSchoolInfoResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvSchoolInfoResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvSchoolInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnDeleteResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnDeleteResource1.ToolTip" xml:space="preserve">
+    <value>હટાવો</value>
+  </data>
+  <data name="lblSchoolRegistationResource1.Text" xml:space="preserve">
+    <value>શાળા ની નોંધણી</value>
+  </data>
+  <data name="lblSchoolRegistationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBlockNoSurveyResource1.Text" xml:space="preserve">
+    <value>બ્લોક નંબર/ સર્વેક્ષણ નંબરઃ</value>
+  </data>
+  <data name="lblBlockNoSurveyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBoardResource1.Text" xml:space="preserve">
+    <value>બોર્ડ:</value>
+  </data>
+  <data name="lblBoardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCityResource1.Text" xml:space="preserve">
+    <value>શહેર / ગામ:</value>
+  </data>
+  <data name="lblCityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCountryResource1.Text" xml:space="preserve">
+    <value>દેશ:</value>
+  </data>
+  <data name="lblCountryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDistrictResource1.Text" xml:space="preserve">
+    <value>જિલ્લો:</value>
+  </data>
+  <data name="lblDistrictResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.Text" xml:space="preserve">
+    <value>સમય સમાપ્ત:</value>
+  </data>
+  <data name="lblEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFaxNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGenInfoTitleResource1.Text" xml:space="preserve">
+    <value>સામાન્ય માહિતી</value>
+  </data>
+  <data name="lblGenInfoTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLandlineResource1.Text" xml:space="preserve">
+    <value>લેન્ડલાઇન નંબર:</value>
+  </data>
+  <data name="lblLandlineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMediumResource1.Text" xml:space="preserve">
+    <value>માધ્યમ:</value>
+  </data>
+  <data name="lblMediumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMobileNoResource1.Text" xml:space="preserve">
+    <value>મોબાઇલ નંબર:</value>
+  </data>
+  <data name="lblMobileNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPincodeResource1.Text" xml:space="preserve">
+    <value>પિન કોડ:</value>
+  </data>
+  <data name="lblPincodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPloatNoResource1.Text" xml:space="preserve">
+    <value>પ્લોટ નંબર:</value>
+  </data>
+  <data name="lblPloatNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSchAddressResource1.Text" xml:space="preserve">
+    <value>શાળા નુ સરનામું:</value>
+  </data>
+  <data name="lblSchAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSchlLocInfoResource1.Text" xml:space="preserve">
+    <value>શાળા ની જાણકારી</value>
+  </data>
+  <data name="lblSchlLocInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSchlMailIDResource1.Text" xml:space="preserve">
+    <value>શાળા નુ ઇ મેલ આઈડી:</value>
+  </data>
+  <data name="lblSchlMailIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSchlTypeResource1.Text" xml:space="preserve">
+    <value>શાળા ના પ્રકાર:</value>
+  </data>
+  <data name="lblSchlTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSchlWebsiteResource1.Text" xml:space="preserve">
+    <value>શાળા ની વેબસાઇટ યુ આર એલ:</value>
+  </data>
+  <data name="lblSchlWebsiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSchNameResource1.Text" xml:space="preserve">
+    <value>શાળા નુ નામ:</value>
+  </data>
+  <data name="lblSchNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSchoolStartYearResource1.Text" xml:space="preserve">
+    <value>શાળા પ્રારંભ વર્ષ:</value>
+  </data>
+  <data name="lblSchoolStartYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStandardResource1.Text" xml:space="preserve">
+    <value>ધોરણ:</value>
+  </data>
+  <data name="lblStandardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartTimeResource1.Text" xml:space="preserve">
+    <value> પ્રારંભ સમય:</value>
+  </data>
+  <data name="lblStartTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStateResource1.Text" xml:space="preserve">
+    <value>રાજ્ય:</value>
+  </data>
+  <data name="lblStateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStdIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>દેશ પસંદ કરો</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>રાજ્ય પસંદ કરો</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>રાજ્ય પસંદ કરો</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>જિલ્લો પસંદ કરો</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>જિલ્લો પસંદ કરો</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>- પસંદ કરો -</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>- પસંદ કરો -</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>- પસંદ કરો -</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>ઈ પાઠશાળા</value>
+  </data>
+  <data name="revEndTimeHHResource1.ErrorMessage" xml:space="preserve">
+    <value>માત્ર નંબર અને સમય માન્ય છે.</value>
+  </data>
+  <data name="revEndTimeHHResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revEndTimeHHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="revEndTimeMMResource1.ErrorMessage" xml:space="preserve">
+    <value> મિનિટ સમાપ્તિ સમય મા દાખલ કરો.</value>
+  </data>
+  <data name="revEndTimeMMResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revEndTimeMMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="revLandLineResource1.ErrorMessage" xml:space="preserve">
+    <value>માત્ર નંબર્સ લેન્ડલાઇન મા માન્ય છે</value>
+  </data>
+  <data name="revLandLineResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revLandLineResource1.ToolTip" xml:space="preserve">
+    <value>માત્ર નંબરો લેન્ડલાઇન નંબર મા માન્ય છે</value>
+  </data>
+  <data name="revMobileNoResource1.ErrorMessage" xml:space="preserve">
+    <value>માત્ર નંબર્સ મોબાઇલ નંબર મા માન્ય છે</value>
+  </data>
+  <data name="revMobileNoResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revMobileNoResource1.ToolTip" xml:space="preserve">
+    <value>માત્ર નંબર્સ મોબાઇલ નંબર મા માન્ય છે</value>
+  </data>
+  <data name="revPincodeResource1.ErrorMessage" xml:space="preserve">
+    <value>પીન કોડ માં 6 અંકો દાખલ કરો</value>
+  </data>
+  <data name="revPincodeResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revPincodeResource1.ToolTip" xml:space="preserve">
+    <value>પીન કોડ માં 6 અંકો દાખલ કરો</value>
+  </data>
+  <data name="revPinResource1.ErrorMessage" xml:space="preserve">
+    <value>માત્ર નંબર પિન કોડ અનુમતિ છે</value>
+  </data>
+  <data name="revPinResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revPinResource1.ToolTip" xml:space="preserve">
+    <value>માત્ર નંબર પિન કોડ અનુમતિ છે</value>
+  </data>
+  <data name="revSchoolEmailIDResource1.ErrorMessage" xml:space="preserve">
+    <value>માન્ય શાળા ઈ મેલ આઈ ડી દાખલ કરો</value>
+  </data>
+  <data name="revSchoolEmailIDResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revSchoolEmailIDResource1.ToolTip" xml:space="preserve">
+    <value>માન્ય શાળા ઈ મેલ આઈ ડી દાખલ કરો</value>
+  </data>
+  <data name="revSchoolWebsiteResource1.ErrorMessage" xml:space="preserve">
+    <value>માન્ય શાળા વેબસાઇટ દાખલ કરો</value>
+  </data>
+  <data name="revSchoolWebsiteResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revSchoolWebsiteResource1.ToolTip" xml:space="preserve">
+    <value>માન્ય શાળા વેબસાઇટ દાખલ કરો</value>
+  </data>
+  <data name="revStartTimeHHResource1.ErrorMessage" xml:space="preserve">
+    <value> પ્રારંભ સમય માત્ર નંબર માન્ય છે.</value>
+  </data>
+  <data name="revStartTimeHHResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revStartTimeHHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="revStartTimeMMResource1.ErrorMessage" xml:space="preserve">
+    <value>પ્રારંભ સમય મા મિનિટ દાખલ કરો.</value>
+  </data>
+  <data name="revStartTimeMMResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="revStartTimeMMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rqdBoardResource1.ErrorMessage" xml:space="preserve">
+    <value>બોર્ડ જરૂરી છે</value>
+  </data>
+  <data name="rqdBoardResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdBoardResource1.ToolTip" xml:space="preserve">
+    <value>બોર્ડ જરૂરી છે</value>
+  </data>
+  <data name="rqdCityResource1.ErrorMessage" xml:space="preserve">
+    <value>શહેર જરૂરી છે</value>
+  </data>
+  <data name="rqdCityResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdCityResource1.ToolTip" xml:space="preserve">
+    <value>શહેર જરૂરી છે</value>
+  </data>
+  <data name="rqdCountryResource1.ErrorMessage" xml:space="preserve">
+    <value>દેશ જરૂરી છે</value>
+  </data>
+  <data name="rqdCountryResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdCountryResource1.ToolTip" xml:space="preserve">
+    <value>દેશ જરૂરી છે</value>
+  </data>
+  <data name="rqdDistrictResource1.ErrorMessage" xml:space="preserve">
+    <value>જિલ્લો જરૂરી છે</value>
+  </data>
+  <data name="rqdDistrictResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdDistrictResource1.ToolTip" xml:space="preserve">
+    <value>જિલ્લો જરૂરી છે</value>
+  </data>
+  <data name="rqdEndTimeHHResource1.ErrorMessage" xml:space="preserve">
+    <value>સમાપ્તિ સમય માટે કલાક દાખલ કરો.</value>
+  </data>
+  <data name="rqdEndTimeHHResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdEndTimeHHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rqdEndTimeMMResource1.ErrorMessage" xml:space="preserve">
+    <value>સમાપ્તિ સમય માટે માત્ર નંબર માન્ય છે.</value>
+  </data>
+  <data name="rqdEndTimeMMResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdEndTimeMMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rqdMediumResource1.ErrorMessage" xml:space="preserve">
+    <value>માધ્યમ જરૂરી છે</value>
+  </data>
+  <data name="rqdMediumResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdMediumResource1.ToolTip" xml:space="preserve">
+    <value>માધ્યમ જરૂરી છે</value>
+  </data>
+  <data name="rqdPincodeResource1.ErrorMessage" xml:space="preserve">
+    <value>પિન કોડ જરૂરી છે</value>
+  </data>
+  <data name="rqdPincodeResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdPincodeResource1.ToolTip" xml:space="preserve">
+    <value>પિન કોડ જરૂરી છે</value>
+  </data>
+  <data name="rqdSchoolAddressResource1.ErrorMessage" xml:space="preserve">
+    <value>શાળા નુ સરનામું જરૂરી છે</value>
+  </data>
+  <data name="rqdSchoolAddressResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdSchoolAddressResource1.ToolTip" xml:space="preserve">
+    <value>શાળા નુ સરનામું જરૂરી છે</value>
+  </data>
+  <data name="rqdSchoolEmailIDResource1.ErrorMessage" xml:space="preserve">
+    <value>શાળા ઇ મેલ આઈડી જરૂરી છે</value>
+  </data>
+  <data name="rqdSchoolEmailIDResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdSchoolEmailIDResource1.ToolTip" xml:space="preserve">
+    <value>શાળા ઇ મેલ આઈડી જરૂરી છે</value>
+  </data>
+  <data name="rqdSchoolNameResource1.ErrorMessage" xml:space="preserve">
+    <value>શાળા નામ જરૂરી છે</value>
+  </data>
+  <data name="rqdSchoolNameResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdSchoolNameResource1.ToolTip" xml:space="preserve">
+    <value>શાળા નામ જરૂરી છે</value>
+  </data>
+  <data name="rqdSchoolTypeResource1.ErrorMessage" xml:space="preserve">
+    <value>શાળા ના પ્રકાર જરૂરી છે</value>
+  </data>
+  <data name="rqdSchoolTypeResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdSchoolTypeResource1.ToolTip" xml:space="preserve">
+    <value>શાળા ના પ્રકાર જરૂરી છે</value>
+  </data>
+  <data name="rqdStartTimeHHResource1.ErrorMessage" xml:space="preserve">
+    <value>પ્રારંભ સમય કલાક દાખલ કરો.</value>
+  </data>
+  <data name="rqdStartTimeHHResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdStartTimeHHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rqdStartTimeMMResource1.ErrorMessage" xml:space="preserve">
+    <value>પ્રારંભ સમય માત્ર નંબર  માન્ય છે.</value>
+  </data>
+  <data name="rqdStartTimeMMResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdStartTimeMMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rqdStateResource1.ErrorMessage" xml:space="preserve">
+    <value>રાજ્ય જરૂરી છે</value>
+  </data>
+  <data name="rqdStateResource1.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="rqdStateResource1.ToolTip" xml:space="preserve">
+    <value>રાજ્ય જરૂરી છે</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>કાઢી નાખો</value>
+  </data>
+  <data name="txtAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBlockNoSurveyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBlockNoSurveyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCityResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndTimeHHResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndTimeHHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndTimeMMResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndTimeMMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFaxNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFaxNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLandlineResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLandlineResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMobileNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMobileNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPincodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPincodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPloatNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPloatNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSemisterResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSemisterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSchlMailIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSchlMailIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSchlWebsiteResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSchlWebsiteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSchNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSchNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSchoolStartyearResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSchoolStartyearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartTimeHHResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartTimeHHResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartTimeMMResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartTimeMMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="vsumSchoolGeneralInfoResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="vsumSchoolGeneralInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="vsumSchoolInfoResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="vsumSchoolInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFaxNoResource1.Text" xml:space="preserve">
+    <value>ફેક્સ નંબર:</value>
+  </data>
+</root>

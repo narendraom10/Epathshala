@@ -1,0 +1,1600 @@
+﻿
+
+.Button
+{
+    position: relative;
+    margin: 5px;
+    padding: 5px 10px; /*background: -webkit-linear-gradient(#6EDC74, #1BA31E); /* For Safari 5.1 to 6.0 */ /* background: -o-linear-gradient(#6EDC74, #1BA31E); /* For Opera 11.1 to 12.0 */ /* background: -moz-linear-gradient(#6EDC74, #1BA31E); /* For Firefox 3.6 to 15 */ /*background: linear-gradient(#6EDC74, #1BA31E); /* Standard syntax (must be last) */
+    color: #fff;
+    background-color: #3a3d91;
+    border: none;
+    font-weight: 400;
+    border-radius: 1.5px;
+    font-size: 15px;
+    box-shadow: 0 1px 0.05em #000;
+}
+.Button:hover
+{
+    position: relative; /* margin: 0 17px 0 0;*/
+    background-color: #484CE2;
+    color: #fff;
+}
+.Visible
+{
+    visibility: visible;
+    display: block;
+}
+.InVisible
+{
+    visibility: hidden;
+    display: none;
+}
+
+.LoginLabel
+{
+    font-size: 16px;
+    margin-left: 5px;
+    padding-left: 5px; /*background-color: #E0E0E2;*/ /*background-color: #DFE0E2;*/
+}
+.modalBackground
+{
+    /*background-color: #FFFFFF;*/
+    filter: alpha(opacity=40);
+    background-color: #000;
+    opacity: 0.40;
+}
+.modalPopup
+{
+    background-color: #FFFFFF;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin: 1px;
+    font-family: Roboto-Light;
+    font-weight: normal;
+    font-size: 14px;
+    border: 2px solid; /*background-image: url('web/bannerbg.png');*/
+}
+.modalPopup2
+{
+    background-color: #FFFFFF;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin: 1px;
+    font-family: Roboto-Light;
+    font-weight: normal;
+    font-size: 14px;
+}
+.modalPopup3
+{
+    background-color: #FFFFFF;
+    padding-top: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+    margin: 0px;
+    font-family: Roboto-Light;
+    font-weight: normal;
+}
+.modalPopup4
+{
+    background-color: #FFFFFF;
+    padding-top: 5px;
+    padding-left: 0px;
+    cursor: pointer;
+    margin: 1px;
+    font-family: Roboto-Light;
+    font-weight: normal;
+}
+
+.modalPopup5
+{
+    background-color: #FFFFFF;
+    width: 50%;
+    padding-top: 5px;
+    padding-left: 0px;
+    cursor: pointer;
+    margin: 1px;
+    font-family: Roboto-Light;
+    font-weight: normal;
+}
+.modalBackground1
+{
+    background-color: White; /*filter: alpha(opacity=95);     opacity: 0.95;*/
+}
+.RoundTop
+{
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+}
+.Header12
+{
+    text-align: center; /* font-weight: bold;*/
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #F67E3E;
+}
+
+#banner1
+{
+    width: 100%;
+    background-image: url('web/bannerbg.png');
+    opacity: 0.75;
+    background-repeat: repeat;
+    position: relative;
+    display: inline-block;
+}
+
+.InnerTableStyle
+{
+    vertical-align: top;
+    border: 1px solid #F2941B;
+}
+
+.text
+{
+    border: 1px solid Gray; /*height: 20px;*/
+    font-weight: lighter;
+    font-size: 0.9em;
+    padding: -webki- 0px 5px 0px 0px;
+    padding: -o- 0px 5px 0px 0px;
+    padding: -moz- 0px 5px 0px 0px;
+    margin: 5px 0px 5px 5px;
+    vertical-align: middle;
+    height: 25px;
+    min-width: 100px;
+}
+.gender
+{
+    width: 65px;
+    height: 28px;
+    float: right;
+}
+.Required:after
+{
+    content: "*";
+    color: Red;
+    text-align: right;
+}
+
+#welcome
+{
+    margin: 5px 0px 0px 5px;
+    padding: 5px 0px 0px 5px;
+    font-size: 0.80em;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 300;
+    position: relative;
+    color: #484ce2;
+}
+
+
+#logo1
+{
+    width: 120px;
+    float: left;
+    margin-left: 8%;
+    position: relative;
+}
+
+#logo1 a img
+{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#logo1 a
+{
+    width: 146px;
+    height: 62px;
+}
+
+
+.logoutButton
+{
+    position: relative;
+    padding: 4px 10px;
+    background: -webkit-linear-gradient(#72C742, #528F30); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#72C742, #528F30); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#72C742, #528F30); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#72C742, #528F30); /* Standard syntax (must be last) */ /*border: 1px solid #f8a047;*/
+    color: #fff;
+    font-weight: 400;
+    border-radius: 2px;
+    font-size: 1.05em;
+    box-shadow: 0 1px 0.02em #000;
+}
+.logoutButton:hover
+{
+    background: #528F30;
+}
+/*
+.SubTitle
+{
+    text-align: left;
+    vertical-align: top;
+    color: ButtonShadow;
+    font: 16px "Verdana" , Geneva; /*font: bold 18px "Calibri" , Arial;*/
+
+
+.TableControl
+{
+    margin: 2px auto 20px auto;
+}
+.TableControl1
+{
+    margin: 10px auto 232px 20px;
+}
+.label
+{
+    font-size: 16px;
+    margin-left: 5px;
+    padding-left: 5px; /*background-color: #E0E0E2;*/ /*background-color: #DFE0E2;*/
+    color: Black;
+    background-color: #F0F0F0;
+    background-image: url('web/bannerbg.png');
+    background-repeat: no-repeat;
+}
+.ActionBarTable
+{
+    width: 100%;
+    background-color: #666666; /*background-image: url('web/Gray.jpg'); #C3C3C3;#D0D1D2;     background-repeat: repeat;*/
+}
+
+
+#map
+{
+    width: 430px;
+    height: 56.20%;
+    float: right;
+    margin: 40px 40px 20px 0;
+    background-color: #D2356D;
+    box-shadow: 0 0 27px #828282;
+    border-radius: 20px;
+    color: #fff;
+    padding: 2% 1%;
+    font-size: 1.4em;
+}
+
+#map f4
+{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+#map f3
+{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+
+#map ul li
+{
+    font-size: 0.6em;
+    font-weight: 200;
+}
+.tblControl tbody tr td
+{
+    /*text-align: left;*/
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+    margin: 0px;
+    float: none;
+    text-align: left;
+}
+
+.tblControl1 tbody tr td
+{
+    /*text-align: left;*/
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+    margin: 0px;
+    float: none;
+    text-align: right;
+}
+.tab
+{
+    font-weight: bold;
+    background-color: #458ccc;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 25px;
+    line-height: 25px;
+    background-position: right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+}
+.tabSelected
+{
+    background-color: #c6222B;
+}
+
+.tabhover a:hover
+{
+    color: Black;
+}
+
+/*---------------|Varnindra|-----------------------------*/
+
+
+
+#signupform .Label, #signupform .Control, #signupform .Control input[type="text"], #signupform .Control input[type="password"]
+{
+    float: left;
+    min-width: 95px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 35px;
+    position: relative;
+    font-family: Roboto-Light;
+}
+
+
+#signupform .Label
+{
+    text-align: right;
+}
+
+#signupform .LineBreaker
+{
+    clear: both;
+}
+
+
+#signupform input[type="text"], #signupform input[type="password"]
+{
+    border: none;
+    height: 22px;
+    width: 205px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    padding: 3px;
+    float: left;
+}
+
+#signupform #txtBirthdate
+{
+    border: none;
+    height: 22px;
+    max-width: 175px;
+    font-weight: lighter;
+    font-size: 0.9em;
+    padding: 3px;
+    float: left;
+}
+
+
+
+#signupform select
+{
+    width: 135px;
+    clear: both;
+    border: none;
+}
+
+#signupform select option
+{
+    padding-left: 3px;
+    border: none;
+    height: 22px;
+}
+
+#signupform .Control
+{
+    display: inline-block;
+    float: left;
+}
+
+
+#signupform .Control #txtBirthdate
+{
+    display: inline-block;
+    min-width: 175px;
+}
+
+
+
+#BirthDateImageButton
+{
+    float: left;
+    position: relative;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+
+.captchadiv
+{
+    width: 200px;
+    float: left;
+}
+
+
+#signupform .captchacode
+{
+    width: 95.8%;
+    position: relative;
+    display: inline-block;
+    border: 1px solid #1B227F;
+    border-radius: 2px;
+    background-color: #999;
+    padding: 5px;
+}
+
+.captchacodeimg
+{
+    width: 120px;
+}
+
+#Captcha1
+{
+    float: left;
+    position: relative;
+}
+
+#ibtnRefresh
+{
+    float: left;
+    position: relative;
+}
+
+form
+{
+    height: 0px;
+}
+
+
+/*********** For Ratting tblControlsPopoup Css****************/
+.tblControlsRattingPopup
+{
+    padding: 0px;
+}
+.tblControlsRattingPopup tr td
+{
+    padding: 3px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.tblControlsRattingPopup .Required:after
+{
+    content: "*";
+    color: Red;
+    text-align: left;
+}
+
+.tblControlsRattingPopup .Footer:after
+{
+    /*border-top: 1px dashed #35B1B1;*/
+    font-size: 8pt;
+    color: Red;
+    text-align: right;
+}
+
+.tblControlsRattingPopup span
+{
+    /*padding-top: 3px;     width: 350px;     white-space: nowrap;*/
+}
+
+.tblControlsRattingPopup .Header
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #26AAAA;
+    border-bottom: 0px none black;
+    border-left: 0px none black;
+    border-right: 0px none black;
+    border-top: 0px none black;
+    text-align: center; /* font-weight: bold;*/
+    padding: 5px;
+    background-image: url('../Images/dialogHeaderT.gif');
+    background-repeat: repeat-x; /*border: 0.5px solid #26AAAA;*/
+    color: #096B6B;
+}
+.tblControlsRattingPopup .footer
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #26AAAA;
+    border-bottom: 0px none black;
+    border-left: 0px none black;
+    border-right: 0px none black;
+    border-top: 0px none black;
+    text-align: center; /* font-weight: bold;*/
+    padding: 5px;
+    background-image: url('../Images/dialogHeaderT.gif');
+    background-repeat: repeat-x; /*border: 0.5px solid #26AAAA;*/
+    color: #096B6B;
+}
+
+.ratingEmpty
+{
+    background-image: url(../Images/ratingStarEmpty.gif);
+    width: 18px;
+    height: 18px;
+    padding-top: 0px;
+    white-space: normal;
+}
+.ratingFilled
+{
+    background-image: url(../Images/ratingStarFilled.gif);
+    width: 18px;
+    height: 18px;
+    padding-top: 0px;
+    white-space: normal;
+}
+.ratingSaved
+{
+    background-image: url(../Images/ratingStarSaved.gif);
+    width: 18px;
+    height: 18px;
+    padding-top: 0px;
+    white-space: normal;
+}
+/* For Ratting tblControlsPopoup Css*/
+
+
+
+.RadioClass label
+{
+    background-color: transparent;
+    color: Black;
+    white-space: nowrap;
+    padding: 10px;
+    width: 80%;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ced9bf;
+}
+
+.RadioClass label:hover
+{
+    background-color: transparent;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.RadioClass label:active
+{
+    background-color: transparent;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+.RadioClass
+{
+    width: 98%;
+}
+.RadioClass td
+{
+    -moz-box-shadow: 3px 4px 0px 0px #B7B2B2;
+    -webkit-box-shadow: 3px 4px 0px 0px #B7B2B2;
+    box-shadow: 3px 4px 0px 0px #B7B2B2;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 2px solid #D7D7D7;
+    border-radius: 14px;
+    color: #999999;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 2px 2px 2px 0;
+    margin-left: 5px;
+    padding: 4px 8px !important;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #B7B2B2; /* white-space: nowrap;*/
+    width: auto;
+    min-width: 98%;
+}
+
+.RadioClass td:hover
+{
+    -moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+    -webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: none repeat scroll 0 0 #C6222B;
+    border: 2px solid #EA4858;
+    color: #FFFFFF !important;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ced9bf;
+}
+.RadioClass td:active
+{
+    background: none repeat scroll 0 0 #C6222B;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.textBoxCls
+{
+    margin-left: 5px;
+    height: 25px;
+    margin-right: 3px;
+    width: 100px;
+}
+
+.CalImgCls
+{
+    margin-top: 3px;
+}
+
+.panel
+{
+    color: Gray;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+
+.multiline1
+{
+    resize: none;
+    width: 50%;
+    height: 20px;
+}
+
+.multiline2
+{
+    resize: none;
+    width: 50%;
+    height: 60px;
+}
+
+
+/************** Video CSS ****************/
+
+.vedioplayer
+{
+    width: 800px;
+    margin: auto;
+    background-color: #fbfbfb;
+    padding: 20px; /*border:1px solid #ccc;*/
+    box-shadow: 0 0 0.099em #444;
+    border-radius: 2px;
+}
+
+/************* Activity Feedback Report.aspx **********/
+
+#pnlreport
+{
+    width: 100%;
+    margin: auto;
+}
+
+#ratingtable
+{
+    margin: 0 auto 25px auto;
+}
+
+#lblBMSSCTnametext
+{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 15px auto;
+    background-color: #ccc;
+    padding: 8px 0 8px 0;
+    font-weight: 700;
+    font-size: 1.15em;
+    box-shadow: 0 0 2px #444;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+/*
+#pnlandratingtable
+{
+    border:1px solid #777;
+    width:70%;
+    margin:auto;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+*/
+
+/********************* Next Button **************************/
+.NextButton
+{
+    -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    box-shadow: inset 0px 0px 0px 0px #ffffff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color: #ededed;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #777777;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: bold;
+    font-style: normal;
+    height: 45px;
+    line-height: 35px;
+    width: 131px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+.NextButton:hover
+{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #C6222B), color-stop(1, #C6222B) );
+    background: -moz-linear-gradient( center top, #C6222B 5%, #C6222B 100% );
+    color: White;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C6222B', endColorstr='#C6222B');
+    background-color: #C6222B;
+}
+.NextButton:active
+{
+    position: relative;
+    top: 1px;
+}
+.TextHoverUnhover
+{
+}
+.TextHoverUnhover:hover
+{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear; /*transition: all 0.5s linear;*/
+}
+.TextHoverUnhover:active
+{
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear; /*transition: all 0.5s linear;*/
+}
+
+/******************* Syllabus Covered Stlye Start ****************/
+.RightAnswerChart
+{
+    background-color: Green;
+    border: none;
+    height: 22px;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    background-position: center center;
+    background-image: url('../Images/bar-green.jpg');
+    background-repeat: repeat-x;
+    color: White;
+}
+
+.WrongAnswerChart
+{
+    background-position: center center;
+    background-color: red;
+    border: none;
+    height: 22px;
+    color: White;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    background-image: url('../Images/bar-red.jpg');
+    background-repeat: repeat-x;
+}
+
+
+
+.pink
+{
+    background: #EA197B;
+    color: #D6689D;
+    box-shadow: inset -3px 0 2px rgba(255,255,255,0.2), 0 0 4px rgba(0,0,0,0.7);
+    background-position: center center;
+    border: none;
+    height: 14px;
+    color: White;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    font-size: 10px;
+    text-align: center;
+}
+.pink:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+.turquoise
+{
+    background: #0DC19A;
+    color: #0DC19A;
+    box-shadow: inset -3px 0 2px rgba(255,255,255,0.2), 0 0 4px rgba(0,0,0,0.7);
+    border: none;
+    height: 14px;
+    color: White;
+    margin: 0px 0px 0px 0px;
+    overflow: hidden;
+    font-size: 10px;
+    text-align: center;
+}
+.turquoise:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Syllabus Covered Stlye end */
+
+
+
+
+/******************* TeacherDashboard.aspx ****************/
+
+
+.tblDashboard
+{
+    width: 95%;
+    margin: auto;
+    height: auto;
+}
+
+.tblDashboard1
+{
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+
+.firstpanel
+{
+    width: 97%;
+    margin: 0px auto 20px auto;
+    padding: 20px 20px;
+    float: left;
+    position: relative;
+    background-color: #fbfbfb; /*fbfbfb*/ /*border:1px solid #ccc;*/
+    border-radius: 2px;
+    box-shadow: 0 0 0.099em #444;
+}
+
+.activitydiv
+{
+    background-color: #fff; /*fff*/
+    width: 49%;
+    min-width: 475px; /*box-shadow: 0.005em 0.005em  0.099em #444;*/
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #3e3e3e;
+    margin: 5px 0 0 0;
+    border-left: 1px solid #959595;
+    border-bottom: 1px solid #959595;
+    border-right: 1px solid #959595;
+    border-radius: 2px;
+}
+
+.activitydivpackage
+{
+    border-top: 1px solid #959595;
+    border-left: 1px solid #959595;
+    border-bottom: 1px solid #959595;
+    border-right: 1px solid #959595;
+    border-radius: 2px;
+    margin: 5px 0 0 0;
+    padding: 5px 5px 5px 185px;
+}
+
+.activitydivfull
+{
+    background-color: #fff; /*fff*/
+    width: 100%; /*box-shadow: 0.005em 0.005em  0.099em #444;*/
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #3e3e3e;
+    margin: auto;
+    border-left: 1px solid #959595;
+    border-bottom: 1px solid #959595;
+    border-right: 1px solid #959595;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.activitydivside
+{
+    background-color: #fff; /*fff*/
+    width: 87.5%; /*box-shadow: 0.005em 0.005em  0.099em #444;*/
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #3e3e3e;
+    margin-left: 20px;
+    border-left: 1px solid #959595;
+    border-bottom: 1px solid #959595;
+    border-right: 1px solid #959595;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.activitydivsidepackage
+{
+    background-color: #fff; /*fff*/
+    width: 95%; /*box-shadow: 0.005em 0.005em  0.099em #444;*/
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #3e3e3e;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 1px solid #959595;
+    border-bottom: 1px solid #959595;
+    border-right: 1px solid #959595;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+.activitydivside1
+{
+    background-color: #fff; /*fff*/
+    width: 100%; /*box-shadow: 0.005em 0.005em  0.099em #444;*/
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #3e3e3e;
+    border-left: 1px solid #959595;
+    border-bottom: 1px solid #959595;
+    border-right: 1px solid #959595;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+.ActivityHeader
+{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #805320;
+    border-top: 1px solid #ffa640;
+    background-color: #ed8a18; /*#b7b7b7*/ /*background: -webkit-linear-gradient(#EEA219, #F7881D); /* For Safari 5.1 to 6.0 */ /*background: -o-linear-gradient(#EEA219, #F7881D); /* For Opera 11.1 to 12.0 */ /*background: -moz-linear-gradient(#EEA219, #F7881D); /* For Firefox 3.6 to 15 */ /*background: linear-gradient(#EEA219, #F7881D); /* Standard syntax */
+    color: #222;
+    margin-bottom: 10px;
+    font-family: Roboto-Regular;
+}
+
+.ActivityHeader1
+{
+    font-size: 1.0em;
+    text-align: center;
+    padding: 2px 0;
+    border-bottom: 1px solid #805320;
+    border-top: 1px solid #ffa640;
+    background-color: #ed8a18; /*#b7b7b7*/
+    color: #222;
+    line-height: 20px;
+    font-family: Roboto-Regular;
+}
+
+
+.activityright
+{
+    float: right;
+}
+
+.activityleft
+{
+    float: left;
+}
+
+
+.radiobotton
+{
+    height: 34px;
+}
+
+
+.BMStitle
+{
+    font-size: 0.90em;
+}
+
+
+
+#activitybottondiv
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#activitybottondiv ul
+{
+    width: 100%;
+    margin-left: 40;
+}
+
+.activitybotton
+{
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    width: 12%;
+}
+
+#ctl00_ContentPlaceHolder1_rblChapters tr td
+{
+    width: 180px;
+}
+
+
+.activitybotton a
+{
+    width: 100%; /*width: 220px;*/
+    color: #fff !important;
+    background-color: #80262e;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+    box-shadow: 0.05em 0.05em 0.008em #444;
+}
+
+.activitybotton a:hover
+{
+    background-color: #b33640;
+}
+
+
+.textlabel
+{
+    width: 85px;
+    float: left;
+    height: auto;
+    white-space: nowrap;
+    clear: both; /*margin-top:9px;*/
+    padding-top: 4px;
+    white-space: nowrap;
+}
+
+.textlabel1
+{
+    width: 90px;
+    float: left;
+    height: auto;
+    white-space: nowrap;
+    clear: both; /*margin-top:9px;*/
+    padding-top: 4px;
+    white-space: nowrap;
+}
+
+.textlabel1
+{
+    width: 125px;
+    float: left;
+    height: auto;
+    white-space: nowrap;
+    clear: both; /*margin-top:9px;*/
+    padding-top: 4px;
+    white-space: nowrap;
+}
+
+.controllabel
+{
+    float: left;
+    height: auto;
+    white-space: nowrap; /*margin-top:9px;*/
+    padding: 5px;
+    white-space: nowrap;
+    font-size: 0.90em;
+}
+
+.controllabel1
+{
+    float: left;
+    height: auto;
+    white-space: nowrap;
+    margin-left: 25px;
+    padding-top: 5px;
+    white-space: nowrap;
+    display: -inline-block;
+}
+
+.persentagediv
+{
+    margin: 0 auto 15px auto;
+    width: 300px;
+}
+
+.persentagetagbox
+{
+    float: right;
+    width: 55%;
+    padding: 5% 1%;
+    border: 1px solid #ccc;
+}
+
+.chapterlist
+{
+    float: left;
+}
+
+.persentage
+{
+    font-family: Roboto-Black;
+    font-size: 1.2em;
+    margin: 3px;
+}
+
+.lblcover
+{
+    height: 35px;
+}
+
+
+
+.ActivityContent
+{
+    margin: 5px 20px 5px 20px;
+}
+
+
+
+
+#lblTopic, #lblChapter
+{
+    width: 85px;
+    float: left;
+    position: relative;
+}
+
+.bmsdiv
+{
+    clear: both;
+    height: 35px;
+}
+
+.gobotton
+{
+    margin-left: 85px;
+    float: left;
+    clear: both;
+}
+
+#btnAttendance, #lbtnMorningPrayer, #lbtnEveningPrayer
+{
+    color: #000000;
+}
+
+/********** end TheacherDashboard.aspx *****/
+
+
+/***************** userlist.aspx ****************/
+
+
+.sidepanel
+{
+    width: 26%;
+    margin: 0px auto 20px auto;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+    background-color: #fbfbfb; /*fbfbfb*/ /*border:1px solid #ccc;*/
+    border-radius: 2px;
+    box-shadow: 0 0 0.099em #444;
+}
+
+.sidepanelPromotBanch
+{
+    width: 99%;
+    margin: 0px auto 20px auto;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+    background-color: #fbfbfb; /*fbfbfb*/ /*border:1px solid #ccc;*/
+    border-radius: 2px;
+    box-shadow: 0 0 0.099em #444;
+}
+
+.sidepanelpackage
+{
+    width: 90% !important;
+    margin: 0px auto 20px 50px;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+    background-color: #fbfbfb; /*fbfbfb*/ /*border:1px solid #ccc;*/
+    border-radius: 2px;
+    box-shadow: 0 0 0.099em #444;
+}
+
+.sidepanelpackage1
+{
+    width: 87%;
+    margin: 0px auto 20px 50px;
+    padding: 20px 20px;
+    float: left;
+    position: relative;
+    background-color: #fbfbfb; /*fbfbfb*/ /*border:1px solid #ccc;*/
+    border-radius: 2px;
+    box-shadow: 0 0 0.099em #444;
+}
+
+
+.sidepanel1
+{
+    width: 69.4%;
+    margin: 0px auto 20px auto;
+    padding: 20px 20px;
+    float: right;
+    position: relative;
+    background-color: #fbfbfb; /*fbfbfb*/ /*border:1px solid #ccc;*/
+    border-radius: 2px;
+    box-shadow: 0 0 0.099em #444;
+}
+.sidepanel1PromotBanch
+{
+    width: 90%;
+    margin: 0px auto 20px 50px;
+    padding: 20px 20px;
+    float: left;
+    position: relative;
+    background-color: #fbfbfb; /*fbfbfb*/ /*border:1px solid #ccc;*/
+    border-radius: 2px;
+    box-shadow: 0 0 0.099em #444;
+}
+
+.activitydivsidePromoteBatch
+{
+    background-color: #fff; /*fff*/
+    width: 95%; /*box-shadow: 0.005em 0.005em  0.099em #444;*/
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #3e3e3e;
+    margin-left: 20px;
+    border-left: 1px solid #959595;
+    border-bottom: 1px solid #959595;
+    border-right: 1px solid #959595;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.standarbtn
+{
+    margin: 0 0 10px 20px;
+    float: left;
+    width: 100%;
+    clear: both;
+    display: inline;
+}
+
+.standarbar
+{
+    float: left;
+    margin: 0 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.subheaduserdetail
+{
+    font-size: 1.4em;
+    text-decoration: underline;
+    margin-left: 5px;
+    white-space: nowrap;
+    clear: both;
+}
+
+.playbtn
+{
+    width: 22px;
+    height: 22px;
+    margin-bottom: -5px;
+}
+
+
+/*************************** ExamEntry.aspx ***********************/
+
+.inputdiv
+{
+    display: inline-block;
+    clear: both;
+}
+
+
+
+.inntextbox
+{
+    width: 250px;
+    font-family: Roboto-Light;
+    font-size: 1.15em;
+    padding: 2px 5px;
+    border: none;
+    margin: 5px 5px;
+    border: 1px solid #ccc;
+}
+
+
+/*********************** Contact us.aspx ************/
+
+.mapcontact
+{
+    position: absolute;
+    top: 0;
+    background-color: #80262D;
+    font-size: 1.0em;
+    margin: 9% 0% 5% 60%;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 9px 9px 2px #555;
+    opacity: 0.90;
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+/************* Classroomwiseactivity.aspx ***********/
+
+.subactiviycontent
+{
+    float: left;
+    width: 45%;
+}
+
+
+
+/************* Subjectwisereport.aspx **********/
+
+.assessment
+{
+    width: 100%;
+    float: left;
+}
+
+
+
+/**************** studentAteendance.aspx *************/
+
+.SubTitle
+{
+    font-size: 1.2em;
+}
+
+
+
+.chkStyle
+{
+    width: 100%;
+}
+.chkStyle tbody tr td
+{
+    /*text-align: left;*/
+    padding: 0px 5px 5px 5px;
+    vertical-align: top;
+    margin: 0px;
+    float: none;
+    text-align: left;
+}
+.chkStyle tbody tr td label
+{
+    padding-left: 5px;
+    text-align: left;
+    width: 130px;
+    display: inline-block;
+}
+
+
+.divnewpackage
+{
+    /*  margin: auto;     padding: 5px;     margin-right: 50px;*/
+    margin: auto 50px auto auto;
+    padding: 5px 5px 5px 250px;
+}
+
+.chkStyle1
+{
+    width: 100%;
+    margin: 5px 5px 5px 115px;
+}
+.chkStyle1 tbody tr td
+{
+    /*text-align: left;*/
+}
+.chkStyle1 tbody tr td label
+{
+    padding-left: 5px;
+    text-align: left;
+    width: 100px;
+    display: inline;
+}
+
+
+.SelectAllCheckBox span
+{
+    padding-left: 5px;
+}
+.dropdownwidth select
+{
+    width: 138px;
+}
+
+/* Modelpopup loader start*/
+.loadingtable
+{
+    background-color: #FFFFFF;
+    width: 200px;
+    border: 1px solid #7D7D7D;
+}
+.loadingtable img
+{
+    padding-top: 15px;
+}
+.loadingtable span
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+.loadingtabletd
+{
+    padding-left: 70px;
+    padding-bottom: 6px;
+}
+/* Modelpopup loader end*/
+
+/*SendMailToStudent control Start*/
+.dvcollapse, .dvcollapsed
+{
+    width: 100%;
+    font-size: 1em;
+}
+.dvcollapse .dvstudentlst
+{
+    width: 30%;
+    min-height: 100%;
+    float: left;
+    overflow: hidden;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    transition: margin 0.3s linear 0s, width 0.3s linear 0s, visibility 0.5s linear 0s;
+}
+.dvcollapse .dvmaildetail
+{
+    width: 65%;
+    float: left;
+    transition: margin 0.3s linear 0s, width 0.3s linear 0s, visibility 0.5s linear 0s;
+    margin: 1% 0 0% 2%;
+}
+.dvcollapsed .dvstudentlst
+{
+    width: 0%;
+    float: left;
+    overflow: hidden;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    transition: margin 0.3s linear 0s, width 0.3s linear 0s, visibility 0.5s linear 0s;
+}
+.dvcollapsed .dvmaildetail
+{
+    width: 96%;
+    float: left;
+    transition: margin 0.3s linear 0s, width 0.3s linear 0s, visibility 0.5s linear 0s;
+    margin: 1% 0 0% 2%;
+}
+.dvslider
+{
+    width: 1%;
+    min-height: 770px;
+    float: left;
+    background-color: #f4f7f8;
+    box-shadow: -6px 0 3px -3px #e8ebed inset;
+    cursor: pointer;
+    width: 6px;
+    z-index: 1;
+    border: 2px solid #e5e5e5;
+}
+.frame-switcher-wrap
+{
+    background: #fff none repeat scroll 0 0;
+    border-color: #82919a;
+    height: 30px;
+    margin: -15px -1px 0;
+    position: absolute;
+    top: 50%;
+    width: 6px;
+    border: 1px solid #9caab2;
+}
+.frame-switcher-wrap > span
+{
+    border-left-color: #9caab2;
+    border-right-color: #9caab2;
+    border-style: solid;
+    border-width: 3px 3px 3px 0;
+    display: inline-block;
+    height: 0;
+    margin-top: -3px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+}
+.overflw
+{
+    overflow: auto;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    min-height: 605px;
+    max-height: 605px;
+    width: 92%;
+    margin-left: 5px;
+}
+.dvresult
+{
+    margin-top: 0px;
+}
+.dvupload
+{
+    background-color: #f5f5f5;
+    border: 2px solid #e5e5e5;
+    font: 11px Verdana,Geneva,sans-serif;
+    padding: 5px;
+    margin: 2px 5px 2px 2px;
+    width: auto;
+    display: inline-block;
+}
+.dvuploadbtn
+{
+    background-color: #f5f5f5;
+    border: 2px solid #e5e5e5;
+    font: 11px Verdana,Geneva,sans-serif;
+    padding: 5px;
+    margin: 2px 5px 2px 2px;
+    width: auto;
+    display: inline-block;
+}
+.dvuploadfile
+{
+    background-color: #f5f5f5;
+    border: 2px solid #e5e5e5;
+    font: 11px Verdana,Geneva,sans-serif;
+    padding: 1px;
+    margin: 2px 5px 2px 2px;
+    width: auto;
+    display: inline-block;
+}
+.fileName
+{
+    float: left;
+}
+.closebtn
+{
+    float: left;
+    padding-left: 15px;
+}
+.dvsmallheader
+{
+    background-color: #f5f5f5;
+    border: 2px solid #e5e5e5;
+    font: 11px Verdana,Geneva,sans-serif;
+    padding: 5px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -2px;
+    margin-top: 8px;
+}
+/*SendMailToStudent control End*/

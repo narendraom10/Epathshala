@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Age wise StudentReport</Title>
+    <HiddenFields>StudentAgeGropID</HiddenFields>
+    <ColumnWidth>Transaction Date=90,Location=200</ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment>GroupName=center,DESCRIPTION=center,AgeGroup=center,NoStudent=center</alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <Title>Group wise student age report</Title>
+    <studentagegropid>false</studentagegropid>
+    <groupname>true</groupname>
+    <description>true</description>
+    <agegroup>true</agegroup>
+    <nostudent>true</nostudent>
+
+  </Exporttoexcelsettings>
+
+  <en-US>
+    <Title>Agewise Student Report</Title>
+    <GroupName>Group Name</GroupName>
+    <DESCRIPTION>Description</DESCRIPTION>
+    <AgeGroup>Age Group</AgeGroup>
+    <NoStudent>Students</NoStudent>
+  </en-US>
+
+  <gu-IN>
+    <Title>ઉંમર મુજબ વિદ્યાર્થી અહેવાલ</Title>
+    <GroupName>ગ્રુપ નામ</GroupName>
+    <DESCRIPTION>વર્ણન</DESCRIPTION>
+    <AgeGroup>ઉંમર ગ્રુપ</AgeGroup>
+    <NoStudent>વિદ્યાર્થી</NoStudent>
+  </gu-IN>
+
+  <hi-IN>
+    <Title>उम्र वार विद्यार्थी रिपोर्ट</Title>
+    <GroupName>समूह का नाम</GroupName>
+    <DESCRIPTION>विवरण</DESCRIPTION>
+    <AgeGroup>उम्र के समूह</AgeGroup>
+    <NoStudent>छात्र</NoStudent>
+  </hi-IN>
+
+</Search>

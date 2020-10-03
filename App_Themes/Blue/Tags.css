@@ -1,0 +1,81 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    /*letter-spacing: 0.1em;*/
+}
+
+body
+{
+    font-family: Roboto-Light;
+    font-size: 14px;
+    color: black; /*color:#aaaaaa;*/
+    font-weight: normal;    
+}
+ /*input[type="submit"], button, input[type="reset"], input[type="button"]
+{
+    background-position: center;
+    color: black;
+  
+    background-image: url('../Images/dialogHeaderT.gif');
+    background-repeat: repeat-x;
+    border: 1px double #35B1B1;
+    padding: 3px 10px 3px 10px;
+    margin: 1px; 
+    font-size: 14px;
+    border-radius: 0.25em;
+    border-radius: 0.25em;
+}*/
+.GenButton
+{
+    background-position: center;
+    color: black;
+   /* height: 20px;*/
+    background-image: url('../Images/dialogHeaderT.gif');
+    background-repeat: repeat-x;
+    border: 1px double #35B1B1;
+    padding: 3px 10px 3px 10px;
+    margin: 1px; /*font-weight:bold;*/
+    font-size: 14px;
+    border-radius: 0.25em;
+    border-radius: 0.25em;
+}
+.GenButton:hover
+{color:maroon;}
+
+/*input[type="submit"]:hover, button:hover, input[type="reset"]:hover,input[type="button"]:hover
+{
+    color:maroon;
+    }    */
+
+input[type="text"], textarea
+{
+    padding:3px;
+    width:200px;
+    }
+
+select
+{
+	padding:3px 3px 3px 3px;
+	width:208px;
+	}
+
+.watermark {
+    color:Gray;
+    /*font-size:smaller;
+    font-style:italic;*/
+    padding:3px;
+}
+/*
+.Visible
+{
+    visibility:visible;
+    display:block;
+}
+    
+.InVisible
+{
+    visibility:hidden;
+    display:none;
+    }
+*/

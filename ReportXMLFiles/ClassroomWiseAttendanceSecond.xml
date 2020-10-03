@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Classroom wise attendance report of the day 2</Title>
+    <HiddenFields>StudentID,Date</HiddenFields>
+    <ColumnWidth>Transaction Date=90,Location=200</ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment>Attendance=center,Student=center</alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <title>student attendace report </title>
+    <studentid>false</studentid>
+    <date>true</date>
+    <student>true</student>
+    <attendance>true</attendance>
+  </Exporttoexcelsettings>
+  <en-US>
+    <Title>Classroom Wise Attendance 2</Title>
+    <student>Student</student>
+    <attendance>Attendance</attendance>
+  </en-US>
+  
+  <gu-IN>
+    <Title>દિવસ ની વર્ગખંડ મુજબ હાજરી અહેવાલ 2</Title>
+    <student>વિદ્યાર્થી</student>
+    <attendance>હાજરી</attendance>
+  </gu-IN>
+
+  <hi-IN>
+    <Title>विद्यार्थी वार परिणाम रिपोर्ट 2</Title>
+    <student>विद्यार्थी</student>
+    <attendance>उपस्थिति</attendance>
+  </hi-IN>
+</Search>

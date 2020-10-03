@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>શિક્ષક મુજબના ટ્રેક અહેવાલ</Title>
+    <HiddenFields>SessionID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment></alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <title>Classroom wise detail activity report</title>
+    <Activity>true</Activity>
+    <sessionID>false</sessionID>
+    <totalactivityduration>true</totalactivityduration>
+  </Exporttoexcelsettings>
+
+  <gu-in>
+    <Title>શિક્ષક મુજબના ટ્રેક અહેવાલ</Title>
+    <Activity>પ્રવૃત્તિ</Activity>
+    <TotalActivityDuration>કુલ પ્રવૃત્તિ સમયગાળો</TotalActivityDuration>
+    <Session>સેશન</Session>
+  </gu-in>
+
+  <hi-in>
+    <Title>शिक्षक की गतिविधि रिकार्ड</Title>
+    <Activity>कार्यकलाप</Activity>
+    <TotalActivityDuration>कुल गतिविधि अवधि</TotalActivityDuration>
+    <Session>सेशन</Session>
+  </hi-in>
+  <en-us>
+    <Title>Teacher activity track report</Title>
+    <Activity>Activity</Activity>
+    <TotalActivityDuration>Total Activity Duration</TotalActivityDuration>
+    <Session>Session</Session>
+  </en-us>
+</Search>

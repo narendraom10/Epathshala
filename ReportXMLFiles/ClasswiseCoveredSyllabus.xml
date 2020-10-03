@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Classwise covered syllabus</Title>
+    <HiddenFields>BMSID,DivisionID,SchoolID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>BMSID</Total>
+    <alignment>BMS=center,Division=center,SyllabusCovered=center,Teacher=center </alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+
+  <Exporttoexcelsettings>
+    <tital>Classwise Covered Syllabus</tital>
+    <BMSID>false</BMSID>
+    <BMS>true</BMS>
+    <DivisionID>false</DivisionID>
+    <Division>true</Division>
+    <SchoolID>false</SchoolID>
+    <syllabusCovered>true</syllabusCovered>
+    <Teacher>true</Teacher>
+  </Exporttoexcelsettings>
+
+  <en-us>
+    <Title>Classwise covered syllabus Report</Title>
+    <BMS>Board Medium Standard</BMS>
+    <Division>Division</Division>
+    <SyllabusCovered>Syllabus Covered</SyllabusCovered>
+    <Teacher>Teacher</Teacher>
+  </en-us>
+  <gu-in>
+    <Title>વર્ગ મુજબના કવર અભ્યાસ અહેવાલ</Title>
+    <BMS>બોર્ડ માધ્યમ ધોરણ</BMS>
+    <Division>ડિવિઝન</Division>
+    <SyllabusCovered>આવરી લેવામાં અભ્યાસ</SyllabusCovered>
+    <Teacher>શિક્ષક</Teacher>
+  </gu-in>
+
+  <hi-in>
+   <Title>वर्गवार कवर पाठ्यक्रम रिपोर्ट</Title>
+    <BMS>बोर्ड माध्यम स्टैंडर्ड</BMS>
+    <Division>डिवीजन</Division>
+    <SyllabusCovered>पाठ्यक्रम कवर किया</SyllabusCovered>
+    <Teacher>शिक्षक</Teacher>
+  </hi-in>
+</Search>

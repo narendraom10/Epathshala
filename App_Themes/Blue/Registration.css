@@ -1,0 +1,10 @@
+﻿.RegistrationTable
+{
+	width:100%;
+}
+
+.RegistrationTable tr td
+{
+	vertical-align:top;
+	text-align:left;
+}

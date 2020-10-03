@@ -1,0 +1,13 @@
+﻿.btn-info {
+    background-color: #72abb5 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: none !important;
+}
+
+table th {
+    background-color: #cfcfcf !important;
+    font-weight: normal !important;
+    font-size: 0.9em !important;
+}

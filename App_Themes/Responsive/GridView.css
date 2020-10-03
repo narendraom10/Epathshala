@@ -1,0 +1,164 @@
+﻿.GridViewCss
+{
+    border: 1px solid #000000;
+    margin: 0px 0px 0px 0px;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+    color: #fff;
+    width: auto;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+
+.GridViewCss1
+{
+    border: 1px solid #000000;
+    margin: 0px 0px 0px 0px;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+    color: #000;
+    width: auto;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+
+
+.GridViewCss a:Hover
+{
+    color: #F1971A;
+}
+
+.GridViewCss td
+{
+    border: 1px solid #CCCCCC;
+    padding: 4px 2px 2px 2px;
+    background: white;
+}
+
+.GridViewHeadercss th
+{
+    padding: 4px 3px 3px 2px;
+    text-align: center;
+    color: #fff;
+}
+.GridViewHeadercss th a
+{
+    color: white;
+    text-decoration: none;
+}
+.GridViewHeadercss
+{
+    background-color: #666;
+    color: #C2C2C2;
+    overflow: hidden;
+    border-top: 2px solid #666;
+    border-bottom: 1px solid #222;
+}
+
+.GridViewItem
+{
+    margin: 2px 2px 2px 2px;
+    text-align: left;
+    color: #444;
+}
+.GridViewItem:Hover
+{
+    color: #F1971A;
+}
+.GridViewCssTestAssessment
+{
+    border: none;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+    color: #777777;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+.GridViewCssTestAssessment td
+{
+    border: none;
+    padding: 4px 3px 4px 3px;
+}
+.GridViewHeadercssTestAssessment th
+{
+    border: 0px solid #CCCCCC;
+    padding: 8px 2px 2px 2px;
+    text-align: center;
+    color: White;
+}
+.GridViewHeadercssTestAssessment th a
+{
+    color: White;
+    text-decoration: none;
+}
+.GridViewHeadercssTestAssessment
+{
+    /*  background-color: #484CE2;     background-color: #ff8800;          background-image: url('web/Orange Button.png');*/
+    background: -moz-linear-gradient(#EEA219, #F7881D);
+    color: White;
+    overflow: hidden;
+}
+
+.GridViewItemTestAssessment
+{
+    margin: 2px 2px 2px 2px;
+    text-align: left;
+    color: #777777;
+}
+
+.ApChartGreen
+{
+    /*background-color: Green;     border: none;     height: 22px;     color: White;     margin: 0px 0px 0px 1px;     overflow: hidden;     font-size: 12pt;     text-align: center;     background-position: center center;         background-repeat: repeat-x;*/
+    margin: 0px;
+    padding: 0px;
+    background-color: #009B32;
+    text-align: center;
+    font-size: 11pt;
+    overflow: hidden;
+    border-top-left-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    border-top:1px solid #898989;
+    border-left:1px solid #898989;
+    border-bottom:1px solid #898989;
+}
+
+
+.ApChartRed
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ED0000;
+    text-align: center;
+    overflow: hidden;
+    font-size: 11pt; /*background-position: center center;     background-color: red;     border: none;     height: 22px;     color: White;     margin: 0px 1px 0px 0px;     overflow: hidden;     font-size: 12pt;     text-align: center;        background-repeat: repeat-x;*/
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    border-top:1px solid #898989;
+    border-right:1px solid #898989;
+    border-bottom:1px solid #898989;
+}
+
+
+.ApChartRed span
+{
+    text-align: center;
+}
+.ApChartGreen span
+{
+    text-align: center;
+}
+.Studentusercontrol
+{
+    background-color: #F7881D;
+    color: white;
+    padding-left: 15px;
+    margin: 3px;
+}
+
+
+fieldset
+{
+    margin-top: 10px;
+}
+

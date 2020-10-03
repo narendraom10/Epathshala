@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Subjectwise result report</Title>
+    <HiddenFields>EmployeeID, FirstName,	StandardID,	DivisionID,	SubjectID,StudentID	,	BMSID,	Standard, Total,True,False, Teacher,</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment></alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Studentwise Result Report</tital>
+    <srno>true</srno>
+    <studentid>false</studentid>
+    <firstname>true</firstname>
+    <total>true</total>
+    <true>true</true>
+    <false>true</false>
+    <bmsid>false</bmsid>
+    <standard>false</standard>
+    <subject>false</subject>
+    <perc>true</perc>
+    <teacher>false</teacher>
+    <employeeid>false</employeeid>
+    <standardid>false</standardid>
+    <divisionid>false</divisionid>
+    <subjectid>false</subjectid>
+
+  </Exporttoexcelsettings>
+  <gu-in>
+    <Title>વિષય મુજબના પરિણામ અહેવાલT</Title>
+    <SrNo>ક્રમ</SrNo>
+    <FirstName>વિદ્યાર્થી</FirstName>   
+    <Subject>વિષય</Subject>
+    <Perc>પરિણામ</Perc>
+    <Total>કુલ</Total>
+    <True>સાચું</True>
+    <False>ખોટું</False>
+  </gu-in>
+
+  <hi-in>
+    <Title>विषय वार परिणाम रिपोर्ट</Title>
+    <SrNo>क्रमिक</SrNo>
+    <FirstName>छात्र</FirstName>
+    <Subject>विषय</Subject>
+    <Perc>प्रतिशतता</Perc>
+    <Total>कुल</Total>
+    <True>सही</True>
+    <False>गलत</False>
+  </hi-in>
+  <en-us>
+    <Title>Subjectwise result report</Title>
+    <SrNo>Sr no.</SrNo>
+    <FirstName>Student</FirstName>
+    <Subject>Subject</Subject>
+    <Perc>Percentage</Perc>
+    <Total>Total</Total>
+    <True>True</True>
+    <False>False</False>
+  </en-us>
+
+</Search>

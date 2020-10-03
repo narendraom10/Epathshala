@@ -1,0 +1,138 @@
+body, form, ul, li, p, h2, h3, h4, h5{margin: 0;padding: 0;}
+body {background-color: #f1f1f1 !important;color: #666;font-family: 'Open Sans','Arial';width: 1024px;margin: auto;}
+#aisadmission img { border: none; }
+#aisadmission p{margin: 0 0 1em 0;}
+#aisadmission h2 { font-size: 14px; margin: 0 0 12px; }
+#aisadmission {margin: 0px auto;}
+#aisadmission fieldset{margin: 0 0 0px;padding: 0px 0px 0px 0px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border: none;}
+#aisadmission ol{list-style-type: none;padding: 5px;margin: 0;}
+#aisadmission li{margin: 0 0 0px;position: relative; }
+#aisadmission label{width: 150px;display: inline-block;vertical-align: top;}
+legend {color:#00C492;}
+#aisadmission fieldset input[type=text],
+input[type=url],input[type=tel],input[type=number],input[type=color],input[type=email],#aisadmission fieldset select{background: #fff url(ico_validation.png) 207px 32px no-repeat;display: inline-block;width: 200px;border: 1px solid #3db5d8;padding: 3px 26px 3px 5px;-moz-transition: background-color 1s ease;-webkit-transition: background-color 1s ease;-o-transition: background-color 1s ease;transition: background-color 1s ease; height:25px;margin-right:5px;}
+#aisadmission fieldset textarea{display: inline-block;width: 250px;border: 1px solid #00C492;padding: 3px 26px 3px 3px;-moz-transition: background-color 1s ease;-webkit-transition: background-color 1s ease;-o-transition: background-color 1s ease;transition: background-color 1s ease;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; resize:none; }
+#aisadmission fieldset input[type="checkbox"]{width:20px; border:0px solid grey; cursor:pointer;}
+#aisadmission fieldset input[type="radio"]{width:20px; border:0px solid grey; cursor:pointer;}
+#aisadmission fieldset select{ width: 233px; padding: 3px; height:32px; cursor:pointer; }
+#aisadmission fieldset #postcode{ padding: 3px; width: 225px; }
+#aisadmission input::-webkit-input-placeholder,#aisadmission input:-moz-placeholder input:placeholder{color: #f2f2f2;}
+#aisadmission .validation01{background: #F08080;color: #fff;display: none;font-size: 12px;padding: 3px;position: absolute;left: 250px;text-align: center;top: 0;width: 150px;outline: 0;-moz-box-shadow: 0px 0px 4px #ffffff;-webkit-box-shadow: 0px 0px 4px #ffffff;box-shadow: 0px 0px 4px #ffffff;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#aisadmission input:focus + .validation01{ display: block; }
+#aisadmission input:focus:required:invalid + .validation01 .valid,#aisadmission input.error:focus + .validation01 .valid,#aisadmission input.required:focus + .validation01 .valid,#aisadmission input:focus + .validation01 .valid{ display: none; }
+#aisadmission input:focus:required:valid + .validation01,#aisadmission input.valid:focus + .validation01{ background: green; }
+#aisadmission input:focus:required:valid + .validation01 .invalid,#aisadmission input.valid:focus + .validation01 .invalid{ display: none; }
+#aisadmission input:focus:required:valid + .validation01 .valid,#aisadmission input.valid:focus + .validation01 .valid{ display: block; }
+#aisadmission fieldset input:required:valid{background-color: #fff;background-position: 207px -56px;}
+#aisadmission input.error{background-color: #F08080; background-position: 207px 5px;outline: none; }
+#aisadmission input.required{background-color: #fff; background-position: 207px -25px;}
+#aisadmission input.valid { background-color: #5bc0de;background-position: 260px -61px;}
+#aisadmission input.error::-webkit-input-placeholder,#aisadmission inputerror :-moz-placeholder {color: #f2f2f2;}
+input[type="submit"]{background: #5bc0de; margin:auto; font-size:14px; padding:5px; color:#fff; font-weight:bold; cursor:pointer; border: 1px solid #3db5d8; box-shadow:none;border-radius:0;}
+.rfindicator{text-align: right;font-size: 12px;}
+.panel{background-color: #fff;border: 1px solid transparent;border-radius: 0px;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);margin-bottom: 20px;}
+.panel-body{font-family: 'Open Sans','Arial';font-size:0.9em;font-weight:bold;padding: 25px 25px 10px;}
+.panel-body-mghead {padding: 30px 15px 15px;}
+.panel-heading {border-bottom: 1px solid transparent; padding: 10px 15px;}
+.panel-heading > .dropdown .dropdown-toggle { color: inherit;}
+.panel-title { color: inherit; font-family: 'Open Sans','Arial'; font-size: 1em; font-weight: 600; margin-bottom: 0; margin-top: 0;}
+.panel-title > a { color: inherit;}
+.panel-default { border-color: #3db5d8;}
+.panel-default > .panel-heading { background-color: #5bc0de; border-color: #3db5d8; color: #fff;}
+.panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #3db5d8;}
+.panel-default > .panel-heading .badge { background-color: #333; color: #f5f5f5;}
+.panel-default > .panel-footer + .panel-collapse > .panel-body { border-bottom-color: #ddd;}
+.trlable{ width: 35%; text-align: right; padding-right: 10px; padding-bottom: 15px;}
+.trcontrol{ width: 60%; padding-bottom: 15px; padding-left: 5px; position: relative;}
+.dvmultioption{ display: inline-block;  border: 1px solid #3db5d8;  padding: 6px 10px 1px; height: 23px; margin-right: 5px;  margin-bottom: -1px;}
+.dvmultioption .selectcontrol{ display: inline-block; vertical-align: middle; width: 20px; cursor: pointer;}
+.dvmultioption .selectlable{ display: inline-block; vertical-align: middle;  height: 20px;}
+#aisadmission input[type="submit"]:hover{ background: #5bc0de; border: 1px solid #3db5d8;}
+#aisadmission fieldset select option{padding-left:3px; }
+.overlay{position: fixed;top: 20;bottom: 0;left: 20;right: 0;background: rgba(0, 0, 0, 0.7);visibility: hidden;opacity: 0;}
+.overlayone{position: fixed;top: 0;bottom: 0;left: 0;right: 0;background: rgba(0, 0, 0, 0.7);visibility: visible;opacity: 1;}
+.overlay:target{visibility: visible;opacity: 1;}
+.popup{margin: 125px auto;padding: 0px ;background: #fff;border-radius: 5px;width: 45%;position: relative;}
+#aisadmission fieldset input#FirstName:required:valid{background-color: #fff;background-position: 130px -56px;}
+#aisadmission fieldset input#MiddleName:required:valid{background-color: #fff;background-position: 130px -56px;}
+#aisadmission fieldset input#LastName:required:valid{background-color: #fff;background-position: 130px -56px;}
+#aisadmission fieldset input#Country:required:valid{background-color: #fff;background-position: 130px -56px;}
+#aisadmission fieldset input#State:required:valid{background-color: #fff;background-position: 130px -56px;}
+#aisadmission fieldset input#City:required:valid{background-color: #fff;background-position: 130px -56px;}
+#aisadmission fieldset input#stdcode:required:valid{background-color: #fff;background-position: 60px -56px;}
+#aisadmission fieldset input#rorlstdcode:required:valid{background-color: #fff;background-position: 60px -56px;}
+#aisadmission fieldset input#ResidenceOrLandlineNumber:required:valid{background-color: #fff;background-position: 120px -56px;}
+#aisadmission fieldset input#TelephoneNo:required:valid{background-color: #fff;background-position: 120px -56px;}
+#aisadmission fieldset input#DateOfBirth:required:valid{background-color: #fff;background-position: 205px -56px;}
+
+#aisadmission fieldset select#siblingschoolcollegegrade{ width: 125px; padding: 3px; height:32px; cursor:pointer; }
+#aisadmission fieldset select#siblingschoolcollegedivision{ width: 100px; padding: 3px; height:32px; cursor:pointer; }
+#aisadmission fieldset select#siblingschoolcollegegradesecond{ width: 125px; padding: 3px; height:32px; cursor:pointer; }
+#aisadmission fieldset select#siblingschoolcollegedivisionsecond{ width: 100px; padding: 3px; height:32px; cursor:pointer; }
+
+#interactionform select{background: #fff url(ico_validation.png) 207px 32px no-repeat;display: inline-block;width: 200px;border: 1px solid #3db5d8;padding: 3px 26px 3px 5px;-moz-transition: background-color 1s ease;-webkit-transition: background-color 1s ease;-o-transition: background-color 1s ease;transition: background-color 1s ease; height:25px;margin-right:5px;}
+#interactionform select{ width: 150px; padding: 3px; height:32px; cursor:pointer;font-family: 'Open Sans','Arial'; font-size: 1em; font-weight: 600; color:Grey; }
+#interactionform select option{padding-left:3px; padding:3px; }
+#interactionform input[type="submit"]:hover{ background: #5bc0de; border: 1px solid #3db5d8;}
+#interactionform fieldset{margin: 0 0 0px;padding: 0px 0px 0px 0px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border: none;}
+#interactionform ol{list-style-type: none;padding: 5px;margin: 0;}
+#interactionform li{margin: 0 0 0px;position: relative; }
+#interactionform label{width: 150px;display: inline-block;vertical-align: top;}
+
+#interactionform select.approvalremarks{ background: #fff url(ico_validation.png) 207px 32px no-repeat;display: inline-block;width: 200px;border: 1px solid #3db5d8;padding: 3px 26px 3px 5px;-moz-transition: background-color 1s ease;-webkit-transition: background-color 1s ease;-o-transition: background-color 1s ease;transition: background-color 1s ease; height:25px;margin-right:5px;}
+#interactionform select.approvalremarks{ width: 95%; padding: 0px; height:20px; cursor:pointer;font-family: 'Open Sans','Arial'; font-size: 11px; font-weight: 600; color:Grey; }
+#interactionform select.approvalremarks option{padding-left:3px; padding:3px; }
+
+#alladmissionform select{background: #fff url(ico_validation.png) 207px 32px no-repeat;display: inline-block;width: 200px;border: 1px solid #3db5d8;padding: 3px 26px 3px 5px;-moz-transition: background-color 1s ease;-webkit-transition: background-color 1s ease;-o-transition: background-color 1s ease;transition: background-color 1s ease; height:25px;margin-right:5px;}
+#alladmissionform select{ width: 150px; padding: 3px; height:32px; cursor:pointer;font-family: 'Open Sans','Arial'; font-size: 1em; font-weight: 600; color:Grey; }
+#alladmissionform select option{padding-left:3px; padding:3px; }
+
+#printform input[type="submit"]{background: #E0E0E0; margin:auto; font-size:14px; padding:5px; color:#000; font-weight:bold; cursor:pointer; border: 1px solid #E0E0E0; box-shadow:none;border-radius:0;}
+#printform input[type="submit"]:hover{ background: #E0E0E0; border: 1px solid #E0E0E0;}
+input[type="checkbox"]{ cursor:pointer;}
+
+
+.header_row{border-bottom: 1px solid #5bc0de;border-right: 1px solid #5bc0de;border-left: 1px solid #5bc0de;background-color: #5bc0de;font-weight: bold;font-size: 1em;}
+.alternate_row{border-bottom: 1px solid #5bc0de;border-right: 1px solid #5bc0de;border-left: 1px solid #5bc0de;background-color: #F0FAFF;font-size: 0.99em;}
+.row{border-bottom: 1px solid #5bc0de;border-right: 1px solid #5bc0de;border-left: 1px solid #5bc0de;background-color: #FFFFFF;font-size: 0.99em;}
+.grvHeaderrow{display: inline-block;padding-left: 4px;border-right: 1px solid #fff;background-color: #5bc0de;vertical-align: top;color: #fff;padding-top: 7px;padding-bottom: 7px;}
+.grvHeaderrowcenter{display: inline-block;padding-left: 4px;border-right: 1px solid #fff;background-color: #5bc0de;vertical-align: top;text-align:center;color: #fff;padding-top: 7px;padding-bottom: 7px;}
+.grvHeaderrowlast{display: inline-block;padding-left: 4px;background-color: #5bc0de;vertical-align: top;text-align:center;color: #fff;padding-top: 7px;padding-bottom: 7px;}
+.grvHeaderrowchk{display: inline-block;padding-left: 4px;background-color: #5bc0de;vertical-align: top;text-align:center;color: #fff;padding-top: 10px;padding-bottom: 7px;border-right: 1px solid #fff;}
+.grvHeaderrowlastchk{display: inline-block;padding-left: 4px;background-color: #5bc0de;vertical-align: top;text-align:center;color: #fff;padding-top: 10px;padding-bottom: 7px;}
+.grvHeaderrowlast input{cursor:pointer;}
+.grvDatarow{display: inline-block;padding-left: 4px;vertical-align: top;padding-top: 7px;padding-bottom: 7px;border-right: 1px solid #5bc0de;}
+.grvDatarowcenter{display: inline-block;padding-left: 4px;padding-top: 7px;padding-bottom: 7px;vertical-align: top;text-align: center;border-right: 1px solid #5bc0de;}
+.grvDatarowlast{display: inline-block;padding-left: 4px;padding-top: 7px;padding-bottom: 7px;vertical-align: top;text-align: center;}
+.grvDatarowchk{display: inline-block;padding-left: 4px;padding-top: 10px;padding-bottom: 7px;vertical-align: top;text-align: center;border-right: 1px solid #5bc0de;}
+.grvDatarowlastchk{display: inline-block;padding-left: 4px;padding-top: 10px;padding-bottom: 7px;vertical-align: top;text-align: center;}
+.grvDatarowlast input{cursor:pointer;}
+.cal_Theme1 .ajax__calendar_container{background-color: #DEF1F4;border:solid 1px #77D5F7;}
+.cal_Theme1 .ajax__calendar_header{background-color: #ffffff;margin-bottom: 4px;}
+.cal_Theme1 .ajax__calendar_title,
+.cal_Theme1 .ajax__calendar_next,
+.cal_Theme1 .ajax__calendar_prev{color: #004080;padding-top: 3px;}
+.cal_Theme1 .ajax__calendar_body{background-color: #ffffff;border: solid 1px #77D5F7;}
+.cal_Theme1 .ajax__calendar_dayname {text-align:center;font-weight:bold;margin-bottom: 4px;margin-top: 2px;color: #004080;}
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_month,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_year,
+.cal_Theme1 .ajax__calendar_active  {color: #004080;font-weight: bold;background-color: #DEF1F4;}
+.cal_Theme1 .ajax__calendar_today   {font-weight:bold;}
+.cal_Theme1 .ajax__calendar_other .ajax__calendar_day {color: #808080;text-align:center;}
+.cal_Theme1 .ajax__calendar_day {color: #004080;text-align:center;}
+
+#interactionform {margin: 20px auto;}
+.pager{margin-top :15px;margin-bottom :15px;display:inline-block;}
+.mrg{margin-top :25px;margin-bottom :0px;}
+.pager .pgbutton{display:inline-block;}
+.pager .pglabel{color:Gray;display:inline-block;}
+.pager .pgbutton .numeric_button{background-color: #6bc6e1;color:#FFFFFF;font-weight:bold;padding:2px 6px 2px 4px;border:none;}
+.pager .pgbutton .current_page{background-color: #51acc7;color:#FFFFFF;font-weight:bold;padding:2px 6px 2px 4px;}
+.pager .pgbutton .next_button{background-color: #6bc6e1;color:#FFFFFF;font-weight:bold;padding:2px 6px 2px 4px;}
+.parentlist{width:986px;overflow-x: auto;overflow-y: hidden;}
+.chkChoice{width:100%;border-collapse:collapse;}
+.chkChoice tr{cursor:pointer;} 
+.chkChoice tr td{border: 1px solid #5bc0de;padding:10px;cursor:pointer;line-height:11px;} 
+.chkChoice tr td:hover{background-color:#def2f8;} 
+.chkChoice tr td label{padding-left:5px;cursor:pointer;width:90% !important;}

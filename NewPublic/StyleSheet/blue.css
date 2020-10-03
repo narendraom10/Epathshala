@@ -1,0 +1,174 @@
+/*********************************************
+
+	Secondary Color
+
+*********************************************/
+.epath-header-1, .epath-header-11, .epath-top-bar, .jspTrack, .epath-mobile-menu, .epath-layerslider .epath-layerslider-block, footer.epath-footer, #epath-mobile-menu-btn, #epath-mobile-cart-btn, .epath-btn-secondary,
+.epath-project figure figcaption i:hover, .epath-controls span, #to-the-top, .epath-header-2 .epath-header-bg .header-search form button[type=submit].focus,
+.epath-header-2 .epath-header-bg .social-buttons ul li a.epath-cart, .epath-header-2 .epath-desktop-dark-menu-bg, .epath-testimonials-2-inner, .epath-testimonials-2 .arrow,
+.epath-estate-form .epath-estate-search-type span, .epath-estate-form .epath-estate-form-item i.fa-caret-down, .epath-header-1 .epath-dark-header-bg, .epath-header-2 .epath-dark-header-bg,
+.epath-property-1 figure figcaption i:hover, .epath-header-3 .epath-desktop-dark-menu-bg, .epath-header-3 .epath-header-dark-bg, .ls-label-secondary, .epath-domain-price,
+.epath-domain-search form .epath-domain-search-inner div.zone i, .epath-pricing-1 header, .epath-product-1 figure figcaption i:hover, .epath-feature-3 span .fa, .epath-feature-3 span .glyphicon,
+.epath-testimonials-3 .epath-testimonials-3-inner .author .avatar, .epath-tabs header span.active, .epath-tabs header span.active div.arrow, .epath-feature-store-dark span,
+.epath-toggle article header.active, .epath-social-button-2 .esb-tooltip, .epath-social-button-2 .esb-tooltip .arrow, .epath-skill-1 .color-1, .epath-skill-1 .value, .epath-skill-1 .value .arrow,
+p.contact-item i, .epath-side-navi ul li.active, .epath-sorting .epath-sorting-filters span.active, .epath-qa .a .lbl, .epath-qa .a .arrow, .epath-pagination .current, .epath-property-1 p.type span,
+.epath-single-estate p.type span, .epath-single-product p.qty i.fa, .epath-section-cart .shoppin-cart-table thead, .epath-section-cart .shoppin-cart-table tbody td p.qty i.fa,
+.epath-post figure figcaption i:hover, .epath-comment i.fa {
+	background-color: /*#636363*/ #225244;
+}
+.epath-header-1 .epath-top-bar {
+    background-color: #225244;
+}
+.epath-header-11 .epath-top-bar {
+    background-color: #225244;
+}
+.epath-navigation a, .epath-section-twitter-1 i.fa-twitter, .epath-feature-store span i, .epath-section-color .epath-navigation a:hover, .epath-social-button-2-white .esb-main i:hover,
+.epath-simple-twiiter-widget ul li i.fa-twitter {
+	color: #225244;
+}
+.epath-header-2 .epath-desktop-dark-menu-bg nav > ul > li, .epath-header-1 .epath-dark-header-bg nav > ul > li, .epath-header-3 .epath-desktop-dark-menu-bg nav > ul > li {
+	border-left-color: #225244;
+}
+.epath-header-2 .epath-desktop-dark-menu-bg nav > ul > li, .epath-header-1 .epath-dark-header-bg nav > ul > li, .epath-header-3 .epath-desktop-dark-menu-bg nav > ul > li {
+	border-right-color: #225244;
+}
+.epath-header-2 .epath-desktop-dark-menu-bg, .epath-header-1 .epath-dark-header-bg, .epath-header-3 .epath-desktop-dark-menu-bg {
+	border-bottom-color: #225244;
+}
+.epath-section-color .epath-navigation a:hover {
+	color: #225244 !important;
+}
+
+
+
+
+/*********************************************
+
+	Primaty Color
+
+*********************************************/
+
+a:hover, .epath-top-bar p a:hover, .epath-header-1 .epath-top-bar .shopping-cart .cart .cart-entry p .price, .epath-mega .epath-mega-section ul li a:hover i,
+.epath-mobile-menu nav ul li i.glyphicon-plus-sign:hover, .epath-mobile-menu nav ul li i.glyphicon-minus-sign, .epath-mobile-menu nav ul li a:hover, .epath-mobile-menu h3,
+.epath-layerslider .epath-layerslider-block h3, .epath-mobile-cart-list p a:hover, .epath-mobile-cart-list p span.price, .epath-footer .epath-widget .epath-post-preview .header a:hover,
+.epath-contacts-widget p .fa, .epath-contacts-widget p .glyphicon, .epath-footer a:hover, #epath-preload i.fa, .epath-section h2 span,
+.epath-section p.block-description, .epath-project .epath-project-inner .epath-project-details p.filter, .epath-project .epath-project-inner .epath-project-details .epath-project-likes .fa,
+.epath-project .epath-project-inner .epath-project-details .epath-project-likes .glyphicon, .epath-testimonials-1 i.fa, .epath-testimonials-1 i.glyphicon,
+.epath-header-2 .epath-desktop-dark-menu-bg nav > ul > li > a:hover, .epath-footer .epath-widget a:hover, .epath-contacts-2-widget p span, .epath-section-core ul li i,
+.epath-testimonials-2 .fa, .epath-testimonials-2 .glyphicon, .epath-header-1 .epath-dark-header-bg nav > ul > li > a:hover, .epath-about-widget p.contacts i, .epath-btn-primary-border,
+.epath-property-1 ul li, .epath-header-3 .epath-header-bg .contact-info p i, .epath-header-3 .epath-desktop-dark-menu-bg nav > ul > li > a:hover, .epath-header-3 .epath-header-dark-bg .contact-info a:hover,
+.ls-layer p.feature i, .ls-layer p.color-text, .epath-domain-price p, .epath-pricing-1 header .plan-title small, .epath-store-price-1 p.p1, .epath-product-1 .details span.price,
+.epath-testimonials-3 .epath-testimonials-3-inner p.text i, .epath-testimonials-3 .epath-testimonials-3-inner .author small, .epath-section-color li.tweet-item a, ul.e-color-list li i,
+.epath-testimonials-2 p.author span, .epath-feature-store p strong, .epath-toggle article header.active .fa-minus, .epath-category-widget ul li p a:hover i, blockquote .blockquote-inner .fa,
+p.contact-item i, .epath-side-navi ul li:hover i, .epath-pricing-2 .epath-pricing-2-item .price p, .epath-partner-1 p.link, .epath-career-1 .details p.title, .epath-career-1 header small,
+.epath-team-1 .epath-team-1-details p.role, .epath-testimonials-inner p.author span, p.used-skills span i, p.project-date i, .epath-property-1 ul li span, .epath-single-estate p.price,
+.epath-single-estate .epath-propert-details ul li span, ul.epath-property-options li .fa-check-circle, .epath-store-filters p i:hover, .epath-single-product p.price,
+.epath-section-cart ul.order-total li span.total, .payment-option span {
+	color: #0da472;
+}
+.epath-header-1 .epath-top-bar p i, .epath-header-1 .epath-top-bar ul.social-btns li a.hover, .epath-header-1 .epath-top-bar .shopping-cart > span i.hover, .epath-btn-primary,
+.jspDrag, .epath-scroller > i:hover, i.clicked, .epath-feature header i, .arrow-color, .epath-controls span.active, .epath-section-st2, .epath-header-2 .epath-header-bg .social-buttons ul li a:hover,
+.epath-header-2 .epath-header-bg .social-buttons ul li a.epath-cart span, .epath-estate-form .epath-estate-search-type span.active, .epath-header-2 .epath-dark-header-bg .header-search form.focus button[type=submit],
+.epath-about-widget p.links a:hover,.epath-property-1 span, .epath-header-3 .epath-header-bg .social-buttons a:hover, .ls-label-primary, .epath-section-st3, .epath-feature-2-color header .arrow,
+.epath-pricing-1 header .plan-price, .epath-pricing-1 header .plan-price .arrow, .epath-tabs article > .fa, .epath-tabs article > .glyphicon, .dropcap, .epath-skill-1 .color-2, .epath-desktop-breadscrubs-inner,
+.epath-mobile-breadscrubs, .epath-skill-2 span.color, .epath-team-1 header, .epath-category-widget ul li p span.hovered, .epath-pricing-2 .epath-pricing-2-item .plan p,
+.epath-pricing-2 .epath-pricing-2-item .plan .arrow, .riva-countdown .riva-countdown-item .label, .epath-qa .q .lbl, .epath-qa .q .arrow, .epath-pagination .page-numbers:hover,
+.epath-single-estate .epath-propert-details p.agent-cosial a, .epath-single-product p.qty i.fa:hover, .epath-section-cart p.incart span, .epath-section-cart .shoppin-cart-table tbody td p.qty i.fa:hover,
+.epath-post header h3 .fa, .epath-post-author {
+	background-color: #087442;
+}
+.clicked, .epath-feature-2-color header i {
+	background-color: #0da472 !important;
+}
+.epath-top-bar .shopping-cart .cart p.title, .epath-mega .epath-mega-section h3, .epath-store-price-1 p.p1, .epath-single-estate .epath-propert-details h3, h3.h3-2, .epath-section-cart .shoppin-cart-table thead,
+.riva-toggle-tab h2, .epath-comment p.meta {
+	border-bottom-color: #0da472;
+}
+.epath-mobile-menu, .epath-domain-price, .epath-call-to-action-3, /*blockquote .blockquote-inner*/ {
+	border-left-color: #0da472;
+}
+.epath-post-preview .header .date span.month, .epath-copyright-widget, .epath-tabs header span.active, .epath-toggle article header.active, .epath-side-navi ul li.active, .epath-f1,
+.epath-sorting .epath-sorting-filters span.active, .epath-post .date span.month, .epath-post .likes span.month {
+	border-top-color: #0da472;
+}
+.epath-footer .epath-navigation a:hover, .epath-flick-widget img:hover, .epath-navigation a:hover, .epath-header-2 .epath-header-bg .header-search form.focus, .epath-about-widget p.links a:hover,
+.epath-btn-primary-border, .epath-header-3 .epath-header-bg .social-buttons a:hover,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+select:focus, textarea:focus,
+.epath-pagination .page-numbers:hover,
+.payment-option-active span {
+	border-color: #0da472;
+}
+.epath-project figure figcaption, .epath-property-1 figure figcaption, .epath-product-1 figure figcaption, .epath-post-preview figure figcaption, .epath-post figure figcaption {
+	background-color: rgba(13,164,114,0.5);
+}
+.epath-navigation a:hover, .epath-section-color .epath-navigation a {
+	background-color: rgba(13,164,114,1);
+}
+.epath-header-2 .epath-dark-header-bg .social-buttons ul li a.epath-cart:hover {
+	background-color: rgba(13,164,114,1) !important;
+}
+.link a:hover{ color:#fff !important;}
+a:hover
+{
+    text-decoration:none;
+}
+
+
+/*********************************************
+
+	Third Color
+
+*********************************************/
+
+.epath-header-1 .epath-top-bar .shopping-cart > span i.regular, .epath-btn:hover, .epath-controls span:hover, #to-the-top:hover, .epath-tags-widget a.epath-tag-item:hover {
+	background-color: #9AD03E;
+}
+.epath-btn-primary-border:hover, .epath-btn-secondary-border:hover {
+	border-color: #9AD03E !important;
+}
+
+
+
+
+
+/*********************************************
+
+	Placeholder
+
+*********************************************/
+
+::-webkit-input-placeholder {
+   color: #ccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #ccc;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #ccc;
+}
+
+:-ms-input-placeholder {  
+   color: #ccc;
+}
+
+/*********************************************
+
+   Coming Soon Bg Color
+
+*********************************************/
+
+.epath-content-404-gradient {
+	background: #225244; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #225244 25%, #0da472 75%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(25%,#225244), color-stop(75%,#0da472)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #225244 25%,#0da472 75%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #225244 25%,#0da472 75%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #225244 25%,#0da472 75%); /* IE10+ */
+	background: linear-gradient(135deg,  #225244 25%,#0da472 75%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#225244', endColorstr='#0da472',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

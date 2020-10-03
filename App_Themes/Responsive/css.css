@@ -1,0 +1,783 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*
+form
+{
+    position:fixed;
+    max-height:0px;
+}
+*/
+a
+{
+    text-decoration: none;
+}
+
+img
+{
+    border: none;
+}
+
+ul
+{
+    display: block;
+}
+
+ul li
+{
+    list-style-type: none;
+}
+
+@font-face
+{
+    font-family: "Roboto-Regular";
+    src: url('font/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "Roboto-Black";
+    src: url('font/Roboto-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "Roboto-Light";
+    src: url('font/Roboto-Light.ttf'); /*src: local('(*%$@#@'),     url('../includes/fonts/vitesse-bold.woff') format('woff'),     url('../includes/fonts/vitesse-bold.ttf') format('truetype'),     url('../includes/fonts/vitesse-bold.svg') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body
+{
+    background-color: #fff;
+    font-family: 'Roboto-Light' , serif;
+}
+/*
+#pagewrap{
+	width:1920px;
+	position:relative;
+	margin:0 auto;
+}
+*/
+
+#header
+{
+    /*z-index: 0;     float: left;*/
+    background-color: #ffffff;
+    position: relative;
+    display: inline-block;
+    min-width: 100%;
+    height: 140px;
+}
+#headerwrap
+{
+    width: 1440px;
+    margin: auto;
+    height: auto;
+}
+
+
+#logo
+{
+    width: 120px;
+    float: left;
+    margin-top: 0;
+    margin-left: 5%;
+    position: relative;
+}
+
+#logo a img
+{
+    float: right;
+    margin-top: 35px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+#logo a
+{
+    width: 146px;
+    height: 62px;
+}
+
+#logo1
+{
+    height: 87px;
+    position: relative;
+    float: left;
+    margin-top: 25px;
+}
+
+#tagline
+{
+    position: relative;
+    margin-top: 60px;
+    width: 16%;
+    float: left;
+    display: none;
+}
+
+#subhead1
+{
+    float: right;
+    margin: 0.3% 0.5% 0.2% 0;
+    width: 50%;
+}
+
+
+#subhead1 .language
+{
+    float: right;
+}
+
+#subhead1 .language ul li
+{
+    display: inline;
+}
+
+.contactMaster
+{
+    float: right;
+    width: 250px;
+    margin-right: 35px;
+    position: relative;
+}
+.contactMaster ul
+{
+    width: 250px;
+    float: right;
+    position: relative;
+}
+.contactMaster ul li
+{
+    display: inline;
+    float: right;
+    position: relative;
+}
+
+.innerhead
+{
+    margin-top: 10px;
+    clear: both;
+}
+
+.lbtnSignOut
+{
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+#subhead1 .contactMaster ul .subheadspace
+{
+    margin-left: 5%;
+}
+
+
+#subhead1 .contact ul li
+{
+    float: left;
+    font-size: 0.95em;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+#subhead1 ul li .call
+{
+    top: 2px;
+    position: relative;
+}
+
+#subhead1 .contact ul .subheadspace
+{
+    margin-right: 11%;
+    position: relative;
+}
+
+
+
+#subhead1 .language
+{
+    padding: 0 5px;
+    color: #4D4D4D;
+    font-size: 0.80em;
+}
+
+.dropdown1
+{
+    width: 70px;
+    border: 1px solid #000;
+    overflow: hidden;
+    border-radius: 1px;
+    color: #4D4D4D;
+    font-weight: 300;
+    height: 21px;
+}
+
+#login
+{
+    height: 95px;
+    width: 48%;
+    background-color: #AC2B28;
+    float: right;
+    padding: 1.5% 1.5% 0% 5%;
+    box-shadow: -2px 1px 6px #333;
+    border-top-left-radius: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#ddlUserType
+{
+    min-width: 65px;
+}
+
+
+#login ul
+{
+    width: 100%;
+    font-size: 1.0em;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#login ul input[type="submit"]
+{
+    max-width: 51px;
+    height: 25px;
+}
+
+#login ul li
+{
+    float: left;
+    margin: 0;
+    padding: 3px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+#login ul .un
+{
+    margin-right: 10%;
+}
+
+#login ul li input
+{
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    border: none;
+    height: 16px;
+    width: 100px;
+    padding: 4px;
+}
+
+.go
+{
+    font-size: 0.90em;
+    background: -webkit-linear-gradient(#72C742, #528F30); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#72C742, #528F30); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#72C742, #528F30); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#72C742, #528F30); /* Standard syntax (must be last) */
+    padding: 0px 8px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 2px;
+    box-shadow: 0 1px 0.02em #d7f2ad;
+}
+
+.go:hover
+{
+    background: #528F30;
+}
+
+
+#login .keeplin, #login .forgotpw
+{
+    margin: 0 0 0 0;
+    font-size: 0.80em;
+    float: left;
+    position: relative;
+    width: 130px;
+}
+
+#login .keeplin
+{
+    margin-left: 75px;
+}
+#login .forgotpw
+{
+    margin-left: 125px;
+}
+
+#login .forgotpw:hover
+{
+    text-decoration: underline;
+}
+
+#menu
+{
+    width: 100%;
+    height: 32px;
+    background-color: #2E3192;
+    border-top: 2px solid #484ce2;
+    border-bottom: 1px solid #000;
+    position: relative;
+    font-size: 1.05em;
+    box-shadow: 0 5px 9px #777;
+    z-index: 1;
+}
+
+#menuwrap
+{
+    width: 1440px;
+    margin: auto;
+}
+
+#menu ul
+{
+    float: left;
+    height: 32px;
+    width: 720px;
+    margin-left: 30px;
+    font-family: Roboto-Light;
+}
+
+
+#menu ul li
+{
+    float: left;
+    height: 32px;
+    border-right: 1px solid #000;
+    text-align: center;
+    font-weight: 300;
+}
+
+#menu ul .cu
+{
+    border-right: none;
+}
+
+#menu ul li a
+{
+    color: #fff;
+    float: left;
+    padding: 7px 20px;
+    line-height: 18px;
+}
+
+#menu ul li a:hover
+{
+    color: #fff;
+    background-color: #484ce2;
+    float: left;
+    padding: 7px 20px;
+    line-height: 18px;
+}
+
+#menu1
+{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    position: relative;
+    font-size: .95em;
+    box-shadow: 0 5px 9px #777;
+}
+
+#menu1 .submenu1 .loginmenu, #menu1 .submenu1 .registermenu, #menu1 .submenu1 .submenu
+{
+    float: left;
+    height: 50px;
+}
+
+#menu1 ul .loginmenu
+{
+    width: 45%;
+    background-color: #d83f3b;
+    line-height: 50px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #F99898;
+    border-bottom: 2px solid #8C3C3C;
+    background: -webkit-linear-gradient(#d83f3b 10%, #AC2A27 90%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d83f3b 10%, #AC2A27 90%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d83f3b 10%, #AC2A27 90%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d83f3b 10%, #AC2A27 90%); /* Standard syntax */
+}
+#menu1 ul .registermenu
+{
+    width: 45%;
+    background-color: #2E3192;
+    line-height: 50px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #888cfe;
+    border-bottom: 2px solid #242775;
+    background: -webkit-linear-gradient(#5156ea 10%,#2e3195 90%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5156ea 10%, #2e3195 90%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5156ea 10%, #2e3195 90%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5156ea 10%, #2e3195 90%); /* Standard syntax */
+}
+
+#menu1 ul .submenu
+{
+    height: 50px;
+    width: 9.75%;
+    display: block;
+    background-color: #333;
+    border-top: 1px solid #666;
+    border-bottom: 2px solid #222;
+    background: -webkit-linear-gradient(#444 10%,#333 90%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#444 10%, #333 90%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#444 10%, #333 90%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#444 10%, #333 90%); /* Standard syntax */
+}
+
+
+
+#menu1 .submenu1 li .submenu1link
+{
+    color: #fff;
+    font-size: 1.30em;
+    font-weight: 400;
+}
+
+#menu1 ul .submenu img
+{
+    margin: 10% 25.5%;
+}
+
+#menu1 ul .submenu .submenuopt
+{
+    display: none;
+    position: relative;
+    margin-top: 0;
+}
+/*
+#menu1 ul .submenu:hover .submenuopt{
+	display:block;
+}
+*/
+#menu1 ul .submenu .submenuopt li
+{
+    background-color: gray;
+    width: 225px;
+    float: right;
+    padding: 12px 10px;
+    background: -webkit-linear-gradient(#333 ,#444 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#333 , #444 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#333 , #444 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#333 , #444 ); /* Standard syntax */
+}
+
+#menu1 ul .submenu .submenuopt li a
+{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+#banner
+{
+    width: 100%;
+    background-image: url('web/bannerbg2.jpg');
+    background-repeat: repeat;
+    position: relative;
+    padding: 25px 0 20px 0;
+    display: inline-block; /*min-height: 400px;*/
+}
+
+#bannerwrap
+{
+    width: 1440px;
+    height: auto; /*display: inline;*/
+    margin: auto;
+}
+
+#bannerimg
+{
+    float: left;
+    width: 960px;
+    position: relative;
+}
+
+#bannerimg img
+{
+    width: 100%;
+}
+
+
+#signup
+{
+    width: 325px;
+    float: right;
+    margin: 40px 40px 50px 0;
+    background-color: #2E3192;
+    box-shadow: 0px 0px 4px #444;
+    border-radius: 15px;
+    color: #fff;
+    padding: 2% 1%;
+    font-size: 1.4em;
+}
+
+#signup f4
+{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#signupform
+{
+    width: 330px;
+    height: auto;
+    font-size: 0.75em;
+    margin: 15px 0 6px 0;
+    font-weight: 300;
+}
+
+.submit
+{
+    width: 100%;
+    position: relative;
+    border: none;
+    font-size: 1.05em;
+    margin: 10px 17px 0 5px;
+    background: -webkit-linear-gradient(#72C742, #528F30); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#72C742, #528F30); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#72C742, #528F30); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#72C742, #528F30); /* Standard syntax (must be last) */
+    padding: 6px 18px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 2px;
+    box-shadow: 0 1px 0.02em #d7f2ad;
+}
+
+.submit:hover
+{
+    background: #528F30;
+}
+
+.submit #btnSubmit
+{
+    float: right;
+    margin-right: 20px;
+}
+
+
+#lowerbanner
+{
+    width: 100%;
+    background-color: #AC2B28;
+    float: left;
+    box-shadow: 2px -1px 6px #333;
+    font-size: 1.05em;
+    font-weight: 300;
+    padding: 25px 0;
+    display: inline-block;
+}
+
+#lowerbanner ul
+{
+    width: 1440px;
+    margin: auto;
+}
+
+#lowerbanner ul li
+{
+    width: 15.2%;
+    float: left;
+    border-right: 0.05em dotted #fff;
+    padding-right: 67px;
+    padding-left: 67px;
+    font-weight: 500;
+}
+
+#lowerbanner ul li h4
+{
+    width: 80%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#lowerbanner ul li .lbcont
+{
+    width: 40%;
+    float: left;
+}
+
+#lowerbanner ul li img
+{
+    float: left;
+    width: 65px;
+    margin-right: 10px;
+    padding: 6px 0;
+}
+
+#lowerbanner ul .lbimg1
+{
+    border-right: none;
+}
+
+#lowerbanner ul .lbr
+{
+    border-right: none;
+}
+
+#lowerbanner ul li .lbcont
+{
+    font-size: 1.05em;
+    color: #ccc;
+}
+#lowerbanner ul li .lbcont h4
+{
+    margin-bottom: 5px;
+}
+
+#lowerbanner ul li .lbcont h4 a
+{
+    color: #ccc;
+    font-size: 1.25em;
+}
+
+#lowerbanner ul li .lbcont p
+{
+    line-height: 12px;
+    font-size: 0.85em;
+}
+
+#lblCBSE, #lblUttarPradesh, #lblNCERT, #lnkGuJBoard
+{
+    color: #ccc;
+    font-size: 1.25em;
+}
+
+
+
+
+#footer
+{
+    width: 100%;
+    float: left;
+    position: relative;
+    top: -10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 9px #4d4d4d;
+    padding-bottom: 10px;
+}
+
+#footerwrap
+{
+    width: 1440px;
+    margin: auto;
+}
+
+
+#add
+{
+    float: left;
+    background-image: url('web/home.png');
+    background-repeat: no-repeat;
+    text-align: left;
+    margin: 2% 0 1% 10%;
+    padding-left: 1.7%;
+    width: 25%;
+}
+
+#add p
+{
+    font-size: 0.80em;
+    line-height: 18px;
+    color: #333;
+}
+
+#follow
+{
+    float: right;
+    margin: 1% 10% 1% 0;
+    width: 33.33%;
+    color: #4D4D4D;
+    display: none !important;
+}
+
+#follow h4
+{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#follow .followbutton
+{
+    padding: 0 0 0 0;
+}
+
+
+#follow .followbutton ul li
+{
+    float: left;
+    margin-right: 6px;
+    border-radius: 27px;
+    height: 40px;
+    width: 40px;
+}
+
+#follow .followbutton ul li a img
+{
+    height: 40px;
+    width: 40px;
+}
+
+
+#copyrightfooter
+{
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: -10px;
+    background-color: #333;
+}
+
+.copyright
+{
+    width: 1440px;
+    margin: auto;
+    color: #cdcdcd;
+    font-size: 0.75em;
+    font-weight: 500;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.copyright a
+{
+    color: #cdcdcd;
+}
+
+
+.licensehead
+{
+    max-height: 35px;
+}
+
+
+
+input[type="radio"]
+{
+    white-space: nowrap;
+}
+
+.Width310
+{
+    width: 310px;
+    min-width: 310px;
+    max-width: 310px;
+}

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Studentwise result reports</Title>
+    <HiddenFields>		EmployeeID,	BMSID,	StandardID,	DivisionID,	SubjectID,Subject,True,false</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>PercN</Total>
+    <alignment></alignment>
+    <AllowPaging>false</AllowPaging>
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Standardwise Result Report</tital>
+    <standard>true</standard>
+    <subject>true</subject>
+    <perc>true</perc>
+    <teacher>true</teacher>
+    <true>false</true>
+    <false>false</false>
+    <employeeid>false</employeeid>
+    <bmsid>false</bmsid>
+    <standardid>false</standardid>
+    <divisionid>false</divisionid>
+    <subjectid>false</subjectid>
+
+  </Exporttoexcelsettings>
+
+  <gu-in>
+    <Title>વિદ્યાર્થી મુજબના પરિણામ અહેવાલs</Title>
+    <FirstName>વિદ્યાર્થી</FirstName>
+    <Standard>ધોરણ</Standard>
+    <Division>ડિવીઝન</Division>
+    <Perc>પરિણામ</Perc>
+    <Teacher>શિક્ષક</Teacher>
+    <True>સાચું</True>
+    <False>ખોટું</False>
+  </gu-in>
+
+  <hi-in>
+    <Title>विद्यार्थी वार परिणाम रिपोर्टs</Title>
+    <FirstName>विद्यार्थी</FirstName>
+    <Standard>स्टैंडर्ड</Standard>
+    <Division>डिवीजन</Division>
+    <Perc>परिणाम</Perc>
+    <Teacher>शिक्षक</Teacher>
+    <True>सच</True>
+    <False>ग़लत</False>
+  </hi-in>
+  <en-us>
+    <Title>Studentwise result reports</Title>
+    <FirstName>Student</FirstName>
+    <Standard>Standard</Standard>
+    <Division>Division</Division>
+    <Perc>Percentage</Perc>
+    <Teacher>Teacher</Teacher>
+    <True>True</True>
+    <False>False</False>
+  </en-us>
+
+</Search>

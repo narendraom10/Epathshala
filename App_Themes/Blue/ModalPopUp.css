@@ -1,0 +1,18 @@
+﻿
+
+.PopupContent
+{
+    border: 1px solid #244b72;
+    box-shadow: 0 0 5px #3D3D3D,
+                0 0 5px rgba(0,0,0,0.15),
+                0 0 5px rgba(0,0,0,0.1),
+                0 0 5px rgba(0,0,0,0.1);
+    background-color:#D7FAFA;
+    opacity:1;
+    filter:alpha(opacity=100); /* for IE */
+    margin:auto;
+    padding:5px;
+    width:700px;
+    max-height:400px;
+    color: #C2C2C2;  
+}

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Studentwise result report</Title>
+    <HiddenFields>Standard,PercN,True,False,EmployeeID,StandardID,SubjectID,DivisionID,BMSID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>true</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>BMSID</Total>
+    <alignment></alignment>
+    <AllowPaging>true</AllowPaging>
+    <pagesize>10</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Subjectwise Student Result Report</tital>
+    <bmsid>false</bmsid>
+    <standard>false</standard>
+    <subject>true</subject>
+    <perc>true</perc>
+    <percn>false</percn>
+    <teacher>true</teacher>
+    <true>false</true>
+    <false>false</false>
+    <employeeid>false</employeeid>
+    <standardid>false</standardid>
+    <divisionid>false</divisionid>
+    <subjectid>false</subjectid>
+  </Exporttoexcelsettings>
+
+  <en-US>
+    <BMSID>BMS ID</BMSID>
+    <Standard>Standard</Standard>
+    <Subject>subject</Subject>
+    <Perc>Percentage</Perc>
+    <PercN>PercN</PercN>
+    <Teacher>Teacher</Teacher>
+    <True>True</True>
+    <False>False</False>
+    <EmployeeID>Employee ID</EmployeeID>
+    <StandardID>Standard ID</StandardID>
+    <DivisionID>Division ID</DivisionID>
+    <SubjectID>Subject ID</SubjectID>
+  </en-US>
+  
+  <gu-in>
+    <Title>વિદ્યાર્થી મુજબના પરિણામ અહેવાલ</Title>
+    <BMSID>બી.એમ.એસ આઇ. ડી.</BMSID>
+    <Standard>ધોરણ</Standard>
+    <Subject>વિષય</Subject>
+    <Perc>પરિણામ</Perc>
+    <PercN>પરિણામN</PercN>
+    <Teacher>શિક્ષક</Teacher>
+    <True>સાચું</True>
+    <False>ખોટા</False>
+    <EmployeeID>GUJEmployee ID</EmployeeID>
+    <StandardID>ધોરણ આઇ. ડી.</StandardID>
+    <DivisionID>વિભાગ આઇ. ડી.</DivisionID>
+    <SubjectID>વિષય આઇ. ડી.</SubjectID>
+  </gu-in>
+
+  <hi-in>
+    <BMSID>बी.एम.एस आइ. डी.</BMSID>
+    <Standard>स्टैंडर्ड</Standard>
+    <Subject>विषय</Subject>
+    <Perc>परिणाम</Perc>
+    <PercN>परिणाम N</PercN>
+    <Teacher>शिक्षक</Teacher>
+    <True>सच</True>
+    <False>झूठा</False>
+    <EmployeeID>HIN Employee ID</EmployeeID>
+    <StandardID>स्टैंडर्ड आइ. डी.</StandardID>
+    <DivisionID>डिवीजन आइ. डी.</DivisionID>
+    <SubjectID>विषय आइ. डी.</SubjectID>
+  </hi-in>
+
+</Search>

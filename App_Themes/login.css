@@ -1,0 +1,112 @@
+﻿
+body{
+    margin:0;
+    height:100%;padding:0;
+}
+ 
+.Absolute-center{
+                   
+                  position:absolute;
+                  top:50%;
+                  left:50%;
+                  transform:translate(-50%,-50%);
+                  -webkit-transform: translate(-50%,-50%); /* WebKit */
+                    -moz-transform: translate(-50%,-50%); /* Mozilla */
+                    -o-transform: translate(-50%,-50%); /* Opera */
+                    -ms-transform: translate(-50%,-50%); /* Internet Explorer */
+                   width:1000px; 
+               
+                  
+
+        }
+ 
+.login-form {
+		/*/*width: 385px;*/
+		/*margin: 30px auto;*/
+        position:absolute;
+         top: 50%;
+         left:50%;
+         /*width: 20%;
+        height: 50%;*/
+          transform: translate(-50%, -50%);
+
+           
+  
+	}
+#loginform
+{
+        margin-bottom: 15px;
+        background:#F0F0F0;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+        padding: 30px;
+        
+}
+/*.login-form form {        
+    	margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }*/
+.login-form h2 {
+        margin: 0 0 15px;
+    }
+.form-control, .login-btn {
+        min-height: 38px;
+        border-radius: 2px;
+       
+    }
+ 
+.input-group-addon .fa {
+        font-size: 18px;
+    }
+.login-btn {
+        font-size: 15px;
+        font-weight: bold;
+         /*background-color:#00809e;*/
+         /*background-color:#3f87b5;*/
+         background-color:#1796A5;
+         color:white;
+    }
+.social-btn .btn {
+		border: none;
+        margin: 10px 3px 0;
+        opacity: 1;
+	}
+.social-btn .btn:hover {
+        opacity: 0.9;
+    }
+.social-btn .btn-primary {
+        background: #507cc0;
+    }
+.social-btn .btn-info {
+		background: #64ccf1;
+}
+	.social-btn .btn-danger {
+		background: #df4930;
+	}
+    .or-seperator {
+        margin-top: 20px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    .or-seperator i {
+        padding: 0 10px;
+        background: #f7f7f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    }   
+  .modal-open login-form{
+      -webkit-filter: blur(5px) grayscale(90%);
+  }
+  .modal-backdrop
+{
+    opacity:0.8 !important;
+}
+.check-box-inline{
+    margin-top:10px !important;
+}
+#forgot-password{
+     position: absolute; height:100%; widh:100%; display:none; z-index:10001;   opacity: 1;
+}
+

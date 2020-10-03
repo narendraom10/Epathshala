@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>Subjectwise result report</Title>
+    <HiddenFields>True,False,SubjectID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment></alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Subjectwise Report</tital>
+    <Subject>true</Subject>
+    <perc>true</perc>
+    <true>false</true>
+    <false>false</false>
+    <subjectid>false</subjectid>
+  </Exporttoexcelsettings>
+
+  <gu-in>
+    <Title>વિષય મુજબના પરિણામ અહેવાલ1</Title>
+    <Subject>વિષય</Subject>
+    <Perc>પરિણામ</Perc>
+  </gu-in>
+
+  <hi-in>
+    <Title>विद्यार्थी वार परिणाम रिपोर्ट2</Title>
+    <Subject>विषय</Subject>
+    <Perc>प्रतिशतता</Perc>
+</hi-in>
+  <en-us>
+    <Title>Student wise exam report</Title>
+    <Subject>Subject</Subject>
+    <Perc>Percentage</Perc>
+  </en-us>
+</Search>

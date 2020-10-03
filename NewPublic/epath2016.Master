@@ -1,0 +1,258 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="epath2016.Master.cs" Inherits="NewPublic_epath2016"
+    EnableTheming="false" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" oncontextmenu="return(false);">
+<head runat="server">
+    <title>ePathshala | School Education | NCERT | CBSE</title>
+    <meta name="keywords" content="ePathshala, School Education, Home School, CBSE, NCERT, NCERT Syllabus, CBSE Syllabus, Digital School, School Learning, Online School" />
+    <meta name="description" content="ePathshala is an online home school which helps students from CBSE, NCERT, GSEB and UP Board school to learn easily. We complement school education while following school syllabus." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800'
+        rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+        rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <link href="StyleSheet/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet/font-awesome450/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="StyleSheet/main.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet/header/h1.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet/blue.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet/rivathemes.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="ePathScripts/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script type="text/javascript" src="ePathScripts/js/vendor/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="ePathScripts/js/vendor/core-1.0.5.js"></script>
+    <script type="text/javascript" src="ePathScripts/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="ePathScripts/js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="ePathScripts/js/jquery.rivathemes.js"></script>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-69363607-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/564ed4d33b30fc9f6991c383/';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div>
+        <i class="glyphicon glyphicon-align-justify" id="epath-mobile-menu-btn"></i>
+        <div class="epath-mobile-menu" id="epath-mobile-menu">
+            <h3>
+                menu</h3>
+            <nav>
+                <ul>
+                    <li><a href="epathhome.aspx">home</a> </li>
+                    <li><a href="aboutus.aspx">About us</a> </li>
+                    <li><a href="contact.aspx">Contact Us</a> </li>
+                </ul>
+            </nav>
+            <h3>
+                Login & Register</h3>
+            <div class="epath-mobile-cart-list">
+                <p>
+                    <a href="UserLogin.aspx">login</a>
+                </p>
+                <p>
+                    <a href="register.aspx">Register</a>
+                </p>
+            </div>
+        </div>
+        <header class="epath-header epath-header-1" id="epath-header-menu">
+            <div class="epath-top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p class="contacts">
+                                <a href="https://www.youtube.com/embed/N2yGcZ0X7GA" target="_blank"><i class="fa fa-user-plus"
+                                    title="How to Register"></i><span>How to Register</span></a>
+                            </p>
+                            <p class="contacts">
+                                <a href="https://www.youtube.com/embed/a7Tnyr7Rbu4" target="_blank"><i class="fa fa-hand-pointer-o"
+                                    title="How to Subscribe"></i><span>How to Subscribe</span></a>
+                            </p>
+                            <p class="contacts txtovf ">
+                                <a href="http://www.evolveassessment.com/" target="_blank"><i class="fa fa-link"
+                                    title="Visit eVolve"></i><span>eVolve </span></a>
+                            </p>
+                            <div class="shopping-cart">
+                                <p class="contacts">
+                                    <a href="login.aspx"><i class="fa fa-key" title="Login"></i><span>Login</span></a>
+                                </p>
+                                <p class="contacts">
+                                    <a href="register.aspx"><i class="fa fa-user" title="Register"></i><span>Register</span></a>
+                                </p>
+                                <%-- <ul class="social-btns">
+                                        <li><a href="https://www.facebook.com/myepathshala" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://twitter.com/myepathshala" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="http://www.epathshala.co.in/Download/ePathshala.apk" target="_blank"><i
+                                            class="fa fa-android"></i></a></li>
+                                        <li><a href="https://plus.google.com/107382785045892082006" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCxoGyrJicnxPvZZMwezAK6Q" target="_blank">
+                                            <i class="fa fa-youtube"></i></a></li>
+                                    </ul>--%>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="epath-header-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="epath-relative">
+                                <a href="epathhome.aspx">
+                                    <div class="epath-logo">
+                                        <img alt="ePathshalaLogo" src="img/site-logo.png" />
+                                        <p class="tagline">
+                                            Transforming Learning<br />
+                                            Through Technology
+                                        </p>
+                                    </div>
+                                </a>
+
+                                <nav>
+                                    <ul>
+                                        <li><a href="epathhome.aspx">home</a> </li>
+                                        <li><a href="aboutus.aspx">About us</a> </li>
+
+                                        <li><a href="contact.aspx">Contact</a> </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="epath-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer class="epath-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-4">
+                        <div class="epath-widget epath-links-widget">
+                            <h3>
+                                links</h3>
+                            <div class="epath-widget-inner">
+                                <ul>
+                                    <li><a href="LoginPrivacyPolicy.aspx">Privacy Policy</a></li>
+                                    <li><a href="LoginTermsAndConditions.aspx">Terms And Conditions</a></li>
+                                    <li><a href="LoginCancellationPolicy.aspx">Cancellation Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <div class="epath-widget epath-links-widget">
+                            <h3>
+                                About <strong>us</strong></h3>
+                            <div class="epath-widget-inner">
+                                <p>
+                                    ePathshala is an online digital platform from ePath (www.epath.net.in) with a well
+                                    researched innovative and comprehensive pedagogy of learning through technology,teacher
+                                    and teaching-learning resources.
+                                </p>
+                            </div>
+                            <div class="epath-widget-footer">
+                                <div class="shopping-cart">
+                                    <ul class="social-btns">
+                                        <li><a href="https://www.facebook.com/myepathshala" target="_blank"><i class="fa fa-facebook">
+                                        </i></a></li>
+                                        <li><a href="https://twitter.com/myepathshala" target="_blank"><i class="fa fa-twitter">
+                                        </i></a></li>
+                                        <%-- <li><a href="http://www.epathshala.co.in/Download/ePathshala.apk" target="_blank"><i class="fa fa-android"></i></a></li>--%>
+                                        <li><a href="https://plus.google.com/107382785045892082006" target="_blank"><i class="fa fa-google-plus">
+                                        </i></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCxoGyrJicnxPvZZMwezAK6Q" target="_blank">
+                                            <i class="fa fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="epath-widget epath-contacts-2-widget">
+                            <h3>
+                                contact <strong>Us</strong></h3>
+                            <div class="epath-widget-inner">
+                                <p>
+                                    <span style="width: 100px;">Address:</span> <span class="addrs">B-13, 13/1 & 14, Electronic
+                                        Estate, GIDC Sector - 25, Gandhinagar - 382 024 </span>
+                                </p>
+                                <p>
+                                    <span>Phone:</span> <span class="addrs">+91 79 2328 7030 / 32 / 33 / 36</span>
+                                </p>
+                                <p>
+                                    <span>Fax:</span> <span class="addrs">+91 79 2328 7031</span>
+                                </p>
+                                <p>
+                                    <span>Email:</span> <span class="addrs"><a href="#">info@epath.net.in</a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="epath-widget epath-copyright-widget">
+                            <div class="epath-widget-inner">
+                                <p>
+                                    © <a href="http://www.arraycom.co.in/" target="_blank">Arraycom</a> (india) Ltd.
+                                    - <a href="http://epath.net.in/" target="_blank">Epath Division</a>. All Rights
+                                    Reserved.
+                                </p>
+                                <p>
+                                    <a href="epathhome.aspx">home</a> / <a href="LoginFAQ.aspx">faq</a> / <a href="contact.aspx">
+                                        contact</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </form>
+    <script type="text/javascript">
+        $('document').ready(function () {
+
+            $('#latest-projects').rivaSlider({
+                visible: 4,
+                selector: 'epath-project'
+            });
+
+            $('#faq-sorting').rivaSorting({
+                showAll: 1
+            });
+        });
+    </script>
+    <script type="text/javascript" src="epathScripts/js/epath.js"></script>
+</body>
+</html>

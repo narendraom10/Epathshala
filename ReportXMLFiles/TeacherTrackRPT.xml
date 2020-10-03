@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Search>
+  <Query>
+    <SQL></SQL>
+    <Where></Where>
+    <GroupBy></GroupBy>
+    <OrderBy></OrderBy>
+  </Query>
+  <SearchControlSettings>
+    <Title>શિક્ષક મુજબના ટ્રેક અહેવાલ</Title>
+    <HiddenFields>EmployeeID</HiddenFields>
+    <ColumnWidth></ColumnWidth>
+    <allowfooter>false</allowfooter>
+    <allowheader>false</allowheader>
+    <Total>True</Total>
+    <alignment></alignment>
+    <AllowPaging>false</AllowPaging>.
+    <pagesize>5</pagesize>
+    <language>gujarati</language>
+  </SearchControlSettings>
+  <Exporttoexcelsettings>
+    <tital>Teacherwise track report</tital>
+    <employeeid>false</employeeid>
+    <activitydate>true</activitydate>
+    <teacher>true</teacher>
+    <totalactivityduration>true</totalactivityduration>
+
+  </Exporttoexcelsettings>
+  <gu-in>
+    <Title>શિક્ષક મુજબના ટ્રેક અહેવાલ</Title>
+    <ActivityDate>પ્રવૃત્તિ તારીખ</ActivityDate>
+    <Teacher>શિક્ષક</Teacher>
+    <TotalActivityDuration>કુલ પ્રવૃત્તિ સમયગાળો</TotalActivityDuration>
+  </gu-in>
+
+  <hi-in>
+    <Title>शिक्षक की गतिविधि रिकार्ड</Title>
+    <ActivityDate>गतिविधि तिथि</ActivityDate>
+    <Teacher>अध्यापक</Teacher>
+    <TotalActivityDuration>कुल गतिविधि अवधि</TotalActivityDuration>
+  </hi-in>
+  <en-us>
+    <Title>Teacher activity track report</Title>
+    <ActivityDate>Activity Date</ActivityDate>
+    <Teacher>Teacher</Teacher>
+    <TotalActivityDuration>Total Activity Duration</TotalActivityDuration>
+  </en-us>
+
+</Search>

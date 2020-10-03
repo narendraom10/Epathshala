@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btncClearResource1.Text" xml:space="preserve">
+    <value>साफ़ करें</value>
+  </data>
+  <data name="btncClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnComboResource1.Text" xml:space="preserve">
+    <value>कॉम्बो पैकेज</value>
+  </data>
+  <data name="btnComboResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnComboSubmitResource1.Text" xml:space="preserve">
+    <value>सबमिट</value>
+  </data>
+  <data name="btnComboSubmitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnHomeBackResource1.Text" xml:space="preserve">
+    <value>वापस जाये</value>
+  </data>
+  <data name="btnHomeBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLoginBackResource1.Text" xml:space="preserve">
+    <value>वापस लॉगइन करने के लिए</value>
+  </data>
+  <data name="btnLoginBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSingleResource1.Text" xml:space="preserve">
+    <value>एक पैकेज</value>
+  </data>
+  <data name="btnSingleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSubmitResource1.Text" xml:space="preserve">
+    <value>सबमिट</value>
+  </data>
+  <data name="btnSubmitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPackageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPackageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlComboResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dlComboResource1.EmptyDataText" xml:space="preserve">
+    <value>कॉम्बो उपलब्ध नहीं</value>
+  </data>
+  <data name="dlComboResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvSubjectsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gvSubjectsResource1.EmptyDataText" xml:space="preserve">
+    <value>पैकेज उपलब्ध नहीं.</value>
+  </data>
+  <data name="gvSubjectsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComboLegendResource1.Text" xml:space="preserve">
+    <value>कॉम्बो पैकेज</value>
+  </data>
+  <data name="lblComboLegendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComboPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComboSubjectsNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComboSubjectsNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComboSubjectsResource1.Text" xml:space="preserve">
+    <value>कॉम्बो विषय:</value>
+  </data>
+  <data name="lblComboSubjectsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGoldPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLegendSubjectResource1.Text" xml:space="preserve">
+    <value>एक पैकेज</value>
+  </data>
+  <data name="lblLegendSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMsgResource1.Text" xml:space="preserve">
+    <value>प्रिय उपयोगकर्ता, अपने अध्ययन जारी रखने के लिए अपने पैकेज का चयन करें.</value>
+  </data>
+  <data name="lblMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPackageTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPlatinumPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSilverPriceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStandardResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStandardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubjectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYourInfoResource1.Text" xml:space="preserve">
+    <value>आप में हैं:</value>
+  </data>
+  <data name="lblYourInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkComboResource1.Text" xml:space="preserve">
+    <value>कॉम्बो पैकेज क्या है ..?</value>
+  </data>
+  <data name="lnkComboResource1.ToolTip" xml:space="preserve">
+    <value>कॉम्बो पैकेज उपयोगकर्ता में सीमित विषय का उपयोग करने के लिए प्रतिबंध नहीं है.   ई पथ से होगी उसकी / उसके मानक प्रस्ताव ए के सभी प्रासंगिक विषय का उपयोग उपयोगकर्ता कर सकते हैं</value>
+  </data>
+  <data name="lnksingleResource1.Text" xml:space="preserve">
+    <value>एक पैकेज क्या है ..?</value>
+  </data>
+  <data name="lnksingleResource1.ToolTip" xml:space="preserve">
+    <value>एक पैकेज उपयोगकर्ता में इस विषय का चयन करने के लिए अधिकार है.</value>
+  </data>
+  <data name="lnlMonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlComboResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlComboResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSingleResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSingleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbGoldResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbPlatinumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbSilverResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>Package Type</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>No of months</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>PackageFD_ID</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value>Platinum</value>
+  </data>
+</root>

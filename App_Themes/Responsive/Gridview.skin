@@ -1,0 +1,62 @@
+﻿<asp:GridView runat="server"  AutoGenerateColumns="false" PageSize="10" CellPadding="2" cellspacing="2" Width="100%" AllowSorting="true" 
+  AllowPaging="true"  CssClass="GridViewCss">
+  <HeaderStyle  CssClass="GridViewHeadercss"  HorizontalAlign="left" />
+  <RowStyle CssClass="GridViewItem" HorizontalAlign="left"/>
+ 
+</asp:GridView>
+
+<asp:GridView runat="server"  AutoGenerateColumns="false" PageSize="10" CellPadding="2" cellspacing="2" Width="100%" AllowSorting="true" 
+  AllowPaging="true"  CssClass="GridViewCss1" SkinId="NoEmptyMsg" >
+  <HeaderStyle  CssClass="GridViewHeadercss"  HorizontalAlign="left" />
+  <RowStyle CssClass="GridViewItem" HorizontalAlign="left"/>
+ 
+</asp:GridView>
+
+<asp:GridView runat="server" AutoGenerateColumns="true" CellPadding="2" cellspacing="2" Width="100%" 
+   EmptyDataText="No Data Found" CssClass="GridViewCss" SkinId="GridforReport">
+  <HeaderStyle  CssClass="GridViewHeadercss"  HorizontalAlign="left" />
+  <RowStyle CssClass="GridViewItem" HorizontalAlign="Center"/>
+ </asp:GridView>
+
+<asp:GridView runat="server"  AutoGenerateColumns="false" CellPadding="2" cellspacing="2" Width="100%" 
+  EmptyDataText="No Data Found" CssClass="GridViewCss" SkinId="WithoutPageSize">
+  <HeaderStyle  CssClass="GridViewHeadercss"  HorizontalAlign="left" />
+  <RowStyle CssClass="GridViewItem" HorizontalAlign="left"/>
+ 
+</asp:GridView>
+<asp:GridView runat="server"  AutoGenerateColumns="false" CellPadding="2" cellspacing="2" Width="100%" 
+  EmptyDataText="No Data Found" CssClass="GridViewCss1" SkinId="WithoutPageSize1">
+  <HeaderStyle  CssClass="GridViewHeadercss"  HorizontalAlign="left" />
+  <RowStyle CssClass="GridViewItem" HorizontalAlign="left"/>
+ 
+</asp:GridView>
+
+<asp:GridView runat="server"  AutoGenerateColumns="false" CellPadding="0" cellspacing="0" Width="100%" AllowSorting="false" 
+  AllowPaging="false" EmptyDataText="No Data Found" CssClass="GridViewCssTestAssessment" SkinId="TestAssessment">
+  <HeaderStyle  CssClass="GridViewHeadercssTestAssessment"  HorizontalAlign="left" />
+  <RowStyle CssClass="GridViewItemTestAssessment" HorizontalAlign="left"/>
+ </asp:GridView>
+
+<asp:GridView runat="server"  AutoGenerateColumns="false" PageSize="10" CellPadding="2" cellspacing="2" AllowSorting="true" 
+  EmptyDataText="No Data Found" CssClass="GridViewCss" SkinId="WidthCanModify" >
+  <HeaderStyle  CssClass="GridViewHeadercss"  HorizontalAlign="left" />
+  <RowStyle CssClass="GridViewItem" HorizontalAlign="left"/>
+ </asp:GridView>
+
+<asp:GridView runat="server"  AutoGenerateColumns="true"  PageSize="10" CellPadding="2" cellspacing="2" Width="100%" AllowSorting="true" 
+   EmptyDataText="No Data Found"  SkinId="ReportGrid" CssClass="GridViewCss">
+ <HeaderStyle  CssClass="GridViewHeadercss"  HorizontalAlign="left" />
+  <RowStyle CssClass="GridViewItem" HorizontalAlign="left"/>
+ </asp:GridView>
+
+<asp:Dropdownlist runat="server" width="50px" SkinId="DdlWidth50" CssClass="text"></asp:dropdownlist>
+<asp:Dropdownlist runat="server" width="400px" SkinId="DdlWidth400"></asp:dropdownlist>
+<asp:Dropdownlist runat="server" CssClass="text" style="border:1px solid #959595; height:24px;"></asp:dropdownlist>
+<asp:Dropdownlist runat="server" CssClass="text" width="150px" SkinId="DdlWidth150"></asp:dropdownlist>
+<asp:Dropdownlist runat="server" width="315px" SkinId="DdlWidth315" style="border:1px solid #959595; height:24px;"></asp:dropdownlist>
+<asp:Button runat="server"  CssClass="NextButton" SkinId="NextBtn" />
+<asp:Button runat="server"  CssClass="Button"/>
+<asp:Button runat="server"  CssClass="LoginControlsbutton" SkinId="LoginButton" />
+
+
+  

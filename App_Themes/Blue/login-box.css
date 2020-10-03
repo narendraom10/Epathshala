@@ -1,0 +1,240 @@
+
+#LoginBody
+{
+    /*background: #aaaaaa;*/
+    background-color: #ffffff;
+    color: #666666;
+    font-family: Roboto-Light;
+    font-size: 10px;
+}
+#LoginControls .flat-form
+{
+    background: #87D7D6;
+    margin: 30px auto;
+    width: 390px;
+    height: 320px;
+    position: relative;
+    font-family: Roboto-Light;
+}
+#LoginControls .tabs
+{
+    background: #2AACAD;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+#LoginControls .tabs li
+{
+    height: 43px;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#LoginControls .tabs a
+{
+    background: #2AACAD;
+    height: 21px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 22px 12px 22px; /*border-right: 1px solid @tab-border;*/
+}
+#LoginControls .tabs li:last-child a
+{
+    border-right: none;
+    width: 174px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+#LoginControls .tabs a.active
+{
+    background: #87D7D6;
+    border-right: none;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    color: #666666;
+}
+
+.lblTab
+{
+    color: white;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+#LoginControls .form-action
+{
+    padding: 0 20px;
+    position: relative;
+}
+
+.tblLogin
+{
+    margin-top: 20px;
+}
+
+.lblHead
+{
+    font-size: 28px;
+    padding-bottom: 10px;
+    color: #666666;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+#LoginControls form
+{
+    padding-right: 20px !important;
+}
+#LoginControls form input[type=text], #LoginControls form input[type=password], #LoginControls form input[type=submit]
+{
+    font-family: Roboto-Light;
+}
+
+#LoginControls form input[type=text], #LoginControls form input[type=password]
+{
+    width: 97%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background: #fff;
+    border: none;
+    color: #e74c3c;
+    outline: none;
+}
+
+#LoginControls .dark-box
+{
+    background: #5e0400;
+    box-shadow: 1px 3px 3px #3d0100 inset;
+    height: 40px;
+    width: 50px;
+}
+#LoginControls .form-action .dark-box.bottom
+{
+    position: absolute;
+    right: 0;
+    bottom: -24px;
+}
+#LoginControls .tabs + .dark-box.top
+{
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+#LoginControls .show
+{
+    display: block;
+}
+#LoginControls .hide
+{
+    display: none;
+}
+
+#LoginControls .button
+{
+    border: none;
+    display: block;
+    background: #F6891F;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px; /*box-shadow: 0px 3px 1px #2075aa;*/
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+    font-size: 12px;
+    letter-spacing: normal;
+    color: White;
+}
+
+#LoginControls .button:hover
+{
+    background: #F7912B;
+    color: Black; /*box-shadow: 0 3px 1px #237bb2;*/
+}
+
+#LoginControls .button:active
+{
+    background: #F6891F; /*box-shadow: 0 3px 1px #0f608c;*/
+}
+
+.LoginControlsbutton
+{
+    border: none;
+    display: block;
+    background: #F6891F;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px; /*box-shadow: 0px 3px 1px #2075aa;*/
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+    font-size: 12px;
+    letter-spacing: normal;
+    color: White;
+}
+
+.LoginControlsbutton:hover
+{
+    background: #F7912B;
+    color: Black; /*box-shadow: 0 3px 1px #237bb2;*/
+}
+
+.LoginControlsbutton:active
+{
+    background: #F6891F; /*box-shadow: 0 3px 1px #0f608c;*/
+}
+::-webkit-input-placeholder
+{
+    color: #e74c3c;
+}
+:-moz-placeholder
+{
+    /* Firefox 18- */
+    color: #e74c3c;
+}
+::-moz-placeholder
+{
+    /* Firefox 19+ */
+    color: #e74c3c;
+}
+:-ms-input-placeholder
+{
+    color: #e74c3c;
+}
+
+#LoginControls .Required:after
+{
+    content: "*";
+    color: Red;
+    text-align: left;
+}
+
+#LoginControls .Footer:after
+{
+    /*border-top: 1px dashed #35B1B1;*/
+    font-size: 8pt;
+    content: "* Indicates required field.";
+    color: Red;
+    text-align: left;
+}
+
+#LoginControls .lblLogin
+{
+    font-size: 13px;
+    padding-top:5px;
+    margin:2px 2px 2px 2px;
+}
