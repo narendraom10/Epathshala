@@ -377,7 +377,7 @@ public partial class Report_ClassroomWiseAttendanceF : System.Web.UI.Page
             DivisionBLogic = new SYS_Division_BLogic();
 
             DataSet dsResult = new DataSet();
-            dsResult = DivisionBLogic.BAL_SYS_Division_SelectByBMSID(Convert.ToInt32(ddlBoard.SelectedValue), Convert.ToInt32(ddlMedium.SelectedValue), Convert.ToInt32(ddlSchool.SelectedValue), Convert.ToInt32(Session["SchoolID"]));
+            dsResult = DivisionBLogic.BAL_SYS_Division_SelectByBMSID(Convert.ToInt32(ddlBoard.SelectedValue), Convert.ToInt32(ddlMedium.SelectedValue), Convert.ToInt32(ddlStandard.SelectedValue), Convert.ToInt32(Session["SchoolID"]));
 
             DdlFilling = new DropDownFill();
             DdlFilling.BindDropDownByTable(ddlDivision, dsResult.Tables[0], "Division", "DivisionID");

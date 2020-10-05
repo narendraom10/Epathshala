@@ -12,7 +12,7 @@
     <ColumnWidth>Transaction Date=90,Location=200</ColumnWidth>
     <allowfooter>true</allowfooter>
     <allowheader>false</allowheader>
-    <Total>studentid</Total>
+    <Total>Obtained</Total>
     <alignment></alignment>
     <AllowPaging>false</AllowPaging>
     <pagesize>5</pagesize>
